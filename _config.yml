@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "PMAPS 2022"
-#email: "info@pmaps2022.ac.uk"
+email: "info@pmaps2022.ac.uk"
 description: "PMAPS CONFERENCE COVERS ALL ASPECTS OF PROBABILISTIC AND STATISTICAL MODELLING OF POWER SYSTEMS"
 #baseurl: "/zeppelin"
 #url: "https://gdg-x.github.io"
