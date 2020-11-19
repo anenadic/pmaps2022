@@ -17,6 +17,8 @@
     display: block;
 
     > a {
+      font-size: $base-font-size;
+      font-weight: $bold;
       position: relative;
       display: block;
       padding: $nav-link-padding;

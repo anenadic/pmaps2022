@@ -4,6 +4,7 @@ $small-rockstar-image-size: 120px;
 .rockstar-speakers {
     .name {
         font-size: 26px;
+        color: #000000;
         line-height: 1.1;
         margin: 10px 0 2px;
         @media (max-width: 767px) {
@@ -21,6 +22,7 @@ $small-rockstar-image-size: 120px;
 }
 .rockstar-speaker {
     padding-bottom: 13px;
+    color: #000000;
 }
 .rockstar-speaker-img {
     width: $rockstar-image-size;
