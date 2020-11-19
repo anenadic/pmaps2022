@@ -43,12 +43,13 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "News"}
- - {permalink: "/schedule/", text: "Programme"}
+# - {permalink: "/blog/", text: "News"}
+ - {permalink: "/authors/", text: "Authors"}
+ - {permalink: "/programme/", text: "Programme"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/team/", text: "About"}
- - {permalink: "/hackathon/", text: "Contact"}
+ - {permalink: "/contact/", text: "Contact"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
@@ -74,9 +75,9 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "4", specialCharacter: "", info: "days", detail: "networking, collaborating and learning"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from around the world"}
+ - {count: "350", specialCharacter: "+", info: "attendees", detail: "from around the world"}
+ - {count: "4", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "experts in ..."}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus social programme"}
 
 # Latest News Block
