@@ -69,9 +69,10 @@ heroButtons:
 # About Block
 aboutTitle: "Welcome to PMAPS 2022"
 aboutBlock:
- - {title: "Panels", image: "conference.jpg", text: "Panels with the leading experts and on the hottest topic in the area!" }
- - {title: "Workshops", image: "workshop.jpg", text: "A number of workshops - come and collaborate!" }
- - {title: "Tutorials", image: "hackathon.jpg", text: "Tutorials - training and hands-on experience!" }
+ - {title: "Speakers", image: "conference.jpg", text: "Expert speakers from around the world!" }
+ - {title: "Panels", image: "panel.jpg", text: "Panels with the leading experts on the hottest topics!" }
+ - {title: "Workshops", image: "workshop-2.jpg", text: "A number of workshops - come and collaborate!" }
+ - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience!" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"

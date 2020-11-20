@@ -4,3 +4,6 @@ https://www.flickr.com/photos/rrpowersystems/12234026235/
 https://thenounproject.com/term/hybrid/1069699/
 https://commons.wikimedia.org/wiki/File:Renewable_Energy_on_the_Grid.jpg
 https://www.pxfuel.com/en/free-photo-elppf
+https://www.flickr.com/photos/134305289@N03/42464457862/in/album-72157667641880727/
+https://www.flickr.com/photos/wms2013/8804380366/in/photolist-eq1Kxu-8H3vgX-8q57i8-CPWDfP-56TNF-6bK3Wv-DXCYA-o92hy1-5APKD-51FHf3-5wCFR-4UQQdx-4WfybU-oZbVrw-fUNwb8-7HCBte-5hEW4Q-HdmHK-eq1Mfo-6bK2Lx-aQ7vYM-3SKQGj-fUM7mV-dq3Cx6-7MtBA-7yV9Zg-haUoVB-7HGwZ5-9CsRVe-5uGRoL-tnzUd-564i3p-6RPcgQ-7HGwAY-6KLuRB-6XTWVf-DWhW4-KJv6Ej-7nhP6B-L7Qst-6RPbA5-bkD56m-6U9Yrd-4fyJmY-6bXW4q-dPRri-6Wm4Sc-abqVwq-4rBwHP-5xXVc9
+https://www.rmit.edu.au/news/all-news/2017/dec/women-taking-the-lead-in-tech
