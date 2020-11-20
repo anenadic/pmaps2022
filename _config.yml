@@ -64,6 +64,7 @@ eventDate: "12-16 June 2022"
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Register"}
+ - {permalink: "/assets/GDG_DevFest_Partnership.pdf", text: "Become a sponsor"}
 
 # About Block
 aboutTitle: "Welcome to PMAPS 2022"
@@ -73,7 +74,8 @@ aboutBlock:
  - {title: "Tutorials", image: "hackathon.jpg", text: "Tutorials - training and hands-on experience!" }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+#statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "schedule.jpg"
 statisticBlock:
  - {count: "350", specialCharacter: "+", info: "attendees", detail: "from around the world"}
  - {count: "4", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
@@ -120,8 +122,9 @@ twitterHashTag: "devfest"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
+organizersTitle: "Organisers"
 partnersTitle: "Partners"
+sponsorsTitle: "Sponsors"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
