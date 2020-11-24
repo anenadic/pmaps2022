@@ -1,6 +1,6 @@
 - 
-  date: "2014-10-24"
-  dateReadable: "October 24"
+  date: "2022-06-12"
+  dateReadable: "June 12"
   tracks: 
     - {title: "Android", color: "#90be4e"}
     - {title: "Web & Cloud", color: "#03a9f4"}
@@ -22,7 +22,7 @@
     	sessionIds: [307]
     }
 - 
-  date: "2014-10-25"
+  date: "2022-06-13"
   dateReadable: "October 25"
   tracks: 
     - {title: "Android", color: "#90be4e"}

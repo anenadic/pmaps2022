@@ -3,19 +3,19 @@
   name: "Jovica"
   surname: "Milanovic"
   company: "University of Manchester, UK"
-  title: "Developer Relations Program Manager"
-  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
+  title: "Professor in Power Systems"
+  bio: "Jovica is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services."
   thumbnailUrl: jovica_milanovic.jpg
   rockstar: true
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
+    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/jovica.milanovic.html"}
 - 
   id: 4
   name: "Alessandra"
   surname: "Parisio"
   company: "University of Manchester, UK"
-  title: "Android Developer"
-  bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
+  title: "Lecturer"
+  bio: 'Alessandra is a Lecturer at the Univerity of Manchester and the lead conference organiser.'
   thumbnailUrl: alessandra_parisio.jpg
   rockstar: true
   social: 
@@ -28,7 +28,7 @@
   surname: "Henneaux"
   company: "Université libre de Bruxelles, Belgium"
   title: "Software Engineer"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
+  bio: "Pierre is an experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives."
   thumbnailUrl: pierre_henneaux.jpg
   rockstar: true
   ribbon: 
@@ -42,8 +42,8 @@
   name: "Bertrand"
   surname: "Cornélusse"
   company: "ULiège, Belgium"
-  title: "Head of Android/Java Unit"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
+  title: "Head of Operations"
+  bio: "Bertrand started his way in ULiège 5 years ago. Currently he is a Head of Operations unit in ULiège, Belgium and a co-organizer of PMAPS 2020."
   thumbnailUrl: bertrand_cornelusse.jpg
   rockstar: true
   ribbon:
