@@ -10,6 +10,6 @@
 -
   group: "Bronze sponsors"
   elements:
-    - {name: "Electrical car manufacturer", description: "Electrical car manufacturer", link: "http://lviv.gdg.org.ua", imageUrl: "electric-car.png"}
+    - {name: "Electrical cars", description: "Electrical car manufacturer", link: "http://lviv.gdg.org.ua", imageUrl: "electric-car.png"}
     - {name: "Power systems", description: "Power systems", link: "http://lviv.gdg.org.ua", imageUrl: "power-systems-2.jpeg"}
-    - {name: "Open and volunteer community", description: "Open and volunteer community", link: "http://lviv.gdg.org.ua", imageUrl: "volunteer-donate-charity-donation.jpg"}
+    - {name: "Open community", description: "Open and volunteer community", link: "http://lviv.gdg.org.ua", imageUrl: "volunteer-donate-charity-donation.jpg"}

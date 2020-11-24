@@ -70,7 +70,7 @@ heroButtons:
 aboutTitle: "Welcome to PMAPS 2022"
 aboutBlock:
  - {title: "Speakers", image: "conference.jpg", text: "Expert speakers from around the world" }
- - {title: "Panels", image: "panel.jpg", text: "Panels with the leading experts on the hottest topics" }
+ - {title: "Panels", image: "panel.jpg", text: "Panels with leading experts on hot topics" }
  - {title: "Workshops", image: "workshop-2.jpg", text: "A number of workshops - come and collaborate" }
  - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience" }
 
