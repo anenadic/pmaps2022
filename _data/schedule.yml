@@ -1,6 +1,6 @@
 - 
   date: "2022-06-12"
-  dateReadable: "June 12"
+  dateReadable: "June 12 2022"
   tracks: 
     - {title: "Android", color: "#90be4e"}
     - {title: "Web & Cloud", color: "#03a9f4"}
@@ -23,7 +23,7 @@
     }
 - 
   date: "2022-06-13"
-  dateReadable: "October 25"
+  dateReadable: "June 13 2022"
   tracks: 
     - {title: "Android", color: "#90be4e"}
     - {title: "Web & Cloud", color: "#03a9f4"}

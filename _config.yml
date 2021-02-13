@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "PMAPS 2022"
-email: "info@pmaps2022.ac.uk"
+email: "info@pmaps2022.org"
 description: "PMAPS CONFERENCE COVERS ALL ASPECTS OF PROBABILISTIC AND STATISTICAL MODELLING OF POWER SYSTEMS"
 #baseurl: "/zeppelin"
 #url: "https://gdg-x.github.io"
@@ -43,28 +43,38 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-# - {permalink: "/blog/", text: "News"}
- - {permalink: "/authors/", text: "Authors"}
- - {permalink: "/schedule/", text: "Programme"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/team/", text: "About"}
- - {permalink: "/contact/", text: "Contact"}
+ - {permalink: "/about-pmaps/", text: "About PMAPS"}
+ - {permalink: "/registration/", text: "Registration"}
+ - {permalink: "/author-info/", text: "Author Info"}
+ - {permalink: "/travel-venue/", text: "Travel and Venue"}
+ - {permalink: "/committees/", text: "Committees"}
+ - {permalink: "/programme/", text: "Programme"}
+ - {permalink: "/sponsorship/", text: "Sponsorship"}
+ - {permalink: "/news/", text: "News"}
+ - {permalink: "/contact/", text: "Contact Us"}
+# - {permalink: "/", text: "Home"}
+# - {permalink: "/blog/", text: "Blog"}
+# - {permalink: "/authors/", text: "Authors"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/team/", text: "Team"}
+# - {permalink: "/contact/", text: "Contact"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "manchester.jpg"
+#heroImage: "manchester.jpg"
 heroTitle: "PMAPS 2020, Manchester, UK"
 eventDate: "12-16 June 2022"
 #typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 #typeoutFallback: "Season"
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Register"}
- - {permalink: "/assets/GDG_DevFest_Partnership.pdf", text: "Become a sponsor"}
+ - {permalink: "/registration", text: "Register"}
+ - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
 
 # About Block
 aboutTitle: "Welcome to PMAPS 2022"
@@ -78,8 +88,8 @@ aboutBlock:
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from around the world"}
- - {count: "4", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
+ - {count: "500", specialCharacter: "+", info: "attendees", detail: "from around the world"}
+ - {count: "5", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
  - {count: "20", specialCharacter: "+", info: "speakers", detail: "experts in ..."}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus social programme"}
 
@@ -93,7 +103,7 @@ rockstarSpeakersTitle: "Keynote speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
-locationBlockTitle: "Location"
+locationBlockTitle: "Venue"
 eventLocationName: "Manchester Central Convention Complex"
 eventLocationLink: "https://www.manchestercentral.co.uk"
 eventStreetAddress: "Petersfield, M2 3GX"
@@ -191,7 +201,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:info@pmaps2021.ac.uk", text: "info@pmaps2022.ac.uk"}
+   - {link: "mailto:info@pmaps2022.org", text: "info@pmaps2022.org"}
  -
   title: "FAQ"
   links:

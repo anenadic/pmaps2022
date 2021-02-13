@@ -27,11 +27,15 @@ layout: compress
 <!--        </div>-->
 <!--    </div>-->
     <div class="row" style="padding: 10px; color: #FFFFFF; margin: auto;">
-        <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left: 250px;">
-            <img src="https://github.com/anenadic/pmaps2022/raw/master/img/pmaps-logo-inverted.jpg" style="height: 45px;">
+        <div class="col-lg-1 col-md-1 col-sm-1">
+                <!-- some padding -->
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="row">
+            <img src="../img/logo-university-of-manchester.png" style="height: 60px;">
+<!--            <img src="https://github.com/anenadic/pmaps2022/raw/master/img/logo-university-of-manchester.png" style="height: 60px;">-->
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="row" style="margin-top: 10px;">
                 <div class="col-sm-2 col-md-2" style="padding: 0px 0px 0px 0px;"><i class="fa fa-calendar fa-2x pull-right" aria-hidden="true"></i>
                 </div>
                 <div class="col-sm-3 col-md-3">
@@ -64,6 +68,10 @@ layout: compress
 {% endif %}
 
 {% if page.permalink == '/schedule/' %}
+{% include sessions-modals.html %}
+{% endif %}
+
+{% if page.permalink == '/programme/' %}
 {% include sessions-modals.html %}
 {% endif %}
 

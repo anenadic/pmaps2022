@@ -54,5 +54,6 @@ $image-dir: "../img";
 $sprites-dir: $image-dir + "/sprites";
 $logos-sprite: $sprites-dir + "/logos.svg";
 $pmaps-logo: $image-dir + "/pmaps-logo.jpg";
+$manchester-logo: $image-dir + "/logo-university-of-manchester.png";
 
 @import "modules/all";

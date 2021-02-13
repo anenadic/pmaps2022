@@ -1,0 +1,60 @@
+- 
+  id: 0
+  name: "Alessandra"
+  surname: "Parisio"
+  title: "Local Organising Committee Chair"
+  thumbnailUrl: alessandra_parisio.jpg
+  team: "local-committee"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 1
+  name: "Jovica"
+  surname: "Milanovic"
+  title: "International Technical Advisory Committee Chair"
+  thumbnailUrl: jovica_milanovic.jpg
+  team: "advisory-committee"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github", link: "https://github.com/ozasadnyy"}
+- 
+  id: 2
+  name: "Pierre"
+  surname: "Henneaux"
+  title: "Sponsors and Speakers Manager"
+  thumbnailUrl: pierre_henneaux.jpg
+  team: "local-committee"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+    - {name: "twitter", link: "https://twitter.com/p1f"}
+    - {name: "site", link: "http://andrusiv.com/"}
+- 
+  id: 4
+  name: "Bertrand"
+  surname: "Cornélusse"
+  title: "International Steering Committee Chair"
+  thumbnailUrl: bertrand_cornelusse.jpg
+  team: "steering-committee"
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+- 
+  id: 7
+  name: "Valentyn"
+  surname: "Shybanov"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: ValentynShybanov.jpg
+  team: "advisory-committee"
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}
