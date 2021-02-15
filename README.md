@@ -2,4 +2,4 @@
 Viewable at: https://anenadic.github.io/pmaps2022/
 
 ## Acknowledgements
-The template used is the [DG DevFest 2014 Jekyll template](http://gdg-x.github.io/zeppelin/) from Project Zeppelin and [GDG Lviv](http://lviv.gdg.org.ua/) team.
+The template is modified from the [Project Zeppelin / GDG DevFest 2014 site template](https://github.com/gdg-x/zeppelin).
