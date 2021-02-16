@@ -1,60 +1,125 @@
-- 
+-
   id: 0
-  name: "Alessandra"
-  surname: "Parisio"
-  title: "Local Organising Committee Chair"
-  thumbnailUrl: alessandra_parisio.jpg
-  team: "local-committee"
-  ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
-- 
-  id: 1
-  name: "Jovica"
+  name: "Prof Jovica V"
   surname: "Milanovic"
-  title: "International Technical Advisory Committee Chair"
+  title: "Dipl.Ing., MSs, PhD, DSc, FIET, FIEEE"
+  role: "General Chair"
   thumbnailUrl: jovica_milanovic.jpg
-  team: "advisory-committee"
-  ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
-- 
-  id: 2
-  name: "Pierre"
-  surname: "Henneaux"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: pierre_henneaux.jpg
   team: "local-committee"
-  ribbon: 
+-
+  id: 1
+  name: "Dr Robin"
+  surname: "Preece"
+  title: "BEng(Hons), PhD, CEng, MIET, SMIEEE"
+  role: "Technical Programme Chair"
+  thumbnailUrl: ""
+  team: "local-committee"
+  ribbon:
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
+  social:
     - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
     - {name: "twitter", link: "https://twitter.com/p1f"}
     - {name: "site", link: "http://andrusiv.com/"}
+-
+  id: 2
+  name: "Dr Alessandra"
+  surname: "Parissio"
+  title: "BSc, MSc, PhD, SMIEE"
+  role: "Web & Marketing Chair"
+  thumbnailUrl: alessandra_parisio.jpg
+  team: "local-committee"
+-
+  id: 3
+  name: "Dr Konstantinos"
+  surname: "Kopsidas"
+  title: "BSc, MSc, PhD, MIET, SMIEEE"
+  role: "Publication Chair"
+  thumbnailUrl: ""
+  team: "local-committee"
 - 
   id: 4
-  name: "Bertrand"
-  surname: "Cornélusse"
-  title: "International Steering Committee Chair"
-  thumbnailUrl: bertrand_cornelusse.jpg
-  team: "steering-committee"
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+  name: "Dr Eduardo Alejandro"
+  surname: "Martinez-Cesena"
+  title: "BSc, MSc, PhD, MIEEE"
+  role: "Treasurer & Tutorial Coordinator"
+  thumbnailUrl: ""
+  team: "local-committee"
 - 
-  id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
+  id: 5
+  name: "Dr Jelena"
+  surname: "Ponocko"
+  title: "BSc, MSc, PhD, MIEEE"
+  role: "Coordinator of Volunteer Support and Women in Power, Young Professionals and Student Activities"
+  thumbnailUrl: ""
+  team: "local-committee"
+-
+  id: 6
+  name: "Mrs Christine"
+  surname: "Wall"
+  title: "BA, MA"
+  role: "Secretary, General Manager & Time Keeper"
+  thumbnailUrl: ""
+  team: "local-committee"
+#-
+#  id: 6
+#  name: "Alessandra"
+#  surname: "Parisio"
+#  title: "Local Organising Committee Chair"
+#  thumbnailUrl: alessandra_parisio.jpg
+#  team: "local-committee"
+#  ribbon:
+#    - {abbr: "GDG", title: "Google Developer Group"}
+#  social:
+#    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+#    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+#    - {name: "github", link: "https://github.com/zasadnyy"}
+#    - {name: "site", link: "http://zasadnyy.com/"}
+#-
+#  id: 7
+#  name: "Jovica"
+#  surname: "Milanovic"
+#  title: "International Technical Advisory Committee Chair"
+#  thumbnailUrl: jovica_milanovic.jpg
+#  team: "advisory-committee"
+#  ribbon:
+#    - {abbr: "GDG", title: "Google Developer Group"}
+#  social:
+#    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+#    - {name: "github", link: "https://github.com/ozasadnyy"}
+#-
+#  id: 8
+#  name: "Pierre"
+#  surname: "Henneaux"
+#  title: "Sponsors and Speakers Manager"
+#  thumbnailUrl: pierre_henneaux.jpg
+#  team: "local-committee"
+#  ribbon:
+#    - {abbr: "GDG", title: "Google Developer Group"}
+#  social:
+#    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+#    - {name: "twitter", link: "https://twitter.com/p1f"}
+#    - {name: "site", link: "http://andrusiv.com/"}
+-
+  id: 9
+  name: "Person"
+  surname: "1"
+  title: "BSc, MSc, PhD, SMIEE"
+  role: "International Steering Committee Chair"
+  thumbnailUrl: ""
+  team: "steering-committee"
+-
+  id: 10
+  name: "Person"
+  surname: "2"
+  title: "BSc, MSc, PhD, SMIEE"
+  role: "Some Role"
+  thumbnailUrl: ValentynShybanov.jpg
+  team: "steering-committee"
+-
+  id: 11
+  name: "Person"
+  surname: "3"
+  title: "BSc, MSc, PhD, SMIEE"
+  role: "Web and Cloud Program Committee"
   thumbnailUrl: ValentynShybanov.jpg
   team: "advisory-committee"
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
