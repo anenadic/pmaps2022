@@ -1,5 +1,5 @@
 <!-- About Section -->
-<section id="about" class="about">
+<section id="welcome" class="about">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.aboutTitle }}</h3>
@@ -27,41 +27,46 @@
                 PMAPS 2022 will be an international forum with an exciting programme for individuals working in industry
                 and academia to network, exchange ideas, and discuss the results of their practical experiences,
                 research and development work in these “non-conventional” areas, including:
-                <div class="row about-details">
-                    {% assign animationDelay = 0 %}
-                    {% for about in site.aboutBlock %}
-                    {% assign colWidth = 12 | divided_by: forloop.length %}
-                    <div class="col-md-{{ colWidth }} col-xs-6">
-                        <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                            <h5>{{ about.title }}</h5>
-                            <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
-                                 height="128" width="128" alt="{{ about.title }}">
-            <p>{{ about.text }}</p>
+            <div class="row about-details">
+                {% assign animationDelay = 0 %}
+                {% for about in site.aboutBlock %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-6">
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                        <h5>{{ about.title }}</h5>
+                        <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
+                             height="128" width="128" alt="{{ about.title }}">
+                        <p>{{ about.text }}</p>
+                    </div>
+                </div>
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %}
+                <div class="clearfix visible-xs"></div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            </p>
+            <p class="text-left">
+                Manchester, the birthplace of the Industrial Revolution, has developed from the first industrialised
+                city in the
+                world in the 19th century to the second most populous urban area in the UK with rapidly growing culture,
+                media,
+                music, sports and transport connections enjoyed by 2.55 million people. By taking part in PMAPS 2022 you
+                will
+                contribute to the long history of Manchester, leading the way in industrial development, this time
+                leading the
+                way in application of new methods, tools and practices for safe planning and operation of sustainable
+                power
+                systems.
+            </p>
+            <p>
+                I am looking forward to meeting you in Manchester in June 12-15, 2022.<br>
+                Professor Jovica V Milanovic, General Chair, 17th PMAPS, Manchester 2022<br>
+                <img class="img-circle" src="{{ site.baseurl }}/img/people/jovica_milanovic.jpg"
+                     height="128" width="128" alt="Jovica Milanovic, Conference Chair">
+            </p>
         </div>
-    </div>
-    {% assign animationDelay = animationDelay | plus:500 %}
-    {% assign check = forloop.index | modulo:2 %}
-    {% if check == 0 %}
-    <div class="clearfix visible-xs"></div>
-    {% endif %}
-    {% endfor %}
-    </div>
-    </p>
-    <p class="text-left">
-        Manchester, the birthplace of the Industrial Revolution, has developed from the first industrialised city in the
-        world in the 19th century to the second most populous urban area in the UK with rapidly growing culture, media,
-        music, sports and transport connections enjoyed by 2.55 million people. By taking part in PMAPS 2022 you will
-        contribute to the long history of Manchester, leading the way in industrial development, this time leading the
-        way in application of new methods, tools and practices for safe planning and operation of sustainable power
-        systems.
-    </p>
-    <p>
-        I am looking forward to meeting you in Manchester in June 12-15, 2022.<br>
-        Professor Jovica V Milanovic, General Chair, 17th PMAPS, Manchester 2022<br>
-        <img class="img-circle" src="{{ site.baseurl }}/img/people/jovica_milanovic.jpg"
-             height="128" width="128" alt="Jovica Milanovic, Conference Chair">
-    </p>
-    </div>
     </div>
 </section>
 <!-- End About Section -->

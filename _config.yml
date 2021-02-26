@@ -81,7 +81,7 @@ aboutTitle: "Welcome to PMAPS 2022"
 aboutBlock:
  - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world" }
  - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted IEEE PES Transaction Papers in conference-related areas" }
- - {title: "Posters", image: "panel.jpg", text: "Poster exhibition session" }
+ - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session" }
  - {title: "Tutorials", image: "workshop-2.jpg", text: "Tutorials - training and hands-on experience" }
  - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate" }
 
