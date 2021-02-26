@@ -3,23 +3,25 @@ layout: default
 permalink: /
 ---
 
- {% include hero.html %}
+{% include hero.html %}
 
- {% include about.html %}
+{% include welcome.html %}
 
- {% include statistic.html %}
+{% comment %}{% include about.html %}{% endcomment %}
+
+{% include statistic.html %}
 
 {% comment %} {% include latest-news.html %}  {% endcomment %}
 
- {% include rockstar-speakers.html %}
+{% include rockstar-speakers.html %}
 
- {% include location-map.html %}
+{% include location-map.html %}
 
 {% comment %} {% include venue.html %}  {% endcomment %}
 
 {% comment %} {% include twitter-feed.html %}  {% endcomment %}
 
- {% include partners.html %}
+{% include partners.html %}
 
 {% comment %} {% include subscribe.html %} {% endcomment %}
 

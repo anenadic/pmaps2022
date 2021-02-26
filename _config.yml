@@ -79,10 +79,11 @@ heroButtons:
 # About Block
 aboutTitle: "Welcome to PMAPS 2022"
 aboutBlock:
- - {title: "Speakers", image: "conference.jpg", text: "Expert speakers from around the world" }
- - {title: "Panels", image: "panel.jpg", text: "Panels with leading experts on hot topics" }
- - {title: "Workshops", image: "workshop-2.jpg", text: "A number of workshops - come and collaborate" }
- - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience" }
+ - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world" }
+ - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted IEEE PES Transaction Papers in conference-related areas" }
+ - {title: "Posters", image: "panel.jpg", text: "Poster exhibition session" }
+ - {title: "Tutorials", image: "workshop-2.jpg", text: "Tutorials - training and hands-on experience" }
+ - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"

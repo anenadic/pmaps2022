@@ -1,0 +1,67 @@
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.aboutTitle }}</h3>
+            <p class="text-left">
+                On behalf of the PMAPS International Steering Committee and the Local Organising Committee I cordially
+                invite you to attend the 17th International Conference on Probabilistic methods applied to power
+                Systems, PMAPS 2020. The conference is technically sponsored by the IEEE Power & Energy Society (PES)
+                and hosted by the Department of Electrical and Electronic Engineering of the University of Manchester,
+                UK.
+            </p>
+            <p class="text-left">
+                PMAPS has been a key specialist conference about probabilistic modelling of phenomena and processes in
+                power systems since 1986 and contributed, through the international exchange of practices and
+                experiences, to the safe and secure planning and operation of power systems characterised with a
+                plethora of uncertainties. The importance of probabilistic modelling, and efficient computational and
+                mathematical methods to deal with inherent system uncertainties, becomes even more important for future
+                power systems. These will be characterised by increased uncertainties in operational practices and
+                increased reliance on non-conventional, uncertain, and intermittent power electronics connected
+                generation, load and storage technologies. The deterministic tools and models that are still
+                predominantly used for system analysis, planning and operation will not be adequate anymore and new
+                probabilistic, artificial intelligence, and risk-based approaches will be needed and put into everyday
+                use.
+            </p>
+            <p class="text-left">
+                PMAPS 2022 will be an international forum with an exciting programme for individuals working in industry
+                and academia to network, exchange ideas, and discuss the results of their practical experiences,
+                research and development work in these “non-conventional” areas, including:
+                <div class="row about-details">
+                    {% assign animationDelay = 0 %}
+                    {% for about in site.aboutBlock %}
+                    {% assign colWidth = 12 | divided_by: forloop.length %}
+                    <div class="col-md-{{ colWidth }} col-xs-6">
+                        <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                            <h5>{{ about.title }}</h5>
+                            <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
+                                 height="128" width="128" alt="{{ about.title }}">
+            <p>{{ about.text }}</p>
+        </div>
+    </div>
+    {% assign animationDelay = animationDelay | plus:500 %}
+    {% assign check = forloop.index | modulo:2 %}
+    {% if check == 0 %}
+    <div class="clearfix visible-xs"></div>
+    {% endif %}
+    {% endfor %}
+    </div>
+    </p>
+    <p class="text-left">
+        Manchester, the birthplace of the Industrial Revolution, has developed from the first industrialised city in the
+        world in the 19th century to the second most populous urban area in the UK with rapidly growing culture, media,
+        music, sports and transport connections enjoyed by 2.55 million people. By taking part in PMAPS 2022 you will
+        contribute to the long history of Manchester, leading the way in industrial development, this time leading the
+        way in application of new methods, tools and practices for safe planning and operation of sustainable power
+        systems.
+    </p>
+    <p>
+        I am looking forward to meeting you in Manchester in June 12-15, 2022.<br>
+        Professor Jovica V Milanovic, General Chair, 17th PMAPS, Manchester 2022<br>
+        <img class="img-circle" src="{{ site.baseurl }}/img/people/jovica_milanovic.jpg"
+             height="128" width="128" alt="Jovica Milanovic, Conference Chair">
+    </p>
+    </div>
+    </div>
+</section>
+<!-- End About Section -->
