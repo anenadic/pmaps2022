@@ -30,7 +30,7 @@ organizerLink: "https://www.eee.manchester.ac.uk/research/themes/"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+twitterAccount: "@aleks_nenadic"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -188,16 +188,17 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+# - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=aleks_nenadic", icon: "twitter"}
+# - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+# - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
+   - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
    - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
-#   - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Google Developers"}
+#   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
  -
   title: "Contacts"
   links:
@@ -205,7 +206,7 @@ footerBlocks:
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
