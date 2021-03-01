@@ -30,11 +30,12 @@
                 PMAPS 2022 will be an international forum with an <a href="{{ site.baseurl }}/programme">exciting programme</a> for individuals working in industry
                 and academia to network, exchange ideas, and discuss the results of their practical experiences,
                 research and development work in these “non-conventional” areas, including:
+            </p>
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">
+                <div class="col-md-{{ colWidth }} col-xs-6 text-center">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5 style="font-size: 25px;"><a href="{{site.baseurl }}/{{ about.link }}">{{ about.title }}</a></h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
@@ -49,7 +50,6 @@
                 {% endif %}
                 {% endfor %}
             </div>
-            </p>
             <p class="text-left">
                 <a href="{{ site.baseurl }}/venue-travel#about-manchester">Manchester</a>, the birthplace of the Industrial Revolution, has developed from the first industrialised
                 city in the
