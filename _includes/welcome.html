@@ -4,8 +4,8 @@
         <div class="col-lg-10 col-lg-offset-1">
             <h4>{{ site.aboutTitle }}</h4>
             <p class="text-left">
-                On behalf of the PMAPS <a href="/committees/#steering-committee">International Steering Committee</a> and the
-                <a href="/committees/#local-committee">Local Organising Committee</a> I cordially
+                On behalf of the PMAPS <a href="{{ site.baseurl }}/committees/#steering-committee">International Steering Committee</a> and the
+                <a href="{{ site.baseurl }}/committees/#local-committee">Local Organising Committee</a> I cordially
                 invite you to attend the 17th International Conference on Probabilistic methods applied to power
                 Systems, PMAPS 2022. The conference is technically sponsored by the
                 <a target="_blank" href="http:/www.ieee-pes.org/">IEEE Power & Energy Society (PES)</a>
@@ -27,7 +27,7 @@
                 use.
             </p>
             <p class="text-left">
-                PMAPS 2022 will be an international forum with an <a href="/programme">exciting programme</a> for individuals working in industry
+                PMAPS 2022 will be an international forum with an <a href="{{ site.baseurl }}/programme">exciting programme</a> for individuals working in industry
                 and academia to network, exchange ideas, and discuss the results of their practical experiences,
                 research and development work in these “non-conventional” areas, including:
             <div class="row about-details">
@@ -36,7 +36,7 @@
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5 style="font-size: 25px;"><a href="{{ about.link }}">{{ about.title }}</a></h5>
+                        <h5 style="font-size: 25px;"><a href="{{site.baseurl }}/{{ about.link }}">{{ about.title }}</a></h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
                              height="128" width="128" alt="{{ about.title }}">
                         <p style="font-size: 90%;">{{ about.text }}</p>
@@ -51,7 +51,7 @@
             </div>
             </p>
             <p class="text-left">
-                <a href="/venue-travel#about-manchester">Manchester</a>, the birthplace of the Industrial Revolution, has developed from the first industrialised
+                <a href="{{ site.baseurl }}/venue-travel#about-manchester">Manchester</a>, the birthplace of the Industrial Revolution, has developed from the first industrialised
                 city in the
                 world in the 19th century to the second most populous urban area in the UK with rapidly growing culture,
                 media,
