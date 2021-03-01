@@ -4,17 +4,23 @@ title: Contact
 permalink: /contact/
 ---
 
- {% include top-section.html %}
- {% include contact.html %}
+{% comment %}{% include top-section.html %}{% endcomment %}
+
+{% include conference-logo-header.html %}
+
+{% include page-header.html %}
+
+{% include contact.html %}
 
 {% comment %}
- {% include about-hackathon.html %}
 
- {% include judges.html %}
+{% include about-hackathon.html %}
 
- {% include prizes.html %}
+{% include judges.html %}
 
- {% include hackathon-location.html %}
+{% include prizes.html %}
 
- {% include partners.html %}
+{% include hackathon-location.html %}
+
+{% include partners.html %}
 {% endcomment %}

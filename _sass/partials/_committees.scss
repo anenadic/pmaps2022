@@ -131,7 +131,7 @@ $figcaption-color: #3c4a50;
 }
 
 // Inline turns list items into inline-block
-.committee-li {
+.committee-list {
     @include list-unstyled;
     //margin-left: -5px;
 
