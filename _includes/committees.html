@@ -11,7 +11,7 @@
                     style="text-align: left;">International Steering Committee</h4>
                 {% for member in site.data.committees %} {% if member.team != null and member.team ==
                 "steering-committee" %}
-                <ul class="committee-li">
+                <ul class="committee-list">
                     <li>
                         {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}
                     </li>
@@ -21,7 +21,7 @@
                     style="text-align: left;">International Technical Advisory Committee</h4>
                 {% for member in site.data.committees %} {% if member.team != null and member.team ==
                 "advisory-committee" %}
-                <ul class="committee-li">
+                <ul class="committee-list">
                     <li>
                         {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}
                     </li>

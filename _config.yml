@@ -77,7 +77,7 @@ heroButtons:
  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
 
 # About Block
-aboutTitle: "Welcome to PMAPS 2022"
+aboutTitle: "Welcome!"
 aboutBlock:
  - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world", link: "/programme" }
  - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted IEEE PES Transaction papers in conference topics", link: "/programme" }
