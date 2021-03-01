@@ -1,7 +1,11 @@
 <!-- Begin Local Info Details-->
+<section id="about-manchester">
+    <h3>Manchester</h3>
+    About the city of Manchester.
+</section>
 <section id="local-info" class="direction-details">
     <div class="content-wrapper">
-        <section class="image-section standart-height" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
+        <section id="venue" class="image-section standart-height" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
             <h3>{{ site.directionDetailsTitle }}</h3>
         </section>
         <div class="row">
@@ -17,7 +21,6 @@
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
                 {% endfor %}
-                
                 {% for wideCard in site.directionDetailsWideCards %}
                 <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">
                     <div class="card questions">

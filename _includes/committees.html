@@ -7,7 +7,7 @@
         <!--        </div>-->
         <div class="col-lg-10 col-lg-offset-1 text-left">
             <div class="col-lg-10 text-left">
-                <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
+                <h4 id="steering-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
                     style="text-align: left;">International Steering Committee</h4>
                 {% for member in site.data.committees %} {% if member.team != null and member.team ==
                 "steering-committee" %}
@@ -17,7 +17,7 @@
                     </li>
                 </ul>
                 {% endif %} {% endfor %}
-                <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
+                <h4 id="advisory-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
                     style="text-align: left;">International Technical Advisory Committee</h4>
                 {% for member in site.data.committees %} {% if member.team != null and member.team ==
                 "advisory-committee" %}
@@ -27,7 +27,7 @@
                     </li>
                 </ul>
                 {% endif %} {% endfor %}
-                <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
+                <h4 id="local-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
                     style="text-align: left;">Local Organising Committee</h4>
                 {% for member in site.data.committees %} {% if member.team != null and member.team == "local-committee"
                 %}

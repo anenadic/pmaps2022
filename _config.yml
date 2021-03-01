@@ -46,12 +46,12 @@ navigationLinks:
  - {permalink: "/about-pmaps/", text: "About PMAPS"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/author-info/", text: "Author Info"}
- - {permalink: "/travel-venue/", text: "Travel and Venue"}
+ - {permalink: "/venue-travel/", text: "Venue & Travel"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/programme/", text: "Programme"}
  - {permalink: "/sponsorship/", text: "Sponsorship"}
  - {permalink: "/news/", text: "News"}
- - {permalink: "/contact/", text: "Contact Us"}
+ - {permalink: "/contact/", text: "Contact"}
 # - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/authors/", text: "Authors"}
@@ -79,11 +79,11 @@ heroButtons:
 # About Block
 aboutTitle: "Welcome to PMAPS 2022"
 aboutBlock:
- - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world" }
- - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted IEEE PES Transaction Papers in conference-related areas" }
- - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session" }
- - {title: "Tutorials", image: "workshop-2.jpg", text: "Tutorials - training and hands-on experience" }
- - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate" }
+ - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world", link: "/programme" }
+ - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted IEEE PES Transaction papers in conference topics", link: "/programme" }
+ - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", link: "/programme" }
+ - {title: "Tutorials", image: "workshop-2.jpg", text: "Tutorials - training and hands-on experience", link: "/programme" }
+ - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate", link: "/programme" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"

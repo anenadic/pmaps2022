@@ -4,15 +4,18 @@
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.aboutTitle }}</h3>
             <p class="text-left">
-                On behalf of the PMAPS International Steering Committee and the Local Organising Committee I cordially
+                On behalf of the PMAPS <a href="/committees/#steering-committee">International Steering Committee</a> and the
+                <a href="/committees/#local-committee">Local Organising Committee</a> I cordially
                 invite you to attend the 17th International Conference on Probabilistic methods applied to power
-                Systems, PMAPS 2022. The conference is technically sponsored by the IEEE Power & Energy Society (PES)
-                and hosted by the Department of Electrical and Electronic Engineering of the University of Manchester,
-                UK.
+                Systems, PMAPS 2022. The conference is technically sponsored by the
+                <a target="_blank" href="http:/www.ieee-pes.org/">IEEE Power & Energy Society (PES)</a>
+                and hosted by the <a target="_blank" href="http:/www.eee.manchester.ac.uk/">Department of Electrical
+                and Electronic Engineering</a> of the
+                <a target="_blank" href="http:/www.manchester.ac.uk/">University of Manchester</a>, UK.
             </p>
             <p class="text-left">
                 PMAPS has been a key specialist conference about probabilistic modelling of phenomena and processes in
-                power systems since 1986 and contributed, through the international exchange of practices and
+                power systems  <a href="/about-pmaps">since 1986</a> and contributed, through the international exchange of practices and
                 experiences, to the safe and secure planning and operation of power systems characterised with a
                 plethora of uncertainties. The importance of probabilistic modelling, and efficient computational and
                 mathematical methods to deal with inherent system uncertainties, becomes even more important for future
@@ -24,7 +27,7 @@
                 use.
             </p>
             <p class="text-left">
-                PMAPS 2022 will be an international forum with an exciting programme for individuals working in industry
+                PMAPS 2022 will be an international forum with an <a href="/programme">exciting programme</a> for individuals working in industry
                 and academia to network, exchange ideas, and discuss the results of their practical experiences,
                 research and development work in these “non-conventional” areas, including:
             <div class="row about-details">
@@ -33,10 +36,10 @@
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5>{{ about.title }}</h5>
+                        <h5 style="font-size: 25px;"><a href="{{ about.link }}">{{ about.title }}</a></h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
                              height="128" width="128" alt="{{ about.title }}">
-                        <p>{{ about.text }}</p>
+                        <p style="font-size: 90%;">{{ about.text }}</p>
                     </div>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
@@ -48,7 +51,7 @@
             </div>
             </p>
             <p class="text-left">
-                Manchester, the birthplace of the Industrial Revolution, has developed from the first industrialised
+                <a href="/venue-travel#about-manchester">Manchester</a>, the birthplace of the Industrial Revolution, has developed from the first industrialised
                 city in the
                 world in the 19th century to the second most populous urban area in the UK with rapidly growing culture,
                 media,
