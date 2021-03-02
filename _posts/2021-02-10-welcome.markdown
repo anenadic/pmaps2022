@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-comments-off
 title:  "Welcome to PMAPS 2022"
 date:   2021-02-10 08:00:00
 isStaticPost: false
@@ -13,9 +13,9 @@ rich industrial heritage.
 
 So should you also be excited? Well yes... and here's why!
 
-* **Date**: 12-16 June 2021
-* **Attendance**: We're expecting over 500 attendees over 5 days
-* **Topic**: More than 4 days of workshops, panels, tutorials and networking
+* **Date**: 12-15 June 2021
+* **Attendance**: We're expecting 200+ attendees over 4 days
+* **Topic**: 4 days of keynote speeches, presentations, posters, tutorials and networking
 * **Venue**: Manchester Central Convention Complex - commonly known as Manchester Central or GMEX is an exhibition and 
 conference centre converted from the former Manchester Central railway station
 * **Speakers**: We're in the process of finalising the list of speakers
