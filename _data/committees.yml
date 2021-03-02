@@ -6,6 +6,8 @@
   role: "General Chair"
   thumbnailUrl: jovica_milanovic.jpg
   team: "local-committee"
+  social:
+    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/jovica.milanovic.html"}
 -
   id: 1
   name: "Dr Robin"
@@ -14,12 +16,8 @@
   role: "Technical Programme Chair"
   thumbnailUrl: ""
   team: "local-committee"
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group"}
   social:
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
+    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/robin.preece.html"}
 -
   id: 2
   name: "Dr Alessandra"
@@ -28,6 +26,8 @@
   role: "Web & Marketing Chair"
   thumbnailUrl: alessandra_parisio.jpg
   team: "local-committee"
+  social:
+    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/alessandra.parisio.html"}
 -
   id: 3
   name: "Dr Konstantinos"
@@ -36,6 +36,8 @@
   role: "Publication Chair"
   thumbnailUrl: ""
   team: "local-committee"
+  social:
+    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/k.kopsidas.html"}
 - 
   id: 4
   name: "Dr Eduardo Alejandro"
@@ -44,6 +46,8 @@
   role: "Treasurer & Tutorial Coordinator"
   thumbnailUrl: ""
   team: "local-committee"
+  social:
+    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/alex.martinezcesena.html"}
 - 
   id: 5
   name: "Dr Jelena"
@@ -52,6 +56,8 @@
   role: "Coordinator of Volunteers, Women in Power, Young Professionals and Student Activities"
   thumbnailUrl: ""
   team: "local-committee"
+  social:
+    - {name: "site", link: "https://www.manchester.ac.uk/discover/news/dr-jelena-ponocko-appointed-ieee-pes-women-in-power-representative/"}
 -
   id: 6
   name: "Mrs Christine"

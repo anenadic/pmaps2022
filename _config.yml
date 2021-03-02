@@ -82,7 +82,7 @@ aboutBlock:
  - {title: "Keynotes", image: "keynote_speaker.jpg", text: "Exciting and inspiring keynote speakers from around the world", link: "/keynote-speakers" }
  - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted IEEE PES Transaction papers in conference topics", link: "/programme" }
  - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", link: "/programme" }
- - {title: "Tutorials", image: "workshop-2.jpg", text: "Tutorials - training and hands-on experience", link: "/programme" }
+ - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience", link: "/programme" }
  - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate", link: "/programme" }
 
 # Statistic Block

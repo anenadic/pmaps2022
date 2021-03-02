@@ -5,71 +5,89 @@
         <!--            <h3>{{ site.teamBlockTitle }}</h3>-->
         <!--            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>-->
         <!--        </div>-->
-        <div class="col-lg-10 col-lg-offset-1 text-left">
-            <div class="col-lg-10 text-left">
-                <h4 id="steering-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
-                    style="text-align: left;">International Steering Committee</h4>
-                {% for member in site.data.committees %} {% if member.team != null and member.team ==
-                "steering-committee" %}
-                <ul class="committee-list">
-                    <li>
-                        {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}
-                    </li>
-                </ul>
-                {% endif %} {% endfor %}
-                <h4 id="advisory-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
-                    style="text-align: left;">International Technical Advisory Committee</h4>
-                {% for member in site.data.committees %} {% if member.team != null and member.team ==
-                "advisory-committee" %}
-                <ul class="committee-list">
-                    <li>
-                        {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}
-                    </li>
-                </ul>
-                {% endif %} {% endfor %}
-                <h4 id="local-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
-                    style="text-align: left;">Local Organising Committee</h4>
-                {% for member in site.data.committees %} {% if member.team != null and member.team == "local-committee"
-                %}
-                <div class="col-md-2 col-sm-3 col-xs-4 cols-centered appear-animation">
-                    <div class="committee" data-toggle="modal" data-target="#speakerDetail-{{ member.id }}">
-                        <figure class="waves-effect waves-block waves-light"
-                                style="background-image: url({{ site.baseurl | append: '/img/people/' | append: member.thumbnailUrl }})">
-                            <!--                        <div class="overlay solid-overlay"></div>-->
-                            <figcaption>
-                                <div class="col-md-12 col-xs-12 text-left">
-                                    <h2 class="name">{{ member.name }}
-                                        <span>{{ member.surname }}, {{ member.title }}</span></h2>
-                                    <div class="clearfix"></div>
-                                    <span class="position">{{ member.role }}</span>
-                                </div>
-                                <!--                            {% for social in member.social %}-->
-                                <!--                            <a href="{{ social['link'] }}" target="_blank">-->
-                                <!--                            <svg class="icon icon-{{ social['name'] }}" viewBox="0 0 30 32">-->
-                                <!--                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social['name'] }}"></use>-->
-                                <!--                            </svg>-->
-                                <!--                            </a>-->
-                                <!--                            {% endfor %}-->
-                            </figcaption>
-                        </figure>
-                    </div>
+        <div id="steering-committee" class="col-lg-10 col-lg-offset-1 text-left">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">International Steering Committee</h4>
+            {% for member in site.data.committees %} {% if member.team != null and member.team ==
+            "steering-committee" %}
+            <ul class="committee-list">
+                <li>
+                    {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
+        </div>
+        <div id="advisory-committee" class="col-lg-10 col-lg-offset-1 text-left">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">International Technical Advisory Committee</h4>
+            {% for member in site.data.committees %} {% if member.team != null and member.team ==
+            "advisory-committee" %}
+            <ul class="committee-list">
+                <li>
+                    {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
+        </div>
+<!--        <div class="col-lg-10 col-lg-offset-1 text-left">-->
+        <!--                <h4 id="local-committee" class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"-->
+            <!--                    style="text-align: left;">Local Organising Committee</h4>-->
+            <!--                {% for member in site.data.committees %} {% if member.team != null and member.team == "local-committee"-->
+            <!--                %}-->
+            <!--                <div class="col-md-2 col-sm-3 col-xs-4 cols-centered appear-animation">-->
+            <!--                    <div class="committee" data-toggle="modal" data-target="#speakerDetail-{{ member.id }}">-->
+            <!--                        <figure class="waves-effect waves-block waves-light"-->
+            <!--                                style="background-image: url({{ site.baseurl | append: '/img/people/' | append: member.thumbnailUrl }})">-->
+            <!--                            &lt;!&ndash;                        <div class="overlay solid-overlay"></div>&ndash;&gt;-->
+            <!--                            <figcaption>-->
+            <!--                                <div class="col-md-12 col-xs-12 text-left">-->
+            <!--                                    <h2 class="name">{{ member.name }}-->
+            <!--                                        <span>{{ member.surname }}, {{ member.title }}</span></h2>-->
+            <!--                                    <div class="clearfix"></div>-->
+            <!--                                    <span class="position">{{ member.role }}</span>-->
+            <!--                                </div>-->
+            <!--                                &lt;!&ndash;                            {% for social in member.social %}&ndash;&gt;-->
+            <!--                                &lt;!&ndash;                            <a href="{{ social['link'] }}" target="_blank">&ndash;&gt;-->
+            <!--                                &lt;!&ndash;                            <svg class="icon icon-{{ social['name'] }}" viewBox="0 0 30 32">&ndash;&gt;-->
+            <!--                                &lt;!&ndash;                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social['name'] }}"></use>&ndash;&gt;-->
+            <!--                                &lt;!&ndash;                            </svg>&ndash;&gt;-->
+            <!--                                &lt;!&ndash;                            </a>&ndash;&gt;-->
+            <!--                                &lt;!&ndash;                            {% endfor %}&ndash;&gt;-->
+            <!--                            </figcaption>-->
+            <!--                        </figure>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--                {% endif %} {% endfor %}-->
+<!--        </div>-->
+        <div id="local-committee" class="col-lg-10 col-lg-offset-1 text-left">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">Local Organising Committee</h4>
+            {% for member in site.data.committees %}{% if member.team != null and member.team == "local-committee" %}
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="local-committee-item" data-toggle="modal" data-target="#speakerDetail-{{ member.id }}">
+                    <figure class="waves-effect waves-block waves-light"
+                            style="background-image: url({{ site.baseurl | append: '/img/people/' | append: member.thumbnailUrl }})">
+                        <div class="overlay solid-overlay"></div>
+                        <figcaption>
+                            <div class="col-md-12 col-xs-12 text-left">
+                                <h2 class="name"><h3>{{ member.role }}</h3>{{member.name}} {{ member.surname }}</h2>
+                                <div class="clearfix"></div>
+                                <span class="position">{{ member.title }}</span>
+                            </div>
+                            {% for social in member.social %}
+                            <a href="{{ social['link'] }}" target="_blank">
+                                <svg class="icon icon-{{ social['name'] }}" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social['name'] }}"></use>
+                                </svg>
+                            </a>
+                            {% endfor %}
+                        </figcaption>
+                    </figure>
                 </div>
-                {% endif %} {% endfor %}
             </div>
-            <!--        <h3>Alternative Organisers Section</h3>-->
-            <!--        {% for organizer in site.data.organizers %}-->
-            <!--        <h5>{{ organizer.group }}</h5>-->
-            <!--        <ul class="committee-li">-->
-            <!--            {% for element in organizer.elements %}-->
-            <!--            <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>-->
-            <!--                {{ element.name }} - {{ element.description }}-->
-            <!--                &lt;!&ndash;                    <a href="{{ element.link }}" target="_blank">&ndash;&gt;-->
-            <!--                &lt;!&ndash;                        <img src="{{ site.baseurl }}/img/organizers/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">&ndash;&gt;-->
-            <!--                &lt;!&ndash;                    </a>&ndash;&gt;-->
-            <!--            </li>-->
-            <!--            {% endfor %}-->
-            <!--        </ul>-->
-            <!--        {% endfor %}-->
+            {% endif %} {% endfor %}
         </div>
     </div>
 </section>
