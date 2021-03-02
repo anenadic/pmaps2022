@@ -1,67 +1,81 @@
-- 
-  id: 3
-  name: "Jovica"
-  surname: "Milanovic"
+-
+  id: 0
+  name: "Danielle"
+  surname: "George"
   company: "University of Manchester, UK"
-  title: "Professor in Power Systems"
-  bio: "Jovica is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services."
-  thumbnailUrl: jovica_milanovic.jpg
+  title: "Associate Dean of Teaching and Learning"
+  bio: "Danielle George is a Professor in Microwave Communication Engineering and is the Associate Dean for Teaching and Learning in the Faculty of Science and Engineering. Danielle completed her BSc in Astrophysics and MSc in Radio Astronomy at The Victoria University of Manchester based at Jodrell Bank Observatory. During her MSc studies Danielle realised her passion for practical based experiments and started to work at JBO as an RF engineer directly after her MSc studies. She has a PhD in Electrical and Electronic Engineering and worked at JBO as a senior microwave engineer until 2006 where she took up a lectureship post in the Department of Electrical and Electronic Engineering.
+
+          She enjoys the teaching aspects and lecturers to both undergraduates and postgraduate students. To date she has concentrated on applied research, mostly in the area of extremely sensitive measurement systems and sub-systems. Much of her early research was concerned with radio astronomy instrumentation, where she contributed to the design and development of some of the most sensitive instruments ever produced for radio astronomy, both ground and space-based.
+
+          She is heavily involved in the $1B next generation of astronomical instrument called the Square Kilometer Array (SKA). More recently, her research interests have expanded into communications in aerospace and wireless sensor networks and she is involved with many industrial collaborators, including National Instruments, Rolls-Royce and Syngenta. She enjoys the breadth and nature of her research collaborations."
+  thumbnailUrl: danielle_george.jpg
   rockstar: true
-  social: 
-    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/jovica.milanovic.html"}
-- 
-  id: 4
-  name: "Alessandra"
-  surname: "Parisio"
-  company: "University of Manchester, UK"
-  title: "Lecturer"
-  bio: 'Alessandra is a Lecturer at the Univerity of Manchester and the lead conference organiser.'
-  thumbnailUrl: alessandra_parisio.jpg
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
-  id: 5
-  name: "Pierre"
-  surname: "Henneaux"
-  company: "Université libre de Bruxelles, Belgium"
-  title: "Software Engineer"
-  bio: "Pierre is an experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives."
-  thumbnailUrl: pierre_henneaux.jpg
-  rockstar: true
-  ribbon: 
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-    - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
-  id: 6
-  name: "Bertrand"
-  surname: "Cornélusse"
-  company: "ULiège, Belgium"
-  title: "Head of Operations"
-  bio: "Bertrand started his way in ULiège 5 years ago. Currently he is a Head of Operations unit in ULiège, Belgium and a co-organizer of PMAPS 2020."
-  thumbnailUrl: bertrand_cornelusse.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+  social:
+    - {name: "site", link: "https://www.se.manchester.ac.uk/people/key-people/danielle-george/"}
+#  id: 3
+#  name: "Jovica"
+#  surname: "Milanovic"
+#  company: "University of Manchester, UK"
+#  title: "Professor in Power Systems"
+#  bio: "Jovica is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services."
+#  thumbnailUrl: jovica_milanovic.jpg
+#  rockstar: true
+#  social:
+#    - {name: "site", link: "https://www.research.manchester.ac.uk/portal/jovica.milanovic.html"}
 #-
-#  id: 7
-#  name: "Valentyn"
-#  surname: "Shybanov"
-#  company: "Twinfield, GDG Kyiv"
-#  title: "Software engineer/country manager"
-#  bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
-#  thumbnailUrl: ValentynShybanov.jpg
+#  id: 4
+#  name: "Alessandra"
+#  surname: "Parisio"
+#  company: "University of Manchester, UK"
+#  title: "Lecturer"
+#  bio: 'Alessandra is a Lecturer at the Univerity of Manchester and the lead conference organiser.'
+#  thumbnailUrl: alessandra_parisio.jpg
+#  rockstar: true
+#  social:
+#    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+#    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+#    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+#-
+#  id: 5
+#  name: "Pierre"
+#  surname: "Henneaux"
+#  company: "Université libre de Bruxelles, Belgium"
+#  title: "Software Engineer"
+#  bio: "Pierre is an experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives."
+#  thumbnailUrl: pierre_henneaux.jpg
+#  rockstar: true
+#  ribbon:
+#    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+#    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+#  social:
+#    - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
+#    - {name: "twitter", link: "https://twitter.com/mherych"}
+#-
+#  id: 6
+#  name: "Bertrand"
+#  surname: "Cornélusse"
+#  company: "ULiège, Belgium"
+#  title: "Head of Operations"
+#  bio: "Bertrand started his way in ULiège 5 years ago. Currently he is a Head of Operations unit in ULiège, Belgium and a co-organizer of PMAPS 2020."
+#  thumbnailUrl: bertrand_cornelusse.jpg
 #  rockstar: true
 #  ribbon:
 #    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
 #  social:
-#    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-#    - {name: "site", link: "http://olostan.name/"}
+#    - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
+#    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+##-
+##  id: 7
+##  name: "Valentyn"
+##  surname: "Shybanov"
+##  company: "Twinfield, GDG Kyiv"
+##  title: "Software engineer/country manager"
+##  bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
+##  thumbnailUrl: ValentynShybanov.jpg
+##  rockstar: true
+##  ribbon:
+##    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+##  social:
+##    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+##    - {name: "site", link: "http://olostan.name/"}

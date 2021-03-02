@@ -1,0 +1,22 @@
+---
+layout: default
+title: Keynote Speakers
+permalink: /keynote-speakers/
+modal: all
+---
+
+{% comment %}{% include top-section.html %}{% endcomment %}
+
+{% include conference-logo-header.html %}
+
+{% include page-header.html %}
+
+{% comment %}
+{% if site.showSessions %}
+    {% include speakers-list.html %}
+{% else %}
+    {% include speakers-list-2.html %}
+{% endif %}
+{% endcomment %}
+{% include keynote-speakers.html %}
+
