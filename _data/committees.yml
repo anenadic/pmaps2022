@@ -4,7 +4,7 @@
   surname: "Milanovic"
   title: "Dipl.Ing., MSs, PhD, DSc, FIET, FIEEE"
   role: "General Chair"
-  thumbnailUrl: jovica_milanovic.jpg
+  thumbnailUrl: "ProfJovicaVMilanovic.jpg"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/jovica.milanovic.html"}
@@ -14,7 +14,7 @@
   surname: "Preece"
   title: "BEng(Hons), PhD, CEng, MIET, SMIEEE"
   role: "Technical Programme Chair"
-  thumbnailUrl: ""
+  thumbnailUrl: "DrRobinPreece.jpg"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/robin.preece.html"}
@@ -24,7 +24,7 @@
   surname: "Parissio"
   title: "BSc, MSc, PhD, SMIEE"
   role: "Web & Marketing Chair"
-  thumbnailUrl: alessandra_parisio.jpg
+  thumbnailUrl: "DrAlessandraParisio.png"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/alessandra.parisio.html"}
@@ -34,7 +34,7 @@
   surname: "Kopsidas"
   title: "BSc, MSc, PhD, MIET, SMIEEE"
   role: "Publication Chair"
-  thumbnailUrl: ""
+  thumbnailUrl: "DrKonstantinosKopsidas.jpg"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/k.kopsidas.html"}
@@ -44,7 +44,7 @@
   surname: "Martinez-Cesena"
   title: "BSc, MSc, PhD, MIEEE"
   role: "Treasurer & Tutorial Coordinator"
-  thumbnailUrl: ""
+  thumbnailUrl: "DrEduardoAlejandroMartinezCesena.jpg"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/alex.martinezcesena.html"}
@@ -54,17 +54,17 @@
   surname: "Ponocko"
   title: "BSc, MSc, PhD, MIEEE"
   role: "Coordinator of Volunteers, Women in Power, Young Professionals and Student Activities"
-  thumbnailUrl: ""
+  thumbnailUrl: "DrJelenaPonocko.jpg"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.manchester.ac.uk/discover/news/dr-jelena-ponocko-appointed-ieee-pes-women-in-power-representative/"}
 -
   id: 6
-  name: "Mrs Christine"
+  name: "Mrs Chris"
   surname: "Wall"
   title: "BA, MA"
   role: "Secretary, General Manager & Time Keeper"
-  thumbnailUrl: ""
+  thumbnailUrl: "MrsChrisWall.jpg"
   team: "local-committee"
 #-
 #  id: 6
