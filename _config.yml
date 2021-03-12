@@ -207,7 +207,9 @@ footerBlocks:
  -
   title: "FAQ"
   links:
-   - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
+   - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+   - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact - Chris Wall"}
+
 
 # Blog
 blogTitle: "Latest news"
