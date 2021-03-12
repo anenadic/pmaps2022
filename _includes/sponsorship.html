@@ -1,5 +1,14 @@
 <!-- Begin Sponsorship Section -->
 <section id="sponsorship" class="partners">
+    {% if page.title  != "Sponsorship" %}
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.sponsorsTitle }}</h3>
+            <p>We will have a number of sponsorship tiers available - to be announced soon.</p>
+            <a href="{{ site.baseurl }}/sponsorship" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
+        </div>
+    </div>
+    {% else %}
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left">
             <h4>Sponsorship Tiers</h4>
@@ -23,7 +32,8 @@
 <!--            </ul>-->
 <!--            {% endfor %}-->
         </div>
-    </div> 
+    </div>
+    {% endif %}
 </section>
 <!-- End Sponsorship Section -->
 
