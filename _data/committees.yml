@@ -1,7 +1,7 @@
 -
   id: 0
   name: "Prof Jovica V"
-  surname: "Milanovic"
+  surname: "Milanović"
   title: "Dipl.Ing., MSs, PhD, DSc, FIET, FIEEE"
   role: "General Chair"
   thumbnailUrl: "ProfJovicaVMilanovic.jpg"
@@ -41,7 +41,7 @@
 - 
   id: 4
   name: "Dr Eduardo Alejandro"
-  surname: "Martinez-Cesena"
+  surname: "Martínez Ceseña"
   title: "BSc, MSc, PhD, MIEEE"
   role: "Treasurer & Tutorial Coordinator"
   thumbnailUrl: "DrEduardoAlejandroMartinezCesena.jpg"
@@ -51,7 +51,7 @@
 - 
   id: 5
   name: "Dr Jelena"
-  surname: "Ponocko"
+  surname: "Ponoćko"
   title: "BSc, MSc, PhD, MIEEE"
   role: "Coordinator of Volunteers, Women in Power, Young Professionals and Student Activities"
   thumbnailUrl: "DrJelenaPonocko.jpg"
@@ -83,7 +83,7 @@
 #-
 #  id: 7
 #  name: "Jovica"
-#  surname: "Milanovic"
+#  surname: "Milanović"
 #  title: "International Technical Advisory Committee Chair"
 #  thumbnailUrl: jovica_milanovic.jpg
 #  team: "advisory-committee"

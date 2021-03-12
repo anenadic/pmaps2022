@@ -11,10 +11,10 @@
 -
   group: "Local Organising Committee"
   elements:
-    - {name: "Prof Jovica Milanovic, Dipl.Ing., MSc, PhD, DSc, FIET, FIEEE", description: "General Chair", link: "", imageUrl: "jovica_milanovic.jpg"}
+    - {name: "Prof Jovica Milanović, Dipl.Ing., MSc, PhD, DSc, FIET, FIEEE", description: "General Chair", link: "", imageUrl: "jovica_milanovic.jpg"}
     - {name: "Dr Robin Preece, BEng(Hons), PhD, CEng, MIET, SMIEEE", description: "Technical Programme Chair ", link: "", imageUrl: ""}
     - {name: "Dr Konstantinos Kopsidas, BSc, MSc, PhD, MIET, SMIEEE", description: "Publication Chair", link: "", imageUrl: ""}
     - {name: "Dr Alessandra Parisio, BSc, MSc, PhD, SMIEEE", description: "Web & Marketing Chair", link: "", imageUrl: "alessandra_parisio.jpg"}
     - {name: "Dr Eduardo Alejandro Martínez Ceseña, BSc, MSc, PhD, MIEEE", description: "Treasurer & Tutorial Coordinator", link: "", imageUrl: ""}
-    - {name: "Dr Jelena Ponocko, BSc, MSc, PhD, MIEEE", description: "Coordinator of Volunteer Support and Women in Power, Young Professionals and Student Activities", link: "", imageUrl: ""}
-    - {name: "Mrs Christine Wall, BA, MA", description: "Secretary, General Manager & Time Keeper", link: "", imageUrl: ""}
+    - {name: "Dr Jelena Ponoćko, BSc, MSc, PhD, MIEEE", description: "Coordinator of Volunteer Support and Women in Power, Young Professionals and Student Activities", link: "", imageUrl: ""}
+    - {name: "Mrs Christine Wall, BA, MA", description: "Secretary, General Manager & Time Keeper, Code of Conduct Contact", link: "", imageUrl: ""}
