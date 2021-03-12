@@ -9,4 +9,4 @@ Call for papers is now open.
 __Deadline__ is September 1, 2022.
 
 #### Any questions? 
-Email organisers at [{{ site.email }}](mailto:{{ site.email }}).
+[Contact](mailto:{{ site.email }}) conference organisers.
