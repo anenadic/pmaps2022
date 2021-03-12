@@ -3,46 +3,20 @@
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left">
             <h4>Sponsorship Tiers</h4>
-            We have a number of sponsorship tiers available.
+            We will have a number of sponsorship tiers available - to be announced soon.
             <h4 id="become-sponsor">Become a Sponsor</h4>
-            If you would like to become a sponsor, please get in touch
-            with the conference organisers at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-            <h4>Our Sponsors</h4>
-            We gratefully acknowledge the support of our sponsors.
-            {% for sponsor_group in site.data.sponsors %}
-            <h5>{{ sponsor_group.group }}</h5>
-            <ul class="list-inline">
-                {% for sponsor in sponsor_group.elements %}
-                <li {% if sponsor.width != null %}style="width: {{ sponsor.width }};"{% endif %}>
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">
-                        <div>{{ sponsor.name }}</div>
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-            {% endfor %}
-<!--            <h3>{{ site.organizersTitle }}</h3>-->
-<!--            {% for organizer in site.data.organizers %}-->
-<!--            <h5>{{ organizer.group }}</h5>-->
+            If you would like to become a sponsor, please <a href="mailto:{{ site.email }}">get in touch
+            with the conference organisers</a>.
+<!--            <h4>Our Sponsors</h4>-->
+<!--            We gratefully acknowledge the support of our sponsors.-->
+<!--            {% for sponsor_group in site.data.sponsors %}-->
+<!--            <h5>{{ sponsor_group.group }}</h5>-->
 <!--            <ul class="list-inline">-->
-<!--                {% for element in organizer.elements %}-->
-<!--                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>-->
-<!--                    <a href="{{ element.link }}" target="_blank">-->
-<!--                        <img src="{{ site.baseurl }}/img/organizers/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">-->
-<!--                    </a>-->
-<!--                </li>-->
-<!--                {% endfor %}-->
-<!--            </ul>-->
-<!--            {% endfor %}-->
-<!--            <h3>{{ site.partnersTitle }}</h3>-->
-<!--            {% for partner in site.data.partners %}-->
-<!--            <h5>{{ partner.group }}</h5>-->
-<!--            <ul class="list-inline">-->
-<!--                {% for element in partner.elements %}-->
-<!--                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>-->
-<!--                    <a href="{{ element.link }}" target="_blank">-->
-<!--                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">-->
+<!--                {% for sponsor in sponsor_group.elements %}-->
+<!--                <li {% if sponsor.width != null %}style="width: {{ sponsor.width }};"{% endif %}>-->
+<!--                    <a href="{{ sponsor.link }}" target="_blank">-->
+<!--                        <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">-->
+<!--                        <div>{{ sponsor.name }}</div>-->
 <!--                    </a>-->
 <!--                </li>-->
 <!--                {% endfor %}-->

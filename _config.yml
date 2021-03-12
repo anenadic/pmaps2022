@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "PMAPS 2022"
-email: "info@pmaps2022.org"
+email: "chris.wall@manchester.ac.uk"
 description: "PMAPS CONFERENCE COVERS ALL ASPECTS OF PROBABILISTIC AND STATISTICAL MODELLING OF POWER SYSTEMS"
 #baseurl: "/zeppelin"
 #url: "https://gdg-x.github.io"
@@ -24,7 +24,7 @@ siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 organizerName: "Electrical Energy and Power Systems Group, University of Manchester"
 organizerAlternateName: "Electrical Energy and Power Systems Group, University of Manchester"
 #organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "alessandra@manchester.ac.uk"
+organizerEmail: "chris.wall@manchester.ac.uk"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.eee.manchester.ac.uk/research/themes/"
 
@@ -203,7 +203,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:info@pmaps2022.org", text: "info@pmaps2022.org"}
+   - {link: "mailto:chris.wall@manchester.ac.uk", text: "Organising Committee"}
  -
   title: "FAQ"
   links:

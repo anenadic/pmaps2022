@@ -1,7 +1,7 @@
 -
   group: "Gold sponsors"
   elements:
-    - {name: "Royce Royce", description: "Royce Royce", link: "http://lviv.gdg.org.ua", imageUrl: "power-systems-royce-royce.jpeg"}
+    - {name: "Power engineering", description: "Power engineering", link: "http://lviv.gdg.org.ua", imageUrl: "power-systems-royce-royce.jpeg"}
 -
   group: "Silver sponsors"
   elements:
