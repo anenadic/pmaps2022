@@ -208,7 +208,7 @@ footerBlocks:
   title: "FAQ"
   links:
    - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
-   - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact - Chris Wall"}
+   - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact"}
 
 
 # Blog
