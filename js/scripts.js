@@ -366,7 +366,7 @@
                 scrollwheel: false,
                 panControl: false,
                 draggable: true,
-                zoomControl: false,
+                zoomControl: true,
                 zoomControlOptions: {
                     position: google.maps.ControlPosition.RIGHT_TOP
                 },
@@ -382,7 +382,7 @@
             if ($(window).width() < 768) {
                 mapOptions.center = mobileCenterMap;
             }
-            if (googleMaps == 'logistics') {
+            if (googleMaps == 'logistics' || googleMaps == 'venue-travel') {
                 mapOptions.zoom = 5;
                 mapOptions.zoomControl = true;
             }
