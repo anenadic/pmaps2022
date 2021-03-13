@@ -105,9 +105,9 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Venue"
-eventLocationName: "Manchester Central Convention Complex"
-eventLocationLink: "https://www.manchestercentral.co.uk"
-eventStreetAddress: "Petersfield, M2 3GX"
+eventLocationName: "The University of Manchester"
+eventLocationLink: "https://www.manchester.ac.uk"
+eventStreetAddress: "Oxford Road, M13 9PL"
 eventAddressLocality: "Manchester, UK"
 #eventAddressLocalityRegion: "Lvivska"
 #eventAddressCountry: "UK"
