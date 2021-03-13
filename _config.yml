@@ -120,12 +120,16 @@ mapMobileCenterCoordinates: "53.476596,-2.246421"
 
 # Venue Block
 venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+#venueBigImage: "venue_0.jpg"
+#venueSmallImage1: "venue_1.jpg"
+#venueSmallImage2: "venue_2.jpg"
+#venueSmallImage3: "venue_3.jpg"
+venueBigImage: "manchester_uni_5.jpg"
+venueSmallImage1: "uni_place.jpg"
+venueSmallImage2: "manchester_uni_6.jpg"
+venueSmallImage3: "manchester_uni_6.jpg"
+venueTitle: "The University of Manchester"
+venueFeatures: ["Oxford Road M13 9PL", "Manchester, UK"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -199,6 +203,7 @@ footerBlocks:
   links:
    - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
    - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
+   - {link: "/contact/#credits", text: "Credits & Acknowledgements"}
 #   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
  -
   title: "Contacts"
