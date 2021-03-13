@@ -114,9 +114,9 @@ eventAddressLocality: "Manchester, UK"
 #eventStartTime: "2022-06-12T09:00"
 #eventDoorTime: "09:00"
 #eventEndTime: "2022-06-16T18:00"
-eventPlaceCoordinates: "53.476596,-2.246421"
-mapCenterCoordinates: "53.476596,-2.246421"
-mapMobileCenterCoordinates: "53.476596,-2.246421"
+eventPlaceCoordinates: "53.467087200408926, -2.233132481881724"
+mapCenterCoordinates: "53.467802541942085, -2.2363725853101037"
+mapMobileCenterCoordinates: "53.467087200408926, -2.233132481881724"
 
 # Venue Block
 venueBlockTitle: "Venue"

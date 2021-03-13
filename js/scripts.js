@@ -362,7 +362,7 @@
 
             var mapOptions = {
                 zoom: 17,
-                minZoom: 2,
+                minZoom: 15,
                 scrollwheel: false,
                 panControl: false,
                 draggable: true,
@@ -383,7 +383,7 @@
                 mapOptions.center = mobileCenterMap;
             }
             if (googleMaps == 'logistics' || googleMaps == 'venue-travel') {
-                mapOptions.zoom = 5;
+                mapOptions.zoom = 24;
                 mapOptions.zoomControl = true;
             }
 
@@ -405,7 +405,7 @@
             var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
             map.mapTypes.set('default', defaultMapType);
             map.mapTypes.set('zoomed', zoomedMapType);
-            if (googleMaps === 'logistics') {
+            if (googleMaps === 'logistics' || googleMaps === 'venue-travel') {
                 map.setMapTypeId('default');
                 var input = (document.getElementById('location-input'));
                 autocomplete = new google.maps.places.Autocomplete(input);

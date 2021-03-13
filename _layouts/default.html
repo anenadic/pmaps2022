@@ -11,23 +11,7 @@ layout: compress
 <div id="preloader" class="preloader">
     <div class="loader-gplus"></div>
 </div>
-<div class="container" style="width: auto; background-color: #000000;">
-<!--    <div class="row" style="background-color: #eee;">-->
-<!--        <div class="col-md-6">-->
-<!--                <img src="../img/pmaps-logo-inverted.jpg" style="height: 45px;">-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--            <nav>-->
-<!--                <ul style="margin-top: -37px;">-->
-<!--                    <li><i class="fa fa-calendar fa-2x" aria-hidden="true"></i></li>-->
-<!--                    <li>Conference<br>12-16 June 2022</li>-->
-<!--                    <li style="padding-left: 25px;"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></li>-->
-<!--                    <li>Contact us<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>-->
-<!--                </ul>-->
-<!--        </div>-->
-<!--    </div>-->
 
-</div>
 <div id="st-container" class="st-container disable-scrolling">
     <div class="st-pusher">
         <div class="st-content">
@@ -127,20 +111,7 @@ if ($(window).width() > 767) {
             }
         }
     });
-    {% elsif page.permalink == '/venue-travel/' %}
-    var googleMaps = 'venue-travel',
-        eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
-    centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
-    mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
-    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-    {% elsif page.permalink == '/hackathon/' %}
-    if ($(window).width() > 767) {
-        var googleMaps = 'hackathon',
-            eventPlace = new google.maps.LatLng({{ site.hackathonPlaceCoordinates }}),
-        centerMap = new google.maps.LatLng({{ site.hackathonMapCenterCoordinates }}),
-        mobileCenterMap = new google.maps.LatLng({{ site.hackathonMapMobileCenterCoordinates }}),
-        icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-    {% elsif page.permalink == '/logistics/' %}
+    {% elsif page.permalink == '/logistics/' or page.permalink == '/venue-travel/' %}
     var googleMaps = 'logistics',
         eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
     centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
@@ -179,3 +150,4 @@ if ($(window).width() > 767) {
 </body>
 
 </html>
+ 
