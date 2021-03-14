@@ -117,6 +117,7 @@ eventAddressLocality: "Manchester, UK"
 eventPlaceCoordinates: "53.467087200408926, -2.233132481881724"
 mapCenterCoordinates: "53.467802541942085, -2.2363725853101037"
 mapMobileCenterCoordinates: "53.467087200408926, -2.233132481881724"
+venueMapLink: "https://www.google.co.uk/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
 
 # Venue Block
 venueBlockTitle: "Venue"
