@@ -37,7 +37,7 @@
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6 text-center">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5 style="font-size: 25px;"><a href="{{site.baseurl }}/{{ about.link }}">{{ about.title }}</a></h5>
+                        <h5 style="font-size: 22px;"><a href="{{site.baseurl }}/{{ about.link }}">{{ about.title }}</a></h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
                              height="128" width="128" alt="{{ about.title }}">
                         <p style="font-size: 90%;">{{ about.text }}</p>

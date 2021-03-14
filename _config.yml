@@ -79,7 +79,7 @@ heroButtons:
 # About Block
 aboutTitle: "Welcome!"
 aboutBlock:
- - {title: "Keynotes", image: "keynote_speaker.jpg", text: "Exciting and inspiring keynote speakers from around the world", link: "/keynote-speakers" }
+ - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world", link: "/keynote-speakers" }
  - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted selected IEEE PES Transaction papers", link: "/programme" }
  - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", link: "/programme" }
  - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience", link: "/programme" }
