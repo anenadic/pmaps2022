@@ -75,7 +75,7 @@ heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/registration", text: "Register"}
  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
- - {permalink: "/author-info/#important-dates", text: "Important dates"}
+ - {permalink: "/#important-dates", text: "Important dates"}
 
 # About Block
 aboutTitle: "Welcome!"
