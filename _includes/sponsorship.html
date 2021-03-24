@@ -4,18 +4,51 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.sponsorsTitle }}</h3>
-            <p>We will have a number of sponsorship tiers available - to be announced soon.</p>
+            <p>We will have a number of sponsorship packages available - to be announced soon.</p>
             <a href="{{ site.baseurl }}/sponsorship" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
         </div>
     </div>
     {% else %}
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left">
-            <h4>Sponsorship Tiers</h4>
-            We will have a number of sponsorship tiers available - to be announced soon.
-            <h4 id="become-sponsor">Become a Sponsor</h4>
-            If you would like to become a sponsor, please <a href="mailto:{{ site.email }}">get in touch
-            with the conference organisers</a>.
+            <h4 id="become-sponsor" style="padding-top: 20px; padding-bottom: 20px;">Become a Sponsor</h4>
+            <p class="text-left">If you would like to become a sponsor, please <a href="mailto:{{ site.email }}">get in touch
+            with the conference organisers</a>.</p>
+            <h4 id="sponsorship-packages" style="padding-top: 20px; padding-bottom: 20px;">Sponsorship Packages</h4>
+            <p class="text-left">We have a number of sponsorship packages available
+                (see the <a href="{{ site.baseurl}}/img/sponsors/PMAPS 2022_Sponsorship_Packages.pdf">packages as a pdf document</a>).</p>
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+
 <!--            <h4>Our Sponsors</h4>-->
 <!--            We gratefully acknowledge the support of our sponsors.-->
 <!--            {% for sponsor_group in site.data.sponsors %}-->
