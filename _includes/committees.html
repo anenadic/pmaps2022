@@ -1,45 +1,4 @@
 <!-- Begin Committees List-->
-<section class="team" id="committees">
-    <div class="content-wrapper" style="padding-left: 50px;">
-        <!--        <div class="col-lg-10 col-lg-offset-1">-->
-        <!--            <h3>{{ site.teamBlockTitle }}</h3>-->
-        <!--            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>-->
-        <!--        </div>-->
-        <div class="col-lg-10 col-lg-offset-1 text-left" id="steering-committee">
-            <h4 class="text-left animated hiding appear-animation-trigger"
-                data-animation="fadeInUp" data-delay="0"
-                style="text-align: left;">International Steering Committee</h4>
-            <p class="text-left">To be announced.</p>
-
-            <!--            {% for member in site.data.committees %} {% if member.team != null and member.team ==-->
-<!--            "steering-committee" %}-->
-<!--            <ul class="committee-list">-->
-<!--                <li>-->
-<!--                    {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--            {% endif %} {% endfor %}-->
-        </div>
-    </div>
-</section>
-<section style="border-top: 1px solid #e7e7e7; background-color: #FCFCFC;">
-    <div class="content-wrapper" style="padding-left: 50px;">
-        <div class="col-lg-10 col-lg-offset-1 text-left" id="advisory-committee">
-            <h4 class="text-left animated hiding appear-animation-trigger"
-                data-animation="fadeInUp" data-delay="0"
-                style="text-align: left;">International Technical Advisory Committee</h4>
-            <p class="text-left">To be announced.</p>
-<!--            {% for member in site.data.committees %} {% if member.team != null and member.team ==-->
-<!--            "advisory-committee" %}-->
-<!--            <ul class="committee-list">-->
-<!--                <li>-->
-<!--                    {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--            {% endif %} {% endfor %}-->
-        </div>
-    </div>
-</section>
 <section style="border-top: 1px solid #e7e7e7;">
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left" id="local-committee">
@@ -69,6 +28,47 @@
                 </div>
             </div>
             {% endif %} {% endfor %}
+            <p class="text-left">Local organising committee was aided by the help of <a href="{{ site.baseurl }}/credits/#volunteers">our local volunteers</a>.</p>
+        </div>
+    </div>
+</section>
+<section style="border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; background-color: #FCFCFC;">
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <!--        <div class="col-lg-10 col-lg-offset-1">-->
+        <!--            <h3>{{ site.teamBlockTitle }}</h3>-->
+        <!--            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>-->
+        <!--        </div>-->
+        <div class="col-lg-10 col-lg-offset-1 text-left" id="steering-committee">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">International Steering Committee</h4>
+<!--            <p class="text-left">To be announced.</p>-->
+            {% for member in site.data.committees %} {% if member.team != null and member.team ==
+            "steering-committee" %}
+            <ul class="committee-list">
+                <li>
+                    <p class="text-left" style="padding:0px; margin: 0px;">{{ member.name }} {{ member.surname }}, {{ member.affiliation }}</p>
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
+        </div>
+    </div>
+</section>
+<section>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div class="col-lg-10 col-lg-offset-1 text-left" id="advisory-committee">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">International Technical Advisory Committee</h4>
+            <p class="text-left">To be announced.</p>
+<!--            {% for member in site.data.committees %} {% if member.team != null and member.team ==-->
+<!--            "advisory-committee" %}-->
+<!--            <ul class="committee-list">-->
+<!--                <li>-->
+<!--                    {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            {% endif %} {% endfor %}-->
         </div>
     </div>
 </section>

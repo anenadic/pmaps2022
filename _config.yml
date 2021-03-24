@@ -204,7 +204,7 @@ footerBlocks:
   title: "Links"
   links:
    - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
-   - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
+#   - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
    - {link: "/credits/", text: "Credits & Acknowledgements"}
 #   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
  -

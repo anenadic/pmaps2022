@@ -63,9 +63,49 @@
   name: "Mrs Chris"
   surname: "Wall"
   title: "BA, MA"
-  role: "Secretary, General Manager & Time Keeper"
+  role: "Project Manager & Code of Conduct Contact"
   thumbnailUrl: "MrsChrisWall.jpg"
   team: "local-committee"
+-
+  id: 7
+  name: "Prof. Alfredo"
+  surname: "Testa"
+  title: ""
+  affiliation: "University of Campania Luigi Vanvitelli, Italy"
+  thumbnailUrl: ""
+  team: "steering-committee"
+-
+  id: 8
+  name: "Prof. Lalit"
+  surname: "Goel"
+  title: ""
+  affiliation: "Nanyang Technological University, Singapore"
+  thumbnailUrl: ""
+  team: "steering-committee"
+-
+  id: 9
+  name: "Prof. Wenyuan"
+  surname: "Li"
+  title: ""
+  affiliation: "Chongqing University, China"
+  thumbnailUrl: ""
+  team: "steering-committee"
+-
+  id: 10
+  name: "Prof, Louis"
+  surname: "Wehenkel"
+  title: ""
+  affiliation: "University of Liege, Belgium"
+  thumbnailUrl: ""
+  team: "steering-committee"
+-
+  id: 11
+  name: "Prof. Milorad"
+  surname: "Papic"
+  title: ""
+  affiliation: "Idaho Power Boise, Canada"
+  thumbnailUrl: ""
+  team: "steering-committee"
 #-
 #  id: 6
 #  name: "Alessandra"
@@ -105,22 +145,6 @@
 #    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
 #    - {name: "twitter", link: "https://twitter.com/p1f"}
 #    - {name: "site", link: "http://andrusiv.com/"}
--
-  id: 9
-  name: "Person"
-  surname: "1"
-  title: "BSc, MSc, PhD, SMIEE"
-  role: "International Steering Committee Chair"
-  thumbnailUrl: ""
-  team: "steering-committee"
--
-  id: 10
-  name: "Person"
-  surname: "2"
-  title: "BSc, MSc, PhD, SMIEE"
-  role: "Some Role"
-  thumbnailUrl: ValentynShybanov.jpg
-  team: "steering-committee"
 -
   id: 11
   name: "Person"
