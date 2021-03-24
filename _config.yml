@@ -109,33 +109,40 @@ rockstarSpeakersTitle: "Keynote speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
-locationBlockTitle: "Venue"
-eventLocationName: "The University of Manchester"
-eventLocationLink: "https://www.manchester.ac.uk"
-eventStreetAddress: "Oxford Road, M13 9PL"
-eventAddressLocality: "Manchester, UK"
-#eventAddressLocalityRegion: "Lvivska"
-#eventAddressCountry: "UK"
-#eventStartTime: "2022-06-12T09:00"
-#eventDoorTime: "09:00"
-#eventEndTime: "2022-06-16T18:00"
-eventPlaceCoordinates: "53.467087200408926, -2.233132481881724"
-mapCenterCoordinates: "53.467802541942085, -2.2363725853101037"
-mapMobileCenterCoordinates: "53.467087200408926, -2.233132481881724"
-venueMapLink: "https://www.google.co.uk/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
+#locationBlockTitle: "Venue"
+#eventLocationName: "Pendulum Hotel & Manchester Conference Centre"
+#eventLocationMapLink: "https://www.google.com/maps/place/Pendulum+Hotel/@53.4740504,-2.2369738,17z/data=!3m1!5s0x487bb194f254906d:0x26868dfeb833061e!4m11!1m2!2m1!1sPendulum+Hotel+%26+Manchester+Conference+Centre+Sackville+Street,+M1+3BB+Manchester,+UK!3m7!1s0x487bb194feaccd21:0xb5bb81381f474de7!5m2!4m1!1i2!8m2!3d53.4740639!4d-2.2348167"
+#eventStreetAddress: "Sackville Street, M1 3BB"
+#eventAddressLocality: "Manchester, UK"
+##eventAddressLocalityRegion: "Lvivska"
+##eventAddressCountry: "UK"
+##eventStartTime: "2022-06-12T09:00"
+##eventDoorTime: "09:00"
+##eventEndTime: "2022-06-16T18:00"
+#eventPlaceCoordinates: "53.47423235193986, -2.234811963329779"
+#mapCenterCoordinates: "53.47423235193986, -2.234811963329779"
+#mapMobileCenterCoordinates: "53.47423235193986, -2.234811963329779"
+#eventLocationEmbeddedMapLink: "https://www.google.co.uk/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
 
 # Venue Block
-venueBlockTitle: "Venue"
+#venueBlockTitle: "Venue"
 #venueBigImage: "venue_0.jpg"
 #venueSmallImage1: "venue_1.jpg"
 #venueSmallImage2: "venue_2.jpg"
 #venueSmallImage3: "venue_3.jpg"
 venueBigImage: "manchester_uni_5.jpg"
-venueSmallImage1: "uni_place.jpg"
+venueSmallImage1: "pendulum.jpg"
 venueSmallImage2: "manchester_uni_6.jpg"
 venueSmallImage3: "manchester_uni_6.jpg"
-venueTitle: "The University of Manchester"
-venueFeatures: ["Oxford Road M13 9PL", "Manchester, UK"]
+venueTitle: "Pendulum Hotel & Manchester Conference Centre"
+venueStreetAddress: "Sackville Street, M1 3BB"
+venueLocality: "Manchester, UK"
+#venueFeatures: ["Sackville Street", "M1 3BB Manchester, UK"]
+venueLink: "https://www.pendulumhotel.co.uk/"
+venueCoordinates: "53.47423235193986, -2.234811963329779"
+venueMapCenterCoordinates: "53.47423235193986, -2.234811963329779"
+venueEmbeddedMapLink: "https://www.google.com/maps/d/u/0/edit?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
+venueMapLink: "https://www.google.com/maps/place/Pendulum+Hotel/@53.4740504,-2.2369738,17z/data=!3m1!5s0x487bb194f254906d:0x26868dfeb833061e!4m11!1m2!2m1!1sPendulum+Hotel+%26+Manchester+Conference+Centre+Sackville+Street,+M1+3BB+Manchester,+UK!3m7!1s0x487bb194feaccd21:0xb5bb81381f474de7!5m2!4m1!1i2!8m2!3d53.4740639!4d-2.2348167"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -250,9 +257,9 @@ logisticsMapAutoDirections: false
 directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Getting Around Manchester"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/">airport website</a>.'}
- - {title: "Public Transit", information: 'It is easy to navigate Manchester city centre via public transport.'}
- - {title: "Hotels", information: 'Manchester has lots of great hotels. More information will be available later.'}
+ - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/" target="_blank">airport website</a>.'}
+ - {title: "Public Transport", information: 'It is easy to navigate Manchester city centre via <a href="https://tfgm.com/public-transport" target="_blank">public transport</a>.'}
+ - {title: "Hotels", information: 'Manchester has lots of great hotels. More information will be available soon.'}
 directionDetailsWideCards:
  -
   title: "Info"

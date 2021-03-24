@@ -2,27 +2,85 @@
 <section id="about-manchester" class="team">
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left">
-            <h3>About Manchester</h3>
+            <h4 style="text-align: left">About Manchester</h4>
             <p>
-                There is a lot of <a href="https://www.visitmanchester.com/things-to-see-and-do" target="_blank">things to see and do</a> in Manchester that’ll keep you busy from the moment you arrive until the moment you leave. It’s easily one of the most fun cities to visit in England. You should also check the <a href="https://www.visitmanchester.com/visitor-information" target="_blank">Visitor Centre</a> located in the city centre for a great source of information.
+                Ian Brown, the lead singer of the highly influential band the Stone Roses, famously said that Manchester
+                had everything except a beach. Although perhaps lacking in sand and sea, Manchester has become known the
+                world over as an incredibly vibrant city, and one able to offer something for everyone. Manchester is
+                the perfect balance of a city steeped in tradition, and at the same time incredibly forward thinking. It
+                is world renowned for its sport and entertainment and is at the forefront of British economic and
+                industrial development.
+                Manchester is a lively cosmopolitan city in the northwest of England with a population of nearly 3
+                million and it has an extensive motorway and rail network. It is situated 200 miles north of London and
+                120 miles south of the Scottish border.
+                It has an international airport that serves over 200 cities worldwide. The airport is connected to the
+                city by frequent rail and tram services and it takes just 20 minutes to be in the centre of the city.
+                The city offers an enviable mix of multicultural attractions. There is something for everyone: theatres;
+                restaurants to suit all tastes; music venues for classical through to pop music; sporting events; pubs
+                and clubs. Within comfortable driving distance there is beautiful surrounding countryside including
+                national parks such as the Peak District, the Lake District, the Yorkshire Dales and Snowdonia.</p>
+            <p>
+                There is a lot of <a href="https://www.visitmanchester.com/things-to-see-and-do" target="_blank">things
+                to see and do</a> in Manchester that’ll keep you busy from the moment you arrive until the moment you
+                leave. It’s easily one of the most fun cities to visit in England. You should also check the <a
+                    href="https://www.visitmanchester.com/visitor-information" target="_blank">Visitor Centre</a>
+                located in the city centre for a great source of information.
             </p>
+            <h5 style="text-align: left">Culture in Manchester</h5>
+            <p>Manchester is a city with a rich social life and there are various cultural activities which can be
+                enjoyed in Manchester and the surrounding areas. There is a thriving and vibrant restaurant and bar
+                scene and something to do every night.
+                There are numerous theatres to enjoy and cultural venues such as Home, a cinema and restaurant complex
+                in the heart of Manchester. If you want to sample some more independent bars and restaurants you could
+                head to the Northern Quarter or for a different style of evening, Spinningfields is the place to sample
+                some of the finest restaurants that Manchester has to offer.
+                For a more subdued evening or for a quiet drink or bite to eat, there are some really great venues in
+                the city. The newly refurbished Palace Hotel is a stunning venue and is close to the conference venue on
+                Oxford Road. The Central Library is an architectural beauty as well as a quiet space to work, talk,
+                think and drink a coffee. Just across the road from the Library, there is The Midland Hotel, one of the
+                nicest buildings in Manchester, which has a coffee lounge and a world class restaurant. All of these are
+                within 10 minutes walking distance from the main conference venue. </p>
+            <h5 style="text-align: left">Shopping in Manchester</h5>
+            <p>Manchester is one of the most popular destinations for shopping. Visitors travel from all over the world to
+            shop in Manchester. Shopping centres such as Manchester Arndale and intu Trafford Centre, as well as high
+            street destinations such as Exchange Square and Market Street, offer an unrivalled selection of
+            international brands combined with the best of British at department stores.
+            The Trafford Centre has been a destination for shoppers across the North West since it opened in 1998. Its
+            sheer range of shops and quirky classical-style architecture appear to be a hit with visitors.
+            Altrincham Market is another great place for visitors with a market house that has been transformed into a
+            gastro-hub. The market itself sells traditional fare during the week as well as unique crafts and products
+            on Sundays, with a schedule of different themes.
+            For that extra special something, visit boutique districts around King Street, Spinningfields and New
+            Cathedral Street and browse their designer shops. Or, if one-off independents and handmade is more your
+            thing, Manchester's alternative and creative heart, The Northern Quarter, is home to countless vintage
+            stores, record shops, cafés, bars and restaurants.
+            For a shopping outlet with fantastic deals and a range of designer brands, Cheshire Oaks Designer Outlet has
+                a quarter-million square feet of retail space, comprising of more than 145 boutiques.</p>
+            <h5 style="text-align: left">Visiting Manchester with a family</h5>
             <p>
-                Manchester is a major city in the northwest of England with a rich industrial heritage. The Castlefield conservation area’s 18th-century canal system recalls the city’s days as a textile powerhouse, and visitors can trace this history at the interactive Museum of Science & Industry. The revitalised Salford Quays dockyards now house the Daniel Libeskind-designed Imperial War Museum North and the Lowry cultural centre. From immersing yourself into the beautiful game and going on a tour of the Manchester United or Manchester City football stadiums, to visiting the hip Northern Quarter part of the city centre to going on a coffee/beer/chocolate crawl through the city's famous coffee and treat shops and pubs  - there is something for everyone.
+                If you are coming with your family or partner then there are some great museums in and around Manchester
+                and some stunning parks just outside the city centre, all accessible by bus, tram or train. Popular
+                museums include the Science and Industry Museum, Manchester Town Hall, Manchester Museum, Manchester Art
+                Gallery, National Football Museum, Imperial War Museum North, The Lowry Theatre and Whitworth Art
+                Gallery, offering a variety of outstanding family activities. Manchester is a truly family-friendly city
+                with all the facilities and amenities to enjoy a nice day out with your family.
             </p>
         </div>
     </div>
 </section>
-<section id="local-info" class="direction-details">
+<section id="local-info" class="direction-details" style="color: #000000; background-color: #FCFCFC; border-bottom: 1px solid #e7e7e7; border-top: 1px solid #e7e7e7;">
     <div class="content-wrapper">
-        <section id="venue" class="image-section standart-height" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
-            <h3>{{ site.directionDetailsTitle }}</h3>
+        <section id="venue" class="image-section standart-height"
+                 style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
+            <h4>{{ site.directionDetailsTitle }}</h4>
         </section>
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-left">
                 {% assign animationDelay = 0 %}
                 {% for card in site.directionDetailsCards %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                <div class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding" data-animation="fadeInDown"
+                     data-delay="{{ animationDelay }}">
                     <div class="card">
                         <h4>{{ card.title }}</h4>
                         <p>{{ card.information }}</p>
@@ -30,24 +88,27 @@
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
                 {% endfor %}
-                {% for wideCard in site.directionDetailsWideCards %}
-                <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">
-                    <div class="card questions">
-                        <h4>{{ wideCard.title }}</h4>
-                        {% for subCard in wideCard.subCards %}
-                        {% assign wideCardColWidth = 12 | divided_by: forloop.length %}
-                        <div class="col-md-{{ wideCardColWidth }} col-xs-12">
-                            <h5>{{ subCard.title }}</h5>
-                            <ul>
-                                {% for linkElement in subCard.links %}
-                                <li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-                {% endfor %}
+<!--                {% for wideCard in site.directionDetailsWideCards %}-->
+<!--                <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">-->
+<!--                    <div class="card questions">-->
+<!--                        <h4>{{ wideCard.title }}</h4>-->
+<!--                        {% for subCard in wideCard.subCards %}-->
+<!--                        {% assign wideCardColWidth = 12 | divided_by: forloop.length %}-->
+<!--                        <div class="col-md-{{ wideCardColWidth }} col-xs-12">-->
+<!--                            <h5>{{ subCard.title }}</h5>-->
+<!--                            <ul>-->
+<!--                                {% for linkElement in subCard.links %}-->
+<!--                                <li>-->
+<!--                                    <a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}"-->
+<!--                                       {% if linkElement.link !=null %}target="_blank" {% endif %}>{{ linkElement.text-->
+<!--                                        }}</a></li>-->
+<!--                                {% endfor %}-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        {% endfor %}-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                {% endfor %}-->
             </div>
         </div>
     </div>

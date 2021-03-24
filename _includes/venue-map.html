@@ -1,14 +1,27 @@
 <!-- Begin Venue Location Section -->
+<section id="venue" class="team">
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4 style="text-align: left;">Venue: Pendulum Hotel & Manchester Conference Centre</h4>
+            <p class="text-left">Conference will be held at the
+                <a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a>, {{ site.venueAddress }}, {{ site.venueLocality }}
+                (see <a href="{{ site.venueMapLink }}" target="_blank">location on Google map</a>).
+                This is a purpose built conference venue near the historical heart of the University, within easy reach of Manchester Piccadilly and Oxford Road train stations
+                and only a short stroll from Manchester city centre.
+            </p>
+        </div>
+    </div>
+</section>
 <section id="venue-map" style="padding: 0px;">
     <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
-    <iframe src="{{ site.venueMapLink }}" width="100%" height="700px"></iframe>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK" width="100%" height="700px"></iframe>
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0" style="font-weight: 300; margin-top: -450px; background-color: #ffffff; padding: 10px 30px 10px 30px;">
-                <h3>{{ site.locationBlockTitle }}</h3>
+                <h5>Venue</h5>
                 <ul>
-                    {% if site.eventLocationName %}<li><a href="https://www.google.com/maps/place/The+University+of+Manchester/@53.4668498,-2.2360777,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x487bb18e8861a121:0x7cb93350c67efb3c!2sThe+University+of+Manchester!8m2!3d53.4668498!4d-2.2338837!3m4!1s0x487bb18e8861a121:0x7cb93350c67efb3c!8m2!3d53.4668498!4d-2.2338837" target="_blank">{{ site.eventLocationName }}</a></li>{% endif %}
-                    <li>{{ site.eventStreetAddress }}</li>
-                    <li>{{ site.eventAddressLocality }}</li>
+                    <li><a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a></li>
+                    <li>{{ site.venueStreetAddress }}</li>
+                    <li>{{ site.venueLocality }}</li>
                 </ul>
         </div>
     </div>
