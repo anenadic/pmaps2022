@@ -1,6 +1,36 @@
-<!-- Begin Local Info Details-->
-<section id="about-manchester" class="team">
+<!-- Begin Venue Location Section -->
+<section id="venue" class="team">
     <div class="content-wrapper" style="padding-left: 50px;">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4 style="text-align: left;">Venue: Pendulum Hotel & Manchester Conference Centre</h4>
+            <p class="text-left">Conference will be held at the
+                <a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a>, {{ site.venueAddress }}, {{
+                site.venueLocality }}
+                (see <a href="{{ site.venueMapLink }}" target="_blank">location on Google map</a>).
+                This is a purpose built conference venue near the historical heart of the University, within easy reach
+                of Manchester Piccadilly and Oxford Road train stations
+                and only a short stroll from Manchester city centre.
+            </p>
+        </div>
+    </div>
+    <div id="venue-map" class="col-lg-10 col-lg-offset-1 text-center" style="padding-left: 50px;">
+        <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK" width="100%"
+                height="700px"></iframe>
+        <div class="content-wrapper" style="padding-left: 50px;">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left"
+                 data-animation="fadeInLeft" data-delay="0"
+                 style="font-weight: 300; margin-top: -450px; background-color: #ffffff; padding: 10px 30px 10px 30px;">
+                <h5>Venue</h5>
+                <ul>
+                    <li><a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a></li>
+                    <li>{{ site.venueStreetAddress }}</li>
+                    <li>{{ site.venueLocality }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="manchester" class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left">
             <h4 style="text-align: left">About Manchester</h4>
             <p>
@@ -41,20 +71,26 @@
                 nicest buildings in Manchester, which has a coffee lounge and a world class restaurant. All of these are
                 within 10 minutes walking distance from the main conference venue. </p>
             <h5 style="text-align: left">Shopping in Manchester</h5>
-            <p>Manchester is one of the most popular destinations for shopping. Visitors travel from all over the world to
-            shop in Manchester. Shopping centres such as Manchester Arndale and intu Trafford Centre, as well as high
-            street destinations such as Exchange Square and Market Street, offer an unrivalled selection of
-            international brands combined with the best of British at department stores.
-            The Trafford Centre has been a destination for shoppers across the North West since it opened in 1998. Its
-            sheer range of shops and quirky classical-style architecture appear to be a hit with visitors.
-            Altrincham Market is another great place for visitors with a market house that has been transformed into a
-            gastro-hub. The market itself sells traditional fare during the week as well as unique crafts and products
-            on Sundays, with a schedule of different themes.
-            For that extra special something, visit boutique districts around King Street, Spinningfields and New
-            Cathedral Street and browse their designer shops. Or, if one-off independents and handmade is more your
-            thing, Manchester's alternative and creative heart, The Northern Quarter, is home to countless vintage
-            stores, record shops, cafés, bars and restaurants.
-            For a shopping outlet with fantastic deals and a range of designer brands, Cheshire Oaks Designer Outlet has
+            <p>Manchester is one of the most popular destinations for shopping. Visitors travel from all over the world
+                to
+                shop in Manchester. Shopping centres such as Manchester Arndale and intu Trafford Centre, as well as
+                high
+                street destinations such as Exchange Square and Market Street, offer an unrivalled selection of
+                international brands combined with the best of British at department stores.
+                The Trafford Centre has been a destination for shoppers across the North West since it opened in 1998.
+                Its
+                sheer range of shops and quirky classical-style architecture appear to be a hit with visitors.
+                Altrincham Market is another great place for visitors with a market house that has been transformed into
+                a
+                gastro-hub. The market itself sells traditional fare during the week as well as unique crafts and
+                products
+                on Sundays, with a schedule of different themes.
+                For that extra special something, visit boutique districts around King Street, Spinningfields and New
+                Cathedral Street and browse their designer shops. Or, if one-off independents and handmade is more your
+                thing, Manchester's alternative and creative heart, The Northern Quarter, is home to countless vintage
+                stores, record shops, cafés, bars and restaurants.
+                For a shopping outlet with fantastic deals and a range of designer brands, Cheshire Oaks Designer Outlet
+                has
                 a quarter-million square feet of retail space, comprising of more than 145 boutiques.</p>
             <h5 style="text-align: left">Visiting Manchester with a family</h5>
             <p>
@@ -70,9 +106,9 @@
 </section>
 <section id="local-info" class="direction-details" style="color: #000000; background-color: #FCFCFC; border-bottom: 1px solid #e7e7e7; border-top: 1px solid #e7e7e7;">
     <div class="content-wrapper">
-        <section id="venue" class="image-section standart-height"
+        <section class="image-section standart-height"
                  style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
-            <h4>{{ site.directionDetailsTitle }}</h4>
+            <h3>{{ site.directionDetailsTitle }}</h3>
         </section>
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-left">
@@ -88,29 +124,29 @@
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
                 {% endfor %}
-<!--                {% for wideCard in site.directionDetailsWideCards %}-->
-<!--                <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">-->
-<!--                    <div class="card questions">-->
-<!--                        <h4>{{ wideCard.title }}</h4>-->
-<!--                        {% for subCard in wideCard.subCards %}-->
-<!--                        {% assign wideCardColWidth = 12 | divided_by: forloop.length %}-->
-<!--                        <div class="col-md-{{ wideCardColWidth }} col-xs-12">-->
-<!--                            <h5>{{ subCard.title }}</h5>-->
-<!--                            <ul>-->
-<!--                                {% for linkElement in subCard.links %}-->
-<!--                                <li>-->
-<!--                                    <a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}"-->
-<!--                                       {% if linkElement.link !=null %}target="_blank" {% endif %}>{{ linkElement.text-->
-<!--                                        }}</a></li>-->
-<!--                                {% endfor %}-->
-<!--                            </ul>-->
-<!--                        </div>-->
-<!--                        {% endfor %}-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                {% endfor %}-->
+                <!--                {% for wideCard in site.directionDetailsWideCards %}-->
+                <!--                <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">-->
+                <!--                    <div class="card questions">-->
+                <!--                        <h4>{{ wideCard.title }}</h4>-->
+                <!--                        {% for subCard in wideCard.subCards %}-->
+                <!--                        {% assign wideCardColWidth = 12 | divided_by: forloop.length %}-->
+                <!--                        <div class="col-md-{{ wideCardColWidth }} col-xs-12">-->
+                <!--                            <h5>{{ subCard.title }}</h5>-->
+                <!--                            <ul>-->
+                <!--                                {% for linkElement in subCard.links %}-->
+                <!--                                <li>-->
+                <!--                                    <a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}"-->
+                <!--                                       {% if linkElement.link !=null %}target="_blank" {% endif %}>{{ linkElement.text-->
+                <!--                                        }}</a></li>-->
+                <!--                                {% endfor %}-->
+                <!--                            </ul>-->
+                <!--                        </div>-->
+                <!--                        {% endfor %}-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                {% endfor %}-->
             </div>
         </div>
     </div>
 </section>
-<!-- End Local Info Details -->
+<!-- End Venue Location Section -->
