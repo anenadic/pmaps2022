@@ -193,12 +193,12 @@
                 </tr>
                 </tbody>
             </table>
-            <h4 style="padding-top: 20px; padding-bottom: 20px;">Individual Items and Events</h4>
+            <h4 style="padding-top: 20px; padding-bottom: 20px;">Individual Sponsorship Items</h4>
             <p>Exhibition space 2x2 m<sup>2</sup> - 9 opportunities available @ £2,000</p>
             <p>Exhibition space 3x3 m<sup>2</sup> - 4 opportunities available @ £3,000</p>
             <p>Welcome reception support, with banners and welcome speech - 1 opportunity available @ £3,000</p>
             <p>Gala dinner support, with banners and speech - 1 opportunity available @ £5,000</p>
-            <p> Lunch support, with banners - 4 opportunities available @ £2,000</p>
+            <p>Lunch support, with banners - 4 opportunities available @ £2,000</p>
             <p>Coffee break support, with banners - 7 opportunities available @ £1,000</p>
             <p>Poster session support with logo on each board - 6 opportunities available @ £1,000</p>
             <p>Online advertising: </p>
@@ -209,21 +209,23 @@
             </ul>
             <h4 style="padding-top: 20px; padding-bottom: 20px;">Our Sponsors</h4>
             <p class="text-left">We gratefully acknowledge the support of our sponsors.</p>
-<!--            {% for sponsor_group in site.data.sponsors %}-->
-<!--            <h5>{{ sponsor_group.group }}</h5>-->
-<!--            <ul class="list-inline">-->
-<!--                {% for sponsor in sponsor_group.elements %}-->
-<!--                <li {% if sponsor.width != null %}style="width: {{ sponsor.width }};"{% endif %}>-->
-<!--                    <a href="{{ sponsor.link }}" target="_blank">-->
-<!--                        <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">-->
-<!--                        <div>{{ sponsor.name }}</div>-->
-<!--                    </a>-->
-<!--                </li>-->
-<!--                {% endfor %}-->
-<!--            </ul>-->
-<!--            {% endfor %}-->
-            <h5 style="padding-top: 20px; padding-bottom: 20px;">Technical Sponsor</h5>
-            <p>IEEE PES</p>
+            {% for sponsor_group in site.data.sponsors %}
+            <h5>{{ sponsor_group.group }}</h5>
+            <ul class="list-inline">
+                {% if sponsor_group.elements.size > 0 %}
+                {% for sponsor in sponsor_group.elements %}
+                <li {% if sponsor.width != null %}style="width: {{ sponsor.width }};"{% endif %}>
+                    <a href="{{ sponsor.link }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">
+                        <p>{{ sponsor.name }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+                {% else %}
+                <p>To be announced.</p>
+                {% endif%}
+            </ul>
+            {% endfor %}
         </div>
     </div>
     {% endif %}
