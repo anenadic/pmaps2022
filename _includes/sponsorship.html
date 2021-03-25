@@ -5,7 +5,7 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.sponsorsTitle }}</h3>
-            <p>See <a href="{{ site.baseurl }}/sponsorship">who is supporting us</a>.
+            <p>See <a href="{{ site.baseurl }}/sponsorship/#our-sponsors">who is supporting us</a>.
                 We have a number of <a href="{{ site.baseurl }}/sponsorship/#sponsorship-packages">sponsorship packages</a> available.
             </p>
             <a href="{{ site.baseurl }}/sponsorship/#become-sponsor" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
@@ -209,7 +209,7 @@
                 <li>Six months £1,500</li>
                 <li>Nine months £3,000</li>
             </ul>
-            <h4 style="padding-top: 20px; padding-bottom: 20px;">Our Sponsors</h4>
+            <h4 id="our-sponsors" style="padding-top: 20px; padding-bottom: 20px;">Our Sponsors</h4>
             <p class="text-left">We gratefully acknowledge the support of our sponsors.</p>
             {% for sponsor_group in site.data.sponsors %}
             <h5>{{ sponsor_group.group }}</h5>
