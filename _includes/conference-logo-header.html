@@ -39,6 +39,7 @@
                 <a href="{{ site.baseurl }}/committees/#local-committee">Organising Committee</a>
             </p>
         </div>
+        {% if site.twitterAccount != null %}
         <div class="conference-top-nav-list">
             <a href="https://twitter.com/intent/user?screen_name={{ site.twitterAccount }}" target="_blank">
                 <svg class="icon icon-twitter pull-right" viewBox="0 0 30 32">
@@ -46,5 +47,6 @@
                 </svg>
             </a>
         </div>
+        {% endif %}
     </div>
 </div>
