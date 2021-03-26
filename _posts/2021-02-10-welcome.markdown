@@ -2,22 +2,22 @@
 layout: post-comments-off
 title:  "Welcome to PMAPS 2022"
 date:   2021-02-10 08:00:00
-isStaticPost: false
+isStaticPost: true
 ---
 
-We're very excited to announce that PMAPS 2022 conference website is now live and are welcoming you on behalf of the
+We're very excited to announce that the PMAPS 2022 conference website is now live and are welcoming you on behalf of the
 conference organisers - the Electrical Energy and Power Systems Group at 
 the <a target="_blank" href="http://www.eee.manchester.ac.uk/">Department of Electrical
 and Electronic Engineering</a> of the <a target="_blank" href="http:/www.manchester.ac.uk/">University of Manchester</a>, UK.
 
-This year the conference will take place in <a href="{{ site.baseurl }}/venue-travel#about-manchester">Manchester</a> - a major city in the northwest of England with a 
-rich industrial heritage.
+This year the [conference will take place]({{ site.baseurl }}/venue-travel) in <a href="{{ site.baseurl }}/venue-travel#manchester">Manchester</a> - a major city in the northwest of England with a rich industrial heritage.
 
-So should you also be excited? Well yes... and here's why!
+So should you also be excited? Well, yes ... and here's why!
+<ul style="font-weight: normal;">
+<li><strong>Attendance</strong>: We're expecting 200+ attendees</li>
+<li><strong>Topics:</strong> 4 days of keynote speeches, presentations, posters, tutorials, special sessions and networking</li>
+<li><strong>Venue:</strong> Manchester Conference Centre & Pendulum Hotel - right in the heart of the city centre and University of Manchester's North Campus</li>
+<li><strong>Speakers:</strong> We will have exciting and inspiring keynote speakers from around the world</li>
+</ul>
 
-* **Date**: 12-15 June 2021
-* **Attendance**: We're expecting 200+ attendees over 4 days
-* **Topic**: 4 days of keynote speeches, presentations, posters, tutorials and networking
-* **Venue**: Manchester Central Convention Complex - commonly known as Manchester Central or GMEX is an exhibition and 
-conference centre converted from the former Manchester Central railway station
-* **Speakers**: We're in the process of finalising the list of speakers
+Check <a href="{{ site.baseurl }}/#important-dates">important dates</a>!
