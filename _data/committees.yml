@@ -53,7 +53,7 @@
   name: "Dr Jelena"
   surname: "Ponoćko"
   title: "BSc, MSc, PhD, MIEEE"
-  role: "Coordinator of Volunteers, Women in Power, Young Professionals and Student Activities"
+  role: "Coordinator of Women in Power, Volunteers, Young Professionals & Student Activities"
   thumbnailUrl: "DrJelenaPonocko.jpg"
   team: "local-committee"
   social:
@@ -63,9 +63,11 @@
   name: "Mrs Chris"
   surname: "Wall"
   title: "BA, MA"
-  role: "Project Manager & Code of Conduct Contact"
+  role: "Project Manager, Code of Conduct & General Contact"
   thumbnailUrl: "MrsChrisWall.jpg"
   team: "local-committee"
+  social:
+    - {name: "email", link: "mailto:chris.wall@manchester.ac.uk"}
 -
   id: 7
   name: "Prof. Alfredo"
@@ -92,7 +94,7 @@
   team: "steering-committee"
 -
   id: 10
-  name: "Prof, Louis"
+  name: "Prof. Louis"
   surname: "Wehenkel"
   title: ""
   affiliation: "University of Liege, Belgium"
@@ -145,11 +147,11 @@
 #    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
 #    - {name: "twitter", link: "https://twitter.com/p1f"}
 #    - {name: "site", link: "http://andrusiv.com/"}
--
-  id: 11
-  name: "Person"
-  surname: "3"
-  title: "BSc, MSc, PhD, SMIEE"
-  role: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
-  team: "advisory-committee"
+#-
+#  id: 11
+#  name: "Person"
+#  surname: "3"
+#  title: "BSc, MSc, PhD, SMIEE"
+#  role: "Web and Cloud Program Committee"
+#  thumbnailUrl: ValentynShybanov.jpg
+#  team: "advisory-committee"
