@@ -32,6 +32,30 @@
   li a.current{
     color: #CFCFCF;
   }
+
+  .dropdown-item{
+    color: #212529 !important;
+  }
+
+  .btn-secondary{
+    background-color: transparent !important;
+    text-transform: capitalize !important;
+    padding: 0px !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .btn-secondary:hover{
+    color: #B6A6BF !important;
+    border-color: #6B2C91 !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .btn-secondary:active{
+    border-color: transparent !important;
+    color: #B6A6BF !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
 }
 
 .conference-logo {

@@ -1,6 +1,6 @@
 # Plugins
 plugins:
-- jekyll-sitemap
+  - jekyll-sitemap
 safe: false
 
 # Build Settings
@@ -12,13 +12,13 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "PMAPS 2022"
 email: "chris.wall@manchester.ac.uk"
-description: "PMAPS CONFERENCE COVERS ALL ASPECTS OF PROBABILISTIC AND STATISTICAL MODELLING OF POWER SYSTEMS"
+description: "PMAPS 2022 CONFERENCE COVERS ALL ASPECTS OF PROBABILISTIC AND STATISTICAL MODELLING OF POWER SYSTEMS"
 #baseurl: "/zeppelin"
-#url: "https://gdg-x.github.io"
-permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+url: "https://pmaps2022.org"
+#permalink: "/blog/:title"
+#googleAnalyticsTrackingId: "UA-43643469-5"
+#googleAnalyticsSiteUrl: "gdg-x.github.io"
+#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "Electrical Energy and Power Systems Group, University of Manchester"
@@ -29,29 +29,34 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.eee.manchester.ac.uk/research/themes/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+metaKeywords: "event, conference, pmaps, power systems, engineering"
 #twitterAccount: "pmaps2022"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/about-pmaps/", text: "About PMAPS"}
- - {permalink: "/registration/", text: "Registration"}
- - {permalink: "/author-info/", text: "Author Info"}
- - {permalink: "/venue-travel/", text: "Venue & Travel"}
- - {permalink: "/committees/", text: "Committees"}
- - {permalink: "/programme/", text: "Programme"}
- - {permalink: "/sponsorship/", text: "Sponsorship"}
- - {permalink: "/news/", text: "News"}
- - {permalink: "/contact/", text: "Contact"}
+  - {permalink: "/", text: "Home"}
+  - {permalink: "/about-pmaps/", text: "About PMAPS"}
+  - {permalink: "/registration/", text: "Registration"}
+  - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important dates", url: "/author-info/#important-dates"},
+                                                              {text: "Call for papers", url: "/author-info/#call-for-papers"},
+                                                              {text: "Info for authors", url: "/author-info/#info-authors"},
+                                                              {text: "Info for presenters", url: "/author-info/#info-presenters"}]}
+  - {permalink: "/venue-travel/", text: "Venue & Travel"}
+  - {permalink: "/committees/", text: "Committees"}
+  - {permalink: "/programme/", text: "Programme"}
+  - {permalink: "/sponsorship/", text: "Sponsorship", links: [{text: "Become sponsor", url: "/sponsorship/#become-sponsor"},
+                                                              {text: "Sponsorship packages", url: "/sponsorship/#sponsorship-packages"},
+                                                              {text: "Our sponsors", url: "/sponsorship/#our-sponsors"}]}
+  - {permalink: "/news/", text: "News"}
+  - {permalink: "/contact/", text: "Contact"}
 # - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/authors/", text: "Authors"}
@@ -67,33 +72,33 @@ rightNavigationButtons:
 
 # Hero Block
 #heroImage: "manchester.jpg"
-heroTitle: "PMAPS 2020, Manchester, UK"
+heroTitle: "PMAPS 2022, Manchester, UK"
 eventDate: "12-15 June 2022"
 #typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 #typeoutFallback: "Season"
 heroButtons:
-# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/registration", text: "Register"}
- - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
- - {permalink: "/#important-dates", text: "Important dates"}
+  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+  - {permalink: "/registration", text: "Register"}
+  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+  - {permalink: "/#important-dates", text: "Important dates"}
 
 # About Block
 aboutTitle: "Welcome!"
 aboutBlock:
- - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world", permalink: "keynote-speakers" }
- - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted selected IEEE PES Transaction papers", permalink: "programme" }
- - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", permalink: "programme" }
- - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience", permalink: "programme" }
- - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate", permalink: "programme" }
+  - {title: "Keynotes", image: "conference.jpg", text: "Exciting and inspiring keynote speakers from around the world", permalink: "keynote-speakers" }
+  - {title: "Presentations", image: "presentations.jpg", text: "Including recently accepted selected IEEE PES Transaction papers", permalink: "programme" }
+  - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", permalink: "programme" }
+  - {title: "Tutorials", image: "classroom.jpg", text: "Tutorials - training and hands-on experience", permalink: "programme" }
+  - {title: "Special Sessions", image: "panel.jpg", text: "A number of special sessions - come and collaborate", permalink: "programme" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
- - {count: "", specialCharacter: "", info: "Call for submissions opens", date: "15 September 2021"}
- - {count: "", specialCharacter: "", info: "Call for submissions closes", date: "15 December 2021"}
- - {count: "", specialCharacter: "", info: "Notifications to authors", date: "15 March 2022"}
- - {count: "", specialCharacter: "", info: "Final manuscript versions", date: "15 April 2022"}
+  - {count: "", specialCharacter: "", info: "Call for submissions opens", date: "15 September 2021"}
+  - {count: "", specialCharacter: "", info: "Call for submissions closes", date: "15 December 2021"}
+  - {count: "", specialCharacter: "", info: "Notifications to authors", date: "15 March 2022"}
+  - {count: "", specialCharacter: "", info: "Final manuscript versions", date: "15 April 2022"}
 # - {count: "500", specialCharacter: "+", info: "attendees", detail: "from around the world"}
 # - {count: "5", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
 # - {count: "20", specialCharacter: "+", info: "speakers", detail: "experts in ..."}
@@ -126,10 +131,6 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Venue Block
 #venueBlockTitle: "Venue"
-#venueBigImage: "venue_0.jpg"
-#venueSmallImage1: "venue_1.jpg"
-#venueSmallImage2: "venue_2.jpg"
-#venueSmallImage3: "venue_3.jpg"
 venueBigImage: "manchester_uni_5.jpg"
 venueSmallImage1: "pendulum.jpg"
 venueSmallImage2: "manchester_uni_6.jpg"
@@ -166,126 +167,115 @@ subscribeInfo: "Registration will be open around end of August. Number of ticket
 ticketsTitle: "Pricetable"
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
- -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
- -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+  - name: "Early Bird"
+    price: "350"
+    priceCurrency: "UAH"
+    ticketsNumber: "150"
+    ribbon: "-5%"
+    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonText: "Buy Now"
+    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    validFrom: "2014-08-25T10:00"
+    validThrough: "2014-09-30T23:59"
+  - name: "Last Chance"
+    price: "450"
+    priceCurrency: "UAH"
+    ticketsNumber: "100"
+    ribbon: "-20%"
+    featured: true
+    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonText: "Buy Now"
+    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    validFrom: "2014-10-01T00:00"
+    validThrough: "2014-10-23T23:59"
+    disabled: true
+  - name: "Student"
+    price: "200"
+    priceCurrency: "UAH"
+    ticketsNumber: "50"
+    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonText: "Buy Now"
+    additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    validFrom: "2014-08-20T10:00"
+    validThrough: "2014-10-23T23:59"
+    soldOut: true
+    soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
 # - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
-# - {link: "https://twitter.com/intent/user?screen_name=aleks_nenadic", icon: "twitter"}
 # - {link: "https://twitter.com/intent/user?screen_name=pmaps2022", icon: "twitter"}
 # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
 # - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
-#   - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
-   - {link: "/credits/", text: "Credits & Acknowledgements"}
-#   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:chris.wall@manchester.ac.uk", text: "Organising Committee"}
- -
-  title: "FAQ"
-  links:
-   - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
-   - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact"}
+  - title: "Links"
+    links:
+      - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
+      #   - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
+      - {link: "/credits/", text: "Credits & Acknowledgements"}
+  #   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
+  - title: "Contacts"
+    links:
+      - {link: "mailto:chris.wall@manchester.ac.uk", text: "Organising Committee"}
+  - title: "FAQ"
+    links:
+      - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+      - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact"}
 
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
+blogCommentsEnabled: false
 discusShortName: "devfestua"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
-# Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
-
-# Logistics Find Way Block
-findWayTitle: "Find your way here"
-findWayDistance: "Distance"
-findWayDriving: "DRIVING"
-findWayWalking: "WALKING"
-findWayBicycling: "BICYCLING"
-findWayTransit: "TRANSIT"
-findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "53.46683379390191, -2.233926615619549"
-logisticsMapMobileCenterCoordinates: "53.46683379390191, -2.233926615619549"
-logisticsMapAutoDirections: false
+## Team Block
+#teamBlockTitle: "About us"
+#aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+#
+## Logistics Find Way Block
+#findWayTitle: "Find your way here"
+#findWayDistance: "Distance"
+#findWayDriving: "DRIVING"
+#findWayWalking: "WALKING"
+#findWayBicycling: "BICYCLING"
+#findWayTransit: "TRANSIT"
+#findWayFindFlight: "Find Flight"
+#logisticsMapCenterCoordinates: "53.46683379390191, -2.233926615619549"
+#logisticsMapMobileCenterCoordinates: "53.46683379390191, -2.233926615619549"
+#logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Getting Around Manchester"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/" target="_blank">airport website</a>.'}
- - {title: "Public Transport", information: 'It is easy to navigate Manchester city centre via <a href="https://tfgm.com/public-transport" target="_blank">public transport</a>.'}
- - {title: "Hotels", information: 'Manchester has lots of great hotels. More information will be available soon.'}
+  - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/" target="_blank">airport website</a>.'}
+  - {title: "Public Transport", information: 'It is easy to navigate Manchester city centre via <a href="https://tfgm.com/public-transport" target="_blank">public transport</a>.'}
+  - {title: "Hotels", information: 'Manchester has lots of great hotels. More information will be available soon.'}
 directionDetailsWideCards:
- -
-  title: "Info"
-  subCards:
-   -
-    title: "Venue"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "G-Mex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Registration"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Layout"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Map"}
-   -
-    title: "Hotels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Conference Dinner"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Location"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Transport"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Extra dinner tickets"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Contact"}
+  - title: "Info"
+    subCards:
+      - title: "Venue"
+        links:
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "G-Mex"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Registration"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Layout"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Map"}
+      - title: "Hotels"
+        links:
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+      - title: "Conference Dinner"
+        links:
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Location"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Transport"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Extra dinner tickets"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Contact"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
@@ -294,9 +284,9 @@ enableHackathon: true
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
 hackathonRows:
- - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
- - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
- - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+  - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+  - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+  - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
@@ -305,9 +295,9 @@ judgesTitle: "Judges"
 # Hackathon Prizes Block
 prizesTitle: "Prizes"
 prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+  - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+  - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+  - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"

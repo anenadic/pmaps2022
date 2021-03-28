@@ -7,11 +7,49 @@
                 <ul class="conference-nav-list">
                     {% for navigationLink in site.navigationLinks %}
                     <li>
+                        {% if navigationLink.links != null %}
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle {% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"
+                               type="button" id="dropdownMenuButton-{{ navigationLink.text }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {{ navigationLink.text | upcase }}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-sponsorship">
+                                {% for link in navigationLink.links %}
+                                <a class="dropdown-item" href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% else %}
                         <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"
                            href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}"
                            {% if navigationLink.link !=null %}target="_blank" {% endif %}>{{ navigationLink.text}}</a>
+                        {% endif %}
                     </li>
                     {% endfor %}
+<!--                    <li>-->
+<!--                        <div class="dropdown">-->
+<!--                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-sponsorship" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                SPONSORSHIP-->
+<!--                            </button>-->
+<!--                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-sponsorship">-->
+<!--                                <a class="dropdown-item" href="#" style="color: #212529 !important;">Become sponsor</a>-->
+<!--                                <a class="dropdown-item" href="#">Sponsorship packages</a>-->
+<!--                                <a class="dropdown-item" href="#">Our sponsors</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <div class="dropdown">-->
+<!--                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-authors" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                AUTHOR INFO-->
+<!--                            </button>-->
+<!--                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-authors">-->
+<!--                                <a class="dropdown-item" href="#">Important dates</a>-->
+<!--                                <a class="dropdown-item" href="#">Submission info</a>-->
+<!--                                <a class="dropdown-item" href="#">Final manuscripts</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </li>-->
                 </ul>
             </div>
             <div class="animated hiding" data-animation="fadeInDown" data-delay="500">

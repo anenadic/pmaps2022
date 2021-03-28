@@ -14,6 +14,7 @@
 // Common styles
 .btn-default,
 .btn-primary,
+.btn-secondary,
 .btn-success,
 .btn-info,
 .btn-warning,
@@ -77,6 +78,10 @@
 .btn-warning { @include btn-styles($btn-warning-bg); }
 .btn-danger  { @include btn-styles($btn-danger-bg); }
 
+.btn-secondary {
+  background-color: transparent;
+  color: #c3325f;
+}
 
 //
 // Images
