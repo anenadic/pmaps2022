@@ -20,4 +20,4 @@
 -
   group : "Technical Sponsor"
   elements:
-    - {name: "IEEE Power & Energy Society", description: "Technical supporter", link: "https://www.ieee-pes.org/", imageUrl: "PES-logo-black.gif"}
+    - {name: "IEEE Power & Energy Society", description: "Technical supporter", link: "https://www.ieee-pes.org/", imageUrl: "PES-logo-black-square.png"}
