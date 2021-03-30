@@ -52,8 +52,10 @@ navigationLinks:
   - {permalink: "/venue-travel/", text: "Venue & Travel"}
   - {permalink: "/committees/", text: "Committees"}
   - {permalink: "/programme/", text: "Programme"}
-  - {permalink: "/sponsorship/", text: "Sponsorship", links: [{text: "Become sponsor", url: "/sponsorship/#become-sponsor"},
+  - {permalink: "/sponsorship/", text: "Sponsorship", links: [{text: "Sponsorship info", url: "/sponsorship"},
+                                                              {text: "Become sponsor", url: "/sponsorship/#become-sponsor"},
                                                               {text: "Sponsorship packages", url: "/sponsorship/#sponsorship-packages"},
+                                                              {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
                                                               {text: "Our sponsors", url: "/sponsorship/#our-sponsors"}]}
   - {permalink: "/news/", text: "News"}
   - {permalink: "/contact/", text: "Contact"}
