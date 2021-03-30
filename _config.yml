@@ -87,7 +87,7 @@ heroButtons:
 aboutTitle: "Welcome!"
 aboutBlock:
   - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "keynote-speakers" }
-  - {title: "Presentations", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
+  - {title: "Technical Programme", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
   - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", permalink: "programme" }
   - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "programme" }
   - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "programme" }
