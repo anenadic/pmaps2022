@@ -66,9 +66,9 @@
             }
         }
         h2 {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 1;
-            font-weight: $regular;
+            font-weight: 300;
             transition: $base-transition;
             transform: translateY(-10px);
             word-spacing: -2px;
@@ -127,5 +127,9 @@
         //p.a:hover {
         //    overflow: visible;
         //}
+        .position{
+            line-height: initial !important;
+            font-size: 14px;
+        }
     }
 }
