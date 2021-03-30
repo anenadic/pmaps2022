@@ -232,7 +232,7 @@ footerBlocks:
       - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact"}
   - title: "Technical Sponsor"
     links:
-      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-black.gif" alt="IEEE PES">'}
+      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-transparent-square.png" alt="IEEE PES">'}
 
 
 # Blog
