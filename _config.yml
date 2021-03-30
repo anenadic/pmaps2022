@@ -95,10 +95,12 @@ aboutBlock:
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
-  - {count: "", specialCharacter: "", info: "Call for submissions opens", date: "15 September 2021"}
-  - {count: "", specialCharacter: "", info: "Call for submissions closes", date: "15 December 2021"}
-  - {count: "", specialCharacter: "", info: "Notifications to authors", date: "15 March 2022"}
-  - {count: "", specialCharacter: "", info: "Final manuscript versions", date: "15 April 2022"}
+  - {count: "", specialCharacter: "", info: "Submission site for papers and tutorials opens", date: "15 September 2021"}
+  - {count: "", specialCharacter: "", info: "Submission deadline for papers and tutorials", date: "15 December 2021"}
+  - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials", date: "14 January 2021"}
+  - {count: "", specialCharacter: "", info: "Notification of acceptance for papers", date: "15 March 2022"}
+  - {count: "", specialCharacter: "", info: "Submission deadline for final papers", date: "15 April 2022"}
+  - {count: "", specialCharacter: "", info: "Final tutorial presentation uploads", date: "27 May 2022"}
 # - {count: "500", specialCharacter: "+", info: "attendees", detail: "from around the world"}
 # - {count: "5", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
 # - {count: "20", specialCharacter: "+", info: "speakers", detail: "experts in ..."}
