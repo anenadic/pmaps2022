@@ -16,7 +16,8 @@ So should you also be excited? Well, yes ... and here's why!
 <ul style="font-weight: normal;">
 <li><strong>Attendance</strong>: We're expecting 200+ attendees</li>
 <li><strong>Topics:</strong> 4 days of keynote speeches, presentations, posters, tutorials, special sessions and networking</li>
-<li><strong>Venue:</strong> Manchester Conference Centre & Pendulum Hotel - right in the heart of the city centre and University of Manchester's North Campus</li>
+<!--<li><strong>Venue:</strong> {{ site.venueTitle }} - right in the heart of the city centre and University of Manchester's North Campus</li> -->
+<li><strong>Venue:</strong> {{ site.venueTitle }} - close to the city centre in the recently renovated campus</li>
 <li><strong>Speakers:</strong> We will have exciting and inspiring keynote speakers from around the world</li>
 </ul>
 
