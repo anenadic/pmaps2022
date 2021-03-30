@@ -56,7 +56,7 @@
             "steering-committee" %}
             <ul class="committee-list">
                 <li>
-                    <p class="text-left" style="padding:0px; margin: 0px;">{{ member.name }} {{ member.surname }}, {{ member.affiliation }}</p>
+                    <p class="text-left" style="padding:0px; margin: 0px;"><strong>{{ member.name }} {{ member.surname }}</strong>, {{ member.affiliation }}</p>
                 </li>
             </ul>
             {% endif %} {% endfor %}
@@ -70,14 +70,6 @@
                 data-animation="fadeInUp" data-delay="0"
                 style="text-align: left;">International Technical Advisory Committee</h4>
             <p class="text-left">To be announced.</p>
-            <!--            {% for member in site.data.committees %} {% if member.team != null and member.team ==-->
-            <!--            "advisory-committee" %}-->
-            <!--            <ul class="committee-list">-->
-            <!--                <li>-->
-            <!--                    {{ member.name }} {{ member.surname }}, {{ member.title }} - {{ member.role }}-->
-            <!--                </li>-->
-            <!--            </ul>-->
-            <!--            {% endif %} {% endfor %}-->
         </div>
     </div>
 </section>
