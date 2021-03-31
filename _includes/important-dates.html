@@ -9,10 +9,10 @@
             <div class="col-md-{{ colWidth }} col-xs-6">  
                 <div class="counter animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
 <!--                    <div class="stat"><span>{{ statistic.date}}</span></div>-->
-					<div class="stat-info" style="color: #03a9f4;">{{ statistic.info}}</div>
+                    <div class="stat-info" style="color: #03a9f4;"><strong>{{ statistic.date}}</strong></div>
 					<hr>
 <!--                    <p class="small">{{ statistic.date}}</p>-->
-                    <p>{{ statistic.date}}</p>
+                    <p>{{ statistic.info}}</p>
                 </div>
             </div>
             {% assign animationDelay = animationDelay | plus:500 %}
