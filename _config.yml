@@ -82,16 +82,16 @@ eventDate: "12-15 June 2022, Manchester, UK"
 #typeoutFallback: "Season"
 heroButtons:
   # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-  - {permalink: "/registration", text: "Register"}
-  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+#  - {permalink: "/registration", text: "Register"}
   - {permalink: "/#important-dates", text: "Important dates"}
+  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
 
 # About Block
 aboutTitle: "Welcome!"
 aboutBlock:
   - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "keynote-speakers" }
-  - {title: "Technical Programme", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
-  - {title: "Posters", image: "posters.jpg", text: "Poster exhibition session", permalink: "programme" }
+  - {title: "Programme", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
+  - {title: "Posters", image: "posters.jpg", text: "Poster session", permalink: "programme" }
   - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "programme" }
   - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "programme" }
 
@@ -99,7 +99,7 @@ aboutBlock:
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
-  - {count: "", specialCharacter: "", info: "Submission site for papers and tutorials opens", date: "15 September 2021"}
+  - {count: "", specialCharacter: "", info: "Submission for papers and tutorials opens", date: "15 September 2021"}
   - {count: "", specialCharacter: "", info: "Submission deadline for papers and tutorials", date: "15 December 2021"}
   - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials", date: "14 January 2021"}
   - {count: "", specialCharacter: "", info: "Notification of acceptance for papers", date: "15 March 2022"}
