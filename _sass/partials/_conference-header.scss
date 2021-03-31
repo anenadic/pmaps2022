@@ -56,6 +56,12 @@
     outline: none !important;
     box-shadow: none !important;
   }
+
+  .dropdown-item{
+    padding: .25rem .5rem !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+  }
 }
 
 .conference-logo {

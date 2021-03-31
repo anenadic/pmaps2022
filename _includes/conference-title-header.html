@@ -1,6 +1,5 @@
 <!-- Begin Hero Section -->
 <section id="conference-title" class="conference-title-header">
-    {% comment %}{% include navigation.html %}{% endcomment %}
     <div class="content-wrapper">
         <div class="jumbotron" style="margin: 0px;">
             <div class="col-lg-10 col-lg-offset-1" style="margin: -30px 0px 0px 0px;">
@@ -20,9 +19,10 @@
                             </div>
                         </div>
                         {% else %}
-                        <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"
-                           href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}"
-                           {% if navigationLink.link !=null %}target="_blank" {% endif %}>{{ navigationLink.text}}</a>
+                            <a type="button" class="btn btn-secondary {% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"
+                               href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}">
+                                {{ navigationLink.text | upcase }}
+                            </a>
                         {% endif %}
                     </li>
                     {% endfor %}
