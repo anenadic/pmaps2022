@@ -52,8 +52,8 @@
 <!--                    </li>-->
                 </ul>
             </div>
-            <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-                <h1>{{ site.heroTitle }}</h1>
+            <div class="col-lg-11 col-md-11 col-sm-11 animated hiding" data-animation="fadeInDown" data-delay="500">
+                <h2>{{ site.heroTitle }}</h2>
                 <p style="font-weight: bolder;">{{ site.eventDate }}</p>
                 {% for button in site.heroButtons %}
                 <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}"

@@ -75,8 +75,9 @@ rightNavigationButtons:
 
 # Hero Block
 #heroImage: "manchester.jpg"
-heroTitle: "PMAPS 2022, Manchester, UK"
-eventDate: "12-15 June 2022"
+heroTitle: "17th International Conference on Probabilistic Methods Applied to Power Systems, PMAPS 2022"
+heroSubTitle: "PMAPS 2022"
+eventDate: "12-15 June 2022, Manchester, UK"
 #typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 #typeoutFallback: "Season"
 heroButtons:
@@ -137,8 +138,8 @@ rockstarSpeakersButtonText: "See all speakers"
 # Venue Block
 #venueBlockTitle: "Venue"
 venueBigImage: "manchester_uni_5.jpg"
-#venueSmallImage1: "pendulum.jpg"
-venueSmallImage1: "uni_place.jpg"
+venueSmallImage1: "manchester-skyline.jpg"
+#venueSmallImage1: "uni_place.jpg"
 venueSmallImage2: "manchester_uni_6.jpg"
 #venueSmallImage3: "pendulum-2.jpg"
 #venueTitle: "Pendulum Hotel & Manchester Conference Centre"
@@ -231,9 +232,9 @@ footerBlocks:
     links:
       - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
       - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact"}
-  - title: "Technical Sponsor"
-    links:
-      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-transparent-square.png" alt="IEEE PES">'}
+#  - title: "Technical Sponsor"
+#    links:
+#      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-transparent-square.png" alt="IEEE PES">'}
 
 
 # Blog

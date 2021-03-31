@@ -4,7 +4,7 @@
   surname: "Milanović"
   title: "Dipl.Ing., MSs, PhD, DSc, FIET, FIEEE"
   role: "General Chair"
-  thumbnailUrl: "jovica_milanovic.jpg"
+  thumbnailUrl: "jovica_milanovic2-larger.jpg"
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/jovica.milanovic.html"}
@@ -102,7 +102,7 @@
   team: "steering-committee"
 -
   id: 11
-  name: "Prof. Milorad"
+  name: "Dr Milorad"
   surname: "Papić"
   title: ""
   affiliation: "Idaho Power Boise, Canada"
