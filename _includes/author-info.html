@@ -4,14 +4,71 @@
             <h4 style="text-align: left">Important dates</h4>
             {% for statistic in site.statisticBlock %}
             <p>
-            <span class="stat-info" style="color: #03a9f4;"><strong>{{ statistic.date}}</strong> - </span>
-            {{ statistic.info | downcase }}
+                <span class="stat-info" style="color: #03a9f4;"><strong>{{ statistic.date}}</strong> - </span>
+                {{ statistic.info | downcase }}
             </p>
             {% endfor %}
         </div>
         <div id="call-for-papers" class="col-lg-10 col-lg-offset-1 text-left">
             <h4 style="text-align: left">Call for Papers</h4>
-            <p class="text-left">To be announced.</p>
+            <p class="text-left">
+                The link to submit your full paper will appear on the website in due course. Please carefully read the
+                instructions below before submitting your paper.
+                You can also download <a href="{{ site.baseurl}}/img/PMAP2022-Call-for-Papers.pdf">Call For
+                Papers</a> as a PDF document.</p>
+            </p>
+            <p class="text-left">
+                To comply with IEEE guidelines, your paper should satisfy the following requirements:
+            <ul style="font-weight: normal;">
+                <li>the paper must fit the scope of the conference (if you are not sure, please <a
+                        href="mailto:{{ site.email }} ">get in touch</a> to ask).
+                </li>
+                <li>the paper must not exceed the 6 page limit.</li>
+                <li>the layout of the paper submitted must strictly follow the <a
+                        href="https://www.ieee-pes.org/templates-and-sample-of-pes-technical-papers" target="_blank">IEEE
+                    PES conference paper template</a>. Please do not submit using the “Transactions/Journal Papers”
+                    template.
+                </li>
+            </ul>
+            </p>
+            <p class="text-left">
+                Corresponding authors will be notified by email and will receive the instructions to transfer the
+                copyright of their paper to IEEE. Note that this is required to include your paper in the Proceedings.
+                In addition, note that papers will only be included in IEEE Xplore if presented by one of the authors.
+            </p>
+            <h6>Transaction Papers</h6>
+            <p class="text-left">
+                Authors of recently accepted but not yet published relevant IEEE PES Transactions Papers (please see the
+                list of eligible Transactions below) are invited to submit their papers to PMAPS 2022. The link to
+                submit the details of your paper (code, title, authors, and abstract) will appear here in due course.
+                These papers will be directly accepted without further review and will be allocated to an oral
+                presentation session.
+            <ul style="font-weight: normal;">
+                <li>IEEE Transactions on Power Systems</li>
+                <li>IEEE Transactions on Power Delivery</li>
+                <li>IEEE Transactions on Energy Conversion</li>
+                <li>IEEE Transactions on Smart Grid</li>
+                <li>IEEE Transactions on Sustainable Energy</li>
+            </ul>
+            </p>
+            <p class="text-left">
+            PES Transactions papers will only be eligible for presentation if they are available on IEEE Xplore (Early
+            Access included) and have a publication date no earlier than 15 December 2021.
+            </p>
+            <h6>Roy Billington Student Paper Award</h6>
+            <p class="text-left">
+                To acknowledge and encourage excellence in power system uncertainty research by students, a prize for
+                the “Best Student Paper” will be awarded. <a href="https://www.ieee-pes.org/roy-billinton-power-system-reliability-award" target="_blank">
+                The Roy Billinton Award</a> recognizes outstanding work by
+                students in the field of Probabilistic Methods and Practical Approaches for managing Risk and
+                Uncertainty in the Electric Power Industry.
+
+                Eligibility for the award is restricted to papers which are first-authored by a student. More
+                information regarding the award will be announced at a later time.
+
+                If your paper is eligible for this award and if you want to be considered for the Roy Billinton Award
+                then please select the appropriate box in the submission system.
+            </p>
         </div>
         <div id="info-authors" class="col-lg-10 col-lg-offset-1 text-left">
             <h4 style="text-align: left">Information for Authors</h4>
