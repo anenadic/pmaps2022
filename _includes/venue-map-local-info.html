@@ -1,34 +1,65 @@
 <!-- Begin Venue Location Section -->
-<section id="venue" class="team">
+<section id="venue" class="team" style="padding-bottom: 10px;">
     <div class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 style="text-align: left;">Venue: {{ site.venueTitle }}</h4>
+            <h5 style="text-align: left;">Venue: {{ site.venueTitle }}</h5>
             <p class="text-left">Conference will be held at the
-                <a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a>, {{ site.venueAddress }}
-                (see <a href="{{ site.venueMapLink }}" target="_blank">location on Google map</a>).
-                This is a purpose built conference venue near the historical heart of the University, within easy reach
+                <a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a>, {{ site.venueStreetAddress }},
+                {{ site.venueLocality }}
+                (see the <a href="{{ site.venueMapLink }}" target="_blank">location on Google map</a>).
+                This is a purpose built first class conference venue near the historical heart of the University, within
+                easy reach
                 of Manchester Piccadilly and Oxford Road train stations
-                and only a short stroll from Manchester city centre.
+                and only a short stroll from Manchester city centre. Conveniently located on top of the conference venue
+                is the newly constructed four star hotel for all delegate accommodation needs.
             </p>
         </div>
-    </div>
-    <div id="venue-map" class="col-lg-10 col-lg-offset-1 text-center" style="padding-left: 50px;">
-        <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK" width="100%"
-                height="700px"></iframe>
-        <div class="content-wrapper" style="padding-left: 50px;">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left"
-                 data-animation="fadeInLeft" data-delay="0"
-                 style="font-weight: 300; margin-top: -450px; background-color: #ffffff; padding: 10px 30px 10px 30px;">
-                <h5>Venue</h5>
-                <ul>
-                    <li><a href="{{ site.venueLink }}" target="_blank">{{ site.venueTitle }}</a></li>
-                    <li>{{ site.venueStreetAddress }}</li>
-                    <li>{{ site.venueLocality }}</li>
-                </ul>
+        <div class="col-lg-10 col-lg-offset-1 ">
+            <div class="col-md-8 col-sm-8 venue-col">
+                <div class="venue-elem-wrapper">
+                    <div class="venue-elem image-section venue-big-elem venue-img animated hiding"
+                         data-animation="fadeIn" data-delay="0"
+                         style="background-image: url({{ site.baseurl }}/img/venue/ambs-2.jpg)">
+                    </div>
+<!--                    <div class="venue-elem-wrapper col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="venue-elem venue-small-elem venue-text animated fadeIn visible"-->
+<!--                             data-animation="fadeIn" data-delay="0" style="margin-top: -550px;">-->
+<!--                            <p><a href="/venue-travel" style="color: #FFFFFF;">{{ site.venueTitle }}</a></p>-->
+<!--                            <p>{{ site.venueStreetAddress }}, {{ site.venueLocality }}</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="content-wrapper" style="padding-left: 50px;">
+                        <div class="animated hiding text-left"
+                             data-animation="fadeInLeft" data-delay="0"
+                             style="margin-top: -550px; background-color: #ffffff; padding: 10px; max-width: 350px; min-width: 250px;">
+                            <h6 style="color: #6a2c91;">Venue</h6>
+                                <p><a href="{{ site.venueMapLink }}" target="_blank">{{ site.venueTitle }}</a><br>
+                                {{ site.venueStreetAddress }}, {{ site.venueLocality }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 venue-col venue-small-col">
+                <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                    <div class="animated hiding" data-animation="fadeIn" data-delay="150">
+                        <div id="venue-map" class="text-center">
+                            <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
+                                    width="100%"
+                                    height="400px"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                    <div class="venue-elem image-section venue-small-elem venue-img animated hiding"
+                         data-animation="fadeIn" data-delay="0"
+                         style="background-image: url({{ site.baseurl }}/img/venue/ambs-4.jpg)"></div>
+                </div>
             </div>
         </div>
     </div>
+</section>
+<section>
     <div id="manchester" class="content-wrapper" style="padding-left: 50px;">
         <div class="col-lg-10 col-lg-offset-1 text-left">
             <h4 style="text-align: left">About Manchester</h4>
@@ -103,7 +134,8 @@
         </div>
     </div>
 </section>
-<section id="local-info" class="direction-details" style="color: #000000; background-color: #FCFCFC; border-bottom: 1px solid #e7e7e7; border-top: 1px solid #e7e7e7;">
+<section id="local-info" class="direction-details"
+         style="color: #000000; background-color: #FCFCFC; border-bottom: 1px solid #e7e7e7; border-top: 1px solid #e7e7e7;">
     <div class="content-wrapper">
         <section class="image-section standart-height"
                  style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">

@@ -138,22 +138,21 @@ rockstarSpeakersButtonText: "See all speakers"
 # Venue Block
 #venueBlockTitle: "Venue"
 venueBigImage: "manchester_uni_5.jpg"
-venueSmallImage1: "manchester-skyline.jpg"
 #venueSmallImage1: "uni_place.jpg"
-venueSmallImage2: "manchester_uni_6.jpg"
-#venueSmallImage3: "pendulum-2.jpg"
+venueSmallImage1: "ambs.jpg"
+venueSmallImage2: "manchester-skyline.jpg"
+venueSmallImage3: "ambs-3.jpg"
 #venueTitle: "Pendulum Hotel & Manchester Conference Centre"
 #venueStreetAddress: "Sackville Street, M1 3BB, Manchester, UK"
-venueTitle: "University of Manchester"
-venueStreetAddress: "Oxford Road, M13 9PL"
+venueTitle: "Alliance Manchester Business School"
+venueStreetAddress: "Booth Street West, M15 6PB"
 venueLocality: "Manchester, UK"
 #venueFeatures: ["Sackville Street", "M1 3BB Manchester, UK"]
-#venueLink: "https://www.pendulumhotel.co.uk/"
-venueLink: "https://www.manchester.ac.uk/"
-venueCoordinates: "53.47423235193986, -2.234811963329779"
-venueMapCenterCoordinates: "53.47423235193986, -2.234811963329779"
+venueLink: "https://www.alliancembs.manchester.ac.uk/about/our-campus-and-facilities/conference-and-meeting-facilities/"
+venueCoordinates: "53.46775855900619, -2.236099437346554"
+venueMapCenterCoordinates: "53.46775855900619, -2.236099437346554"
 venueEmbeddedMapLink: "https://www.google.com/maps/d/u/0/edit?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
-venueMapLink: "https://www.google.com/maps/place/Pendulum+Hotel/@53.4740504,-2.2369738,17z/data=!3m1!5s0x487bb194f254906d:0x26868dfeb833061e!4m11!1m2!2m1!1sPendulum+Hotel+%26+Manchester+Conference+Centre+Sackville+Street,+M1+3BB+Manchester,+UK!3m7!1s0x487bb194feaccd21:0xb5bb81381f474de7!5m2!4m1!1i2!8m2!3d53.4740639!4d-2.2348167"
+venueMapLink: "https://www.google.com/maps/place/Alliance+Manchester+Business+School/@53.4676628,-2.2383096,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1ed5c9e3e1f:0xf49d1dba93bac80b!8m2!3d53.4676628!4d-2.2361209"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -223,7 +222,7 @@ footerBlocks:
     links:
       - {link: "https://ieeemce.org/planning-basics/general-guidelines/event-conduct-safety-statement/", text: "Code of Conduct"}
       #   - {link: "https://www.eee.manchester.ac.uk/research/themes/", text: "Electrical Energy and Power Systems, University of Manchester"}
-      - {link: "/credits/", text: "Credits & Acknowledgements"}
+      - {permalink: "/credits/", text: "Credits & Acknowledgements"}
   #   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
   - title: "Contacts"
     links:
@@ -262,7 +261,8 @@ showSessions: false
 #logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
-directionDetailsImage: "direction-details.jpg"
+#directionDetailsImage: "direction-details.jpg"
+directionDetailsImage: "manchester.jpg"
 directionDetailsTitle: "Getting Around Manchester"
 directionDetailsCards:
   - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/" target="_blank">airport website</a>.'}
