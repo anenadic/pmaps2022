@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "PMAPS 2022"
-email: "chris.wall@manchester.ac.uk"
+email: "info@pmaps2022.org"
 description: "PMAPS 2022 CONFERENCE COVERS ALL ASPECTS OF PROBABILISTIC AND STATISTICAL MODELLING OF POWER SYSTEMS"
 #baseurl: "/zeppelin"
 url: "https://pmaps2022.org"
@@ -24,7 +24,7 @@ url: "https://pmaps2022.org"
 organizerName: "Electrical Energy and Power Systems Group, University of Manchester"
 organizerAlternateName: "Electrical Energy and Power Systems Group, University of Manchester"
 #organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "chris.wall@manchester.ac.uk"
+organizerEmail: "info@pmaps2022.org"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.eee.manchester.ac.uk/research/themes/"
 
@@ -228,11 +228,11 @@ footerBlocks:
   #   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
   - title: "Contacts"
     links:
-      - {link: "mailto:chris.wall@manchester.ac.uk", text: "Organising Committee"}
+      - {link: "mailto:info@pmaps2022.org", text: "Organising Committee"}
   - title: "FAQ"
     links:
       - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
-      - {link: "mailto:chris.wall@manchester.ac.uk", text: "Code of Conduct contact"}
+      - {link: "mailto:coc@pmaps2022.org", text: "Code of Conduct contact"}
 #  - title: "Technical Sponsor"
 #    links:
 #      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-transparent-square.png" alt="IEEE PES">'}
