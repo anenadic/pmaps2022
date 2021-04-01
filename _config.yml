@@ -51,7 +51,7 @@ navigationLinks:
 #                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
 #                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
   - {permalink: "/venue-travel/", text: "Venue & Travel"}
-  - {permalink: "/committees/", text: "Committees", links: [{text: "Local Committee", url: "/committees/#local-committee"},
+  - {permalink: "/committees/", text: "Committees", links: [{text: "Organising Committee", url: "/committees/#local-committee"},
                                                             {text: "Steering Committee", url: "/committees/#steering-committee"},
                                                             {text: "Technical Committee", url: "/committees/#technical-committee"}]}
   - {permalink: "/programme/", text: "Programme"}
@@ -92,10 +92,10 @@ heroButtons:
 aboutTitle: "Welcome!"
 aboutBlock:
   - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "keynote-speakers" }
-  - {title: "Programme", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
+  - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "programme" }
+  - {title: "Papers", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
   - {title: "Posters", image: "posters.jpg", text: "Poster session", permalink: "programme" }
   - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "programme" }
-  - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "programme" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"
