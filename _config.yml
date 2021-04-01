@@ -47,8 +47,9 @@ navigationLinks:
   - {permalink: "/registration/", text: "Registration"}
   - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important Dates", url: "/author-info/#important-dates"},
                                                               {text: "Call for Papers", url: "/author-info/#call-for-papers"},
-                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
-                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
+                                                              {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"}]}
+#                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
+#                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
   - {permalink: "/venue-travel/", text: "Venue & Travel"}
   - {permalink: "/committees/", text: "Committees", links: [{text: "Local Committee", url: "/committees/#local-committee"},
                                                             {text: "Steering Committee", url: "/committees/#steering-committee"},
