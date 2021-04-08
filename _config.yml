@@ -229,7 +229,8 @@ footerBlocks:
   #   - {link: "https://www.manchester.ac.uk/", text: "University of Manchester"}
   - title: "Contacts"
     links:
-      - {link: "mailto:info@pmaps2022.org", text: "Organising Committee"}
+      - {link: "mailto:info@pmaps2022.org", text: "Contact Us"}
+      - {link: "/committees/#local-committee", text: "Organising Committee"}
   - title: "FAQ"
     links:
       - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
