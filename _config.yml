@@ -230,10 +230,10 @@ footerBlocks:
   - title: "Contacts"
     links:
       - {link: "mailto:info@pmaps2022.org", text: "Contact Us"}
-      - {link: "/committees/#local-committee", text: "Organising Committee"}
+      - {permalink: "/committees/#local-committee", text: "Organising Committee"}
   - title: "FAQ"
     links:
-      - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+      - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
       - {link: "mailto:coc@pmaps2022.org", text: "Code of Conduct contact"}
 #  - title: "Technical Sponsor"
 #    links:
