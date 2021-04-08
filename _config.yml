@@ -60,7 +60,7 @@ navigationLinks:
                                                               {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
                                                               {text: "Our sponsors", url: "/sponsorship/#our-sponsors"}]}
   - {permalink: "/news/", text: "News"}
-  - {permalink: "/contact/", text: "Contact"}
+#  - {permalink: "/contact/", text: "Contact"}
 # - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/authors/", text: "Authors"}
