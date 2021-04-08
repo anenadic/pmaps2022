@@ -46,6 +46,7 @@ navigationLinks:
   - {permalink: "/about-pmaps/", text: "About PMAPS"}
   - {permalink: "/registration/", text: "Registration"}
   - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important Dates", url: "/author-info/#important-dates"},
+                                                              {text: "Technical Themes", url: "/author-info/#technical-themes"},
                                                               {text: "Call for Papers", url: "/author-info/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"}]}
 #                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},

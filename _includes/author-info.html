@@ -1,13 +1,48 @@
-<section id="author-info" class="team">
+<section id="author-info">
     <div class="content-wrapper" style="padding-left: 50px;">
         <div id="important-dates" class="col-lg-10 col-lg-offset-1 text-left">
-            <h4 style="text-align: left">Important dates</h4>
+            <h4 style="text-align: left">Important Dates</h4>
             {% for statistic in site.statisticBlock %}
             <p>
                 <span class="stat-info" style="color: #03a9f4;"><strong>{{ statistic.date}}</strong> - </span>
                 {{ statistic.info | downcase }}
             </p>
             {% endfor %}
+        </div>
+        <div id="technical-themes" class="col-lg-10 col-lg-offset-1 text-left">
+            <h4 style="text-align: left">Technical Themes</h4>
+            <p class="text-left">
+            The technical content at the conference will be categorised under the following high level themes to allow conference attendees to quickly identify aspects of key interest. All papers submitted to the conference will have to include modelling or analysis methods based on probabilistic techniques in order to ensure relevance to all conference delegates and to maintain the focused scope of this conference.
+            </p>
+            <h6>Asset Health and Management</h6>
+            <ul style="font-weight: normal;">
+                <li>Reliability-centred maintenance and asset management</li>
+                <li>Power quality and condition monitoring</li>
+                <li>End-of-life prognosis and ageing assessment tools</li>
+            </ul>
+            <h6>Dealing With Extreme Events</h6>
+            <ul style="font-weight: normal;">
+                <li>Risk management and decision making under uncertainty</li>
+                <li>High impact low probability events</li>
+                <li>Cascading failures in electric power systems</li>
+                <li>Resilience enhancement and optimisation against extreme events</li>
+                <li>Outage data analysis and data-driven resilience assessment tools</li>
+            </ul>
+            <h6>Network Planning and Operation</h6>
+            <ul style="font-weight: normal;">
+                <li>Handling correlated uncertainties and big data</li>
+                <li>Probabilistic load and generation forecasting</li>
+                <li>Integration of uncertain energy sources</li>
+                <li>Stochastic/probabilistic optimisation and simulation techniques</li>
+                <li>Stochastic/probabilistic social and behavioural modelling and technological impacts</li>
+            </ul>
+            <h6>Whole Systems Analysis</h6>
+            <ul style="font-weight: normal;">
+                <li>Reliability of interdependent critical infrastructure systems</li>
+                <li>Probabilistic modelling of cyber-physical systems</li>
+                <li>Probabilistic modelling of multi-energy systems</li>
+                <li>Probabilistic modelling and simulation of integrated energy systems</li>
+            </ul>
         </div>
         <div id="call-for-papers" class="col-lg-10 col-lg-offset-1 text-left">
             <h4 style="text-align: left">Call for Papers</h4>
