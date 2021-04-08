@@ -218,8 +218,8 @@
                 {% for sponsor in sponsor_group.elements %}
                 <li {% if sponsor.width != null %}style="width: {{ sponsor.width }};"{% endif %}>
                     <a href="{{ sponsor.link }}" target="_blank">
-                        <img style="width: initial;" src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">
-                        <p>{{ sponsor.name }}</p>
+                        <img style="width: unset; height: 100px;" src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">
+<!--                        <p>{{ sponsor.name }}</p>-->
                     </a>
                 </li>
                 {% endfor %}
