@@ -17,7 +17,7 @@
 #    - {name: "Electrical cars", description: "Electrical car manufacturer", link: "http://lviv.gdg.org.ua", imageUrl: "electric-car.png"}
 #    - {name: "Power systems", description: "Power systems", link: "http://lviv.gdg.org.ua", imageUrl: "power-systems-2.jpeg"}
 #    - {name: "Open community", description: "Open and volunteer community", link: "http://lviv.gdg.org.ua", imageUrl: "volunteer-donate-charity-donation.jpg"}
-#-
-#  group : "Technical Sponsor"
-#  elements:
-#    - {name: "IEEE Power & Energy Society", description: "Technical supporter", link: "https://www.ieee-pes.org/", imageUrl: "PES-logo-transparent-square.png"}
+-
+  group : "Technical Sponsor"
+  elements:
+    - {name: "IEEE Power & Energy Society", description: "Technical supporter", link: "https://www.ieee-pes.org/", imageUrl: "PES-logo-transparent-square.png"}
