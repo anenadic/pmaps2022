@@ -1,53 +1,59 @@
 {% include under-construction-banner.html %}
 
 <div class="row conference-logo">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+    <div class="col-lg-11 col-md-11 col-sm-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
         <div style="display: inline-block">
             <a href="/"><img src="{{ site.baseurl }}/img/PMAPS-main-logo.png"
-                             style="height: 60px;" alt="PMAPS 2022 conference">
+                             style="height: 60px; padding-right: 30px;" alt="PMAPS 2022 conference">
             </a>
         </div>
         <div style="display: inline-block">
             <a href="https://www.manchester.ac.uk/" target="_blank">
                 <img
-                        src="{{ site.baseurl }}/img/logo-university-of-manchester.png" style="height: 60px;"
+                        src="{{ site.baseurl }}/img/logo-university-of-manchester.png" style="height: 60px; padding-right: 30px;"
                         alt="University of Manchester">
             </a>
         </div>
-<!--        <div style="display: inline-block">-->
-<!--            <a href="https://www.ieee-pes.org/" target="_blank">-->
-<!--                <img src="{{ site.baseurl }}/img/PES-logo-black.gif" style="height: 60px;"-->
-<!--                     alt="IEEE Power & Energy Society">-->
-<!--            </a>-->
-<!--        </div>-->
-    </div>
-    <div class="col-lg-5">
-        <div class="conference-top-nav-list">
-            <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
-        </div>
-        <div class="conference-top-nav-list">
-            <p style="padding-top: 10px;">
-                {{ site.eventDate }}<br><a href="{{ site.baseurl }}/#important-dates">Important Dates</a>
-            </p>
-        </div>
-        <div class="conference-top-nav-list">
-            <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
-        </div>
-        <div class="conference-top-nav-list">
-            <p style="padding-top: 10px;">
-                <a href="{{ site.baseurl }}/committees/#local-committee">Contact us</a>
-                <!--                <a href="mailto:{{ site.email }}">Contact us</a><br>-->
-<!--                <a href="{{ site.baseurl }}/committees/#local-committee">Organising Committee</a>-->
-            </p>
-        </div>
-        {% if site.twitterAccount != null %}
-        <div class="conference-top-nav-list">
-            <a href="https://twitter.com/intent/user?screen_name={{ site.twitterAccount }}" target="_blank">
-                <svg class="icon icon-twitter pull-right" viewBox="0 0 30 32">
-                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-                </svg>
+        <div style="display: inline-block">
+            <a href="https://www.ieee-pes.org/" target="_blank">
+                <img src="{{ site.baseurl }}/img/PES-logo-black.gif" style="height: 60px; padding-right: 30px;"
+                     alt="IEEE Power & Energy Society">
             </a>
         </div>
-        {% endif %}
+        <div style="display: inline-block">
+            <a href="https://www.ieee.org/" target="_blank">
+                <img src="{{ site.baseurl }}/img/ieee-logo.jpg" style="height: 60px;"
+                     alt="IEEE">
+            </a>
+        </div>
     </div>
+    <!--    <div class="col-lg-5">-->
+    <!--        <div class="conference-top-nav-list">-->
+    <!--            <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>-->
+    <!--        </div>-->
+    <!--        <div class="conference-top-nav-list">-->
+    <!--            <p style="padding-top: 10px;">-->
+    <!--                {{ site.eventDate }}<br><a href="{{ site.baseurl }}/#important-dates">Important Dates</a>-->
+    <!--            </p>-->
+    <!--        </div>-->
+    <!--        <div class="conference-top-nav-list">-->
+    <!--            <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>-->
+    <!--        </div>-->
+    <!--        <div class="conference-top-nav-list">-->
+    <!--            <p style="padding-top: 10px;">-->
+    <!--                <a href="{{ site.baseurl }}/committees/#local-committee">Contact us</a>-->
+    <!--                &lt;!&ndash;                <a href="mailto:{{ site.email }}">Contact us</a><br>&ndash;&gt;-->
+    <!--&lt;!&ndash;                <a href="{{ site.baseurl }}/committees/#local-committee">Organising Committee</a>&ndash;&gt;-->
+    <!--            </p>-->
+    <!--        </div>-->
+    <!--        {% if site.twitterAccount != null %}-->
+    <!--        <div class="conference-top-nav-list">-->
+    <!--            <a href="https://twitter.com/intent/user?screen_name={{ site.twitterAccount }}" target="_blank">-->
+    <!--                <svg class="icon icon-twitter pull-right" viewBox="0 0 30 32">-->
+    <!--                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>-->
+    <!--                </svg>-->
+    <!--            </a>-->
+    <!--        </div>-->
+    <!--        {% endif %}-->
+    <!--    </div>-->
 </div>

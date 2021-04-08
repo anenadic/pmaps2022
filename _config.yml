@@ -234,9 +234,9 @@ footerBlocks:
     links:
       - {link: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
       - {link: "mailto:coc@pmaps2022.org", text: "Code of Conduct contact"}
-  - title: "Technical Sponsor"
-    links:
-      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-transparent-square.png" alt="IEEE PES">'}
+#  - title: "Technical Sponsor"
+#    links:
+#      - {link: "https://www.ieee-pes.org/", text: '<img style="width: 75px !important;" src="/img/PES-logo-transparent-square.png" alt="IEEE PES">'}
 
 
 # Blog
