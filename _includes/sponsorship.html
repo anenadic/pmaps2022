@@ -5,7 +5,22 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.sponsorsTitle }}</h3>
-            <p>See <a href="{{ site.baseurl }}/sponsorship/#our-sponsors">who is supporting us</a>.
+            {% for sponsor_group in site.data.sponsors %}
+            {% if (sponsor_group.group == "Gold Sponsors" | sponsor_group.group == "Platinum Sponsors") & sponsor_group.elements.size > 0 %}
+            <h5>{{ sponsor_group.group }}</h5>
+            <ul class="list-inline">
+                {% for sponsor in sponsor_group.elements %}
+                <li {% if sponsor.width != null %}style="width: {{ sponsor.width }};"{% endif %}>
+                    <a href="{{ sponsor.link }}" target="_blank">
+                        <img style="width: unset; height: 100px;" src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" title="{{ sponsor.description }}" alt="{{ sponsor.name }}">
+                        <!--                        <p>{{ sponsor.name }}</p>-->
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif%}
+            {% endfor %}
+            <p>See <a href="{{ site.baseurl }}/sponsorship/#our-sponsors">who else is supporting us</a>.
                 We have a number of <a href="{{ site.baseurl }}/sponsorship/#sponsorship-packages">sponsorship packages</a> available.
             </p>
             <a href="{{ site.baseurl }}/sponsorship/#become-sponsor" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
