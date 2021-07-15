@@ -38,7 +38,7 @@
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/k.kopsidas.html"}
-- 
+-
   id: 4
   name: "Dr Eduardo Alejandro"
   surname: "Martínez Ceseña"
@@ -48,7 +48,7 @@
   team: "local-committee"
   social:
     - {name: "site", link: "https://www.research.manchester.ac.uk/portal/alex.martinezcesena.html"}
-- 
+-
   id: 5
   name: "Dr Jelena"
   surname: "Ponoćko"
@@ -102,13 +102,13 @@
   team: "steering-committee"
 -
   id: 11
-  name: "Dr Milorad"
+  name: "Dr. Milorad"
   surname: "Papić"
   title: ""
-  affiliation: "Idaho Power Boise, Canada"
+  affiliation: "Independent Consultant, Boise, USA"
   thumbnailUrl: ""
   team: "steering-committee"
-#-
+  #-
 #  id: 6
 #  name: "Alessandra"
 #  surname: "Parisio"
