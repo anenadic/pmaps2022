@@ -48,7 +48,9 @@ navigationLinks:
   - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important Dates", url: "/author-info/#important-dates"},
                                                               {text: "Technical Themes", url: "/author-info/#technical-themes"},
                                                               {text: "Call for Papers", url: "/author-info/#call-for-papers"},
-                                                              {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"}]}
+                                                              {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"},
+                                                              {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
+                                                              {text: "Review Process", url: "/author-info/#review-process"}]}
 #                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
 #                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
   - {permalink: "/venue-travel/", text: "Venue & Travel"}
