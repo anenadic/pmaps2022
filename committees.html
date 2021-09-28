@@ -1,14 +1,84 @@
----
-layout: default
-title: Committees
-permalink: /committees/
-modal: team
----
-
-{% comment %}{% include top-section.html %}{% endcomment %}
-
-{% include conference-logo-header.html %}
-
-{% include page-header.html %}
-
-{% include committees.html %}
+<!-- Begin Committees List-->
+<section style="border-top: 1px solid #e7e7e7;">
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div class="col-lg-10 col-lg-offset-1 text-left" id="local-committee">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">Local Organising Committee</h4>
+            <p class="text-left" style="padding: 10px 0px;">Any queries regarding the conference should be directed to <a href="mailto:{{ site.email }}">Mrs Chris Wall</a>.</p>
+            {% for member in site.data.committees %}
+            {% if member.team != null and member.team == "local-committee" %}
+            <div class="effect-wrapper appear-animation col-md-4 col-sm-6 col-xs-12">
+                <div class="lily-effect ribbon-activator">
+                    <div class="lily-head">
+                        <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: member.thumbnailUrl }})">
+                            <div class="overlay solid-overlay"></div>
+                            <figcaption>
+                                <h2 class="name">{{ member.name }} <span>{{ member.surname }}</span></h2>
+                                <p class="position">{{ member.title }}</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="lily-bottom">
+                        <ul class="slider">
+                            {% for social in member.social %}
+                                <a class="pull-right" href="{{ social['link'] }}" target="_blank">
+                                    <svg class="icon icon-{{ social['name'] }}" viewBox="0 0 30 32">
+                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social['name'] }}"></use>
+                                    </svg>
+                                </a>
+                            {% endfor %}
+<!--                            <p class="position" style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">{{ member.role }}</p>-->
+                            <p class="position">{{ member.role }}</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col-lg-10 col-lg-offset-1 text-left">
+            <p class="text-left">Local organising committee is aided by the help of <a href="{{ site.baseurl }}/credits/#volunteers">local volunteers</a>.</p>
+        </div>
+    </div>
+</section>
+<section style="border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; background-color: #FCFCFC;">
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <!--        <div class="col-lg-10 col-lg-offset-1">-->
+        <!--            <h3>{{ site.teamBlockTitle }}</h3>-->
+        <!--            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>-->
+        <!--        </div>-->
+        <div class="col-lg-10 col-lg-offset-1 text-left" id="steering-committee">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">International Steering Committee</h4>
+            <!--            <p class="text-left">To be announced.</p>-->
+            {% for member in site.data.committees %} {% if member.team != null and member.team ==
+            "steering-committee" %}
+            <ul class="committee-list">
+                <li>
+                    <p class="text-left" style="padding:0px; margin: 0px;"><strong>{{ member.name }} {{ member.surname }}</strong>, {{ member.affiliation }}</p>
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
+        </div>
+    </div>
+</section>
+<section>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div class="col-lg-10 col-lg-offset-1 text-left" id="technical-committee">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">International Technical Advisory Committee</h4>
+            <!--            <p class="text-left">To be announced.</p>-->
+            {% for member in site.data.committees %} {% if member.team != null and member.team ==
+            "technical-advisory-committee" %}
+            <ul class="committee-list">
+                <li>
+                    <p class="text-left" style="padding:0px; margin: 0px;"><strong>{{ member.name }} {{ member.surname }}</strong>, {{ member.affiliation }}</p>
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Committees List -->
