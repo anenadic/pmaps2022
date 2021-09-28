@@ -108,6 +108,342 @@
   affiliation: "Independent Consultant, Boise, USA"
   thumbnailUrl: ""
   team: "steering-committee"
+-
+  id: 12
+  name: "George"
+  surname: "Anders"
+  title: ""
+  affiliation: "Canada"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 13
+  name: "Sohrab"
+  surname: "Asgarpoor"
+  title: ""
+  affiliation: "USA"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 14
+  name: "Bagen"
+  surname: "Bagen"
+  title: ""
+  affiliation: "Canada"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 15
+  name: "Lina Bertling"
+  surname: "Tjernberg"
+  title: ""
+  affiliation: "Sweden"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 16
+  name: "Carmen"
+  surname: "Borges"
+  title: ""
+  affiliation: "Brazil"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 17
+  name: "Guido"
+  surname: "Carpinelli"
+  title: ""
+  affiliation: "Italy"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 18
+  name: "Ali"
+  surname: "Chowdhury"
+  title: ""
+  affiliation: "USA"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 19
+  name: "Chris"
+  surname: "Dent"
+  title: ""
+  affiliation: "UK"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 20
+  name: "Mahmud"
+  surname: "Fotuhi-Firuzabad"
+  title: ""
+  affiliation: "Iran"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 21
+  name: "Lalit"
+  surname: "Goel"
+  title: ""
+  affiliation: "Singapore"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 22
+  name: "Asim"
+  surname: "Haldar"
+  title: ""
+  affiliation: "Canada"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 23
+  name: "Chongqing"
+  surname: "Kang"
+  title: ""
+  affiliation: "China"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 24
+  name: "Gerd"
+  surname: "Kjolle"
+  title: ""
+  affiliation: "Norway"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 25
+  name: "Wenyuan"
+  surname: "Li"
+  title: ""
+  affiliation: "Canada"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 26
+  name: "Aydogan"
+  surname: "Ozdemir"
+  title: ""
+  affiliation: "Turkey"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 27
+  name: "Milorad"
+  surname: "Papic"
+  title: ""
+  affiliation: "USA"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 28
+  name: "Bob"
+  surname: "Simpson"
+  title: ""
+  affiliation: "New Zealand"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 29
+  name: "Chanan"
+  surname: "Singh"
+  title: ""
+  affiliation: "USA"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 30
+  name: "Wijarn"
+  surname: "Wangdee"
+  title: ""
+  affiliation: "Thailand"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 31
+  name: "Kaigui"
+  surname: "Xie"
+  title: ""
+  affiliation: "China"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 32
+  name: "Efthymios"
+  surname: "Karangelos"
+  title: ""
+  affiliation: "Belgium"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 33
+  name: "Line"
+  surname: "Roald"
+  title: ""
+  affiliation: "USA"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 34
+  name: "Pierre"
+  surname: "Henneaux"
+  title: ""
+  affiliation: "Belgium"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 35
+  name: "Sasa"
+  surname: "Djokic"
+  title: ""
+  affiliation: "UK"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 36
+  name: "Panagiotis"
+  surname: "Papadopoulos"
+  title: ""
+  affiliation: "UK"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 37
+  name: "Anastasios"
+  surname: "Bakirtzis"
+  title: ""
+  affiliation: "Greece"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 38
+  name: "Araceli Hernandez"
+  surname: "Bayo"
+  title: ""
+  affiliation: "Spain"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 39
+  name: "Siqi"
+  surname: "Bu"
+  title: ""
+  affiliation: "Hong Kong"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 40
+  name: "José Rueda"
+  surname: "Torres"
+  title: ""
+  affiliation: "Netherlands"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 41
+  name: "Stuart"
+  surname: "Galloway"
+  title: ""
+  affiliation: "UK"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 42
+  name: "Zhaoyang"
+  surname: "Dong"
+  title: ""
+  affiliation: "Australia"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 43
+  name: "Pierluigi"
+  surname: "Mancarella"
+  title: ""
+  affiliation: "Australia"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 44
+  name: "Luis Nando"
+  surname: "Ochoa"
+  title: ""
+  affiliation: "Australia"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Michael"
+  surname: "Negnevitsky"
+  title: ""
+  affiliation: "Australia"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Papiya"
+  surname: "Dattaray"
+  title: ""
+  affiliation: "Ireland"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Aleksandra Krkoleva"
+  surname: "Mateska"
+  title: ""
+  affiliation: "North Macedonia"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Gabriela"
+  surname: "Hug"
+  title: ""
+  affiliation: "Switzerland"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Marija"
+  surname: "Zima"
+  title: ""
+  affiliation: "Switzerland"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Vesna"
+  surname: "Borozan"
+  title: ""
+  affiliation: "North Macedonia"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Madeleine"
+  surname: "Gibescu"
+  title: ""
+  affiliation: "Netherlands"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Federico"
+  surname: "Milano"
+  title: ""
+  affiliation: "Ireland"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 45
+  name: "Zita"
+  surname: "Vale"
+  title: ""
+  affiliation: "Portugal"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
   #-
 #  id: 6
 #  name: "Alessandra"

@@ -69,7 +69,15 @@
             <h4 class="text-left animated hiding appear-animation-trigger"
                 data-animation="fadeInUp" data-delay="0"
                 style="text-align: left;">International Technical Advisory Committee</h4>
-            <p class="text-left">To be announced.</p>
+            <!--            <p class="text-left">To be announced.</p>-->
+            {% for member in site.data.committees %} {% if member.team != null and member.team ==
+            "technical-advisory-committee" %}
+            <ul class="committee-list">
+                <li>
+                    <p class="text-left" style="padding:0px; margin: 0px;"><strong>{{ member.name }} {{ member.surname }}</strong>, {{ member.affiliation }}</p>
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
         </div>
     </div>
 </section>
