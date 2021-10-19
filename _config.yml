@@ -106,7 +106,7 @@ aboutBlock:
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
-  - {count: "", specialCharacter: "", info: "Submission for papers and tutorials opens", date: "Submission opening soon"}
+  - {count: "", specialCharacter: "", info: "Submission for papers and tutorials opens", date: "20 Oct 2021"}
   - {count: "", specialCharacter: "", info: "Submission deadline for papers and tutorials", date: "15 Dec 2021"}
   - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials", date: "14 Jan 2021"}
   - {count: "", specialCharacter: "", info: "Notification of acceptance for papers", date: "15 Mar 2022"}
