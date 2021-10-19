@@ -50,7 +50,8 @@ navigationLinks:
                                                               {text: "Call for Papers", url: "/author-info/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"},
                                                               {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
-                                                              {text: "Review Process", url: "/author-info/#review-process"}]}
+                                                              {text: "Review Process", url: "/author-info/#review-process"},
+                                                              {text: "Paper Submission", url: "/author-info/#paper-submission"}]}
 #                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
 #                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
   - {permalink: "/venue-travel/", text: "Venue & Travel"}
@@ -89,6 +90,7 @@ heroButtons:
 #  - {permalink: "/registration", text: "Register"}
   - {permalink: "/#important-dates", text: "Important dates"}
   - {permalink: "/author-info/#call-for-papers", text: "Call for submissions"}
+  - {permalink: "/author-info/#paper-submission", text: "Paper submission"}
   - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
 
 # About Block
