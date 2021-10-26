@@ -1,6 +1,6 @@
 ---
 layout: post-comments-off
-title:  "Call for Papers"
+title:  "Submission opens"
 date:   2021-03-01 09:00:00
 isStaticPost: true
 ---
