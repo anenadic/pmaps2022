@@ -444,6 +444,22 @@
   affiliation: "Portugal"
   thumbnailUrl: ""
   team: "technical-advisory-committee"
+-
+  id: 54
+  name: "Armando Leite da"
+  surname: "Silva"
+  title: ""
+  affiliation: "Brazil"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 55
+  name: "Vedran"
+  surname: "Peric"
+  title: ""
+  affiliation: "Germany"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
   #-
 #  id: 6
 #  name: "Alessandra"
