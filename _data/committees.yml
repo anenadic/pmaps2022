@@ -460,6 +460,22 @@
   affiliation: "Germany"
   thumbnailUrl: ""
   team: "technical-advisory-committee"
+-
+  id: 56
+  name: "Alfredo"
+  surname: "Testa"
+  title: ""
+  affiliation: "Italy"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 57
+  name: "Louis"
+  surname: "Wehenkel"
+  title: ""
+  affiliation: "Belgium"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
   #-
 #  id: 6
 #  name: "Alessandra"
