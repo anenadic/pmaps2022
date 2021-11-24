@@ -49,6 +49,7 @@ navigationLinks:
                                                               {text: "Technical Themes", url: "/author-info/#technical-themes"},
                                                               {text: "Call for Papers", url: "/author-info/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"},
+                                                              {text: "Call for Special Sessions", url: "/author-info/#call-for-special-sessions"},
                                                               {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
                                                               {text: "Review Process", url: "/author-info/#review-process"},
                                                               {text: "Paper Submission", url: "/author-info/#paper-submission"}]}
