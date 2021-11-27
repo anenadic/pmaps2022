@@ -47,14 +47,17 @@ navigationLinks:
   - {permalink: "/registration/", text: "Registration"}
   - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important Dates", url: "/author-info/#important-dates"},
                                                               {text: "Technical Themes", url: "/author-info/#technical-themes"},
-                                                              {text: "Call for Papers", url: "/author-info/#call-for-papers"},
-                                                              {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"},
-                                                              {text: "Call for Special Sessions", url: "/author-info/#call-for-special-sessions"},
+#                                                              {text: "Call for Papers", url: "/author-info/#call-for-papers"},
+#                                                             {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"},                              
+#                                                              {text: "Call for Special Sessions", url: "/author-info/#call-for-special-sessions"},
                                                               {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
                                                               {text: "Review Process", url: "/author-info/#review-process"},
                                                               {text: "Paper Submission", url: "/author-info/#paper-submission"}]}
 #                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
 #                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
+  - {permalink: "/calls/", text: "Calls", links: [{text: "Call for Papers", url: "/calls/#call-for-papers"},
+                                                              {text: "Call for Tutorials", url: "/calls/#call-for-tutorials"},                              
+                                                              {text: "Call for Special Sessions", url: "/calls/#call-for-special-sessions"}]}           
   - {permalink: "/venue-travel/", text: "Venue & Travel"}
   - {permalink: "/committees/", text: "Committees", links: [{text: "Organising Committee", url: "/committees/#local-committee"},
                                                             {text: "Steering Committee", url: "/committees/#steering-committee"},
@@ -107,13 +110,14 @@ aboutBlock:
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
-  - {count: "", specialCharacter: "", info: "Submission for papers and tutorials opens", date: "20 Oct 2021"}
   - {count: "", specialCharacter: "", info: "Submission deadline for papers and tutorials", date: "15 Dec 2021"}
-  - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials", date: "14 Jan 2021"}
+  - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials", date: "14 Jan 2022"}
+  - {count: "", specialCharacter: "", info: "Submission deadline for special sessions", date: "21 Jan 2022"}
+  - {count: "", specialCharacter: "", info: "Notification of acceptance for special sessions", date: "25 Feb 2022"}
   - {count: "", specialCharacter: "", info: "Notification of acceptance for papers", date: "15 Mar 2022"}
   - {count: "", specialCharacter: "", info: "Submission deadline for final papers", date: "15 Apr 2022"}
   - {count: "", specialCharacter: "", info: "Final tutorial presentation uploads", date: "27 May 2022"}
-# - {count: "500", specialCharacter: "+", info: "attendees", detail: "from around the world"}
+# - {count: "", specialCharacter: "", info: "attendees", date: "from around the world"}
 # - {count: "5", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
 # - {count: "20", specialCharacter: "+", info: "speakers", detail: "experts in ..."}
 # - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus social programme"}
