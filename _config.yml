@@ -110,10 +110,9 @@ aboutBlock:
 #statisticBlockImage: "statistic.jpg"
 statisticBlockImage: "schedule.jpg"
 statisticBlock:
-  - {count: "", specialCharacter: "", info: "Submission deadline for papers and tutorials", date: "15 Dec 2021"}
-  - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials", date: "14 Jan 2022"}
+  - {count: "", specialCharacter: "", info: "Submission deadline for tutorials and papers (extended, firm deadline)", date: "16 Jan 2022"}
   - {count: "", specialCharacter: "", info: "Submission deadline for special sessions", date: "21 Jan 2022"}
-  - {count: "", specialCharacter: "", info: "Notification of acceptance for special sessions", date: "25 Feb 2022"}
+  - {count: "", specialCharacter: "", info: "Notification of acceptance for tutorials and special sessions", date: "25 Feb 2022"}
   - {count: "", specialCharacter: "", info: "Notification of acceptance for papers", date: "15 Mar 2022"}
   - {count: "", specialCharacter: "", info: "Submission deadline for final papers", date: "15 Apr 2022"}
   - {count: "", specialCharacter: "", info: "Final tutorial presentation uploads", date: "27 May 2022"}
