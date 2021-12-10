@@ -8,7 +8,8 @@
     - {name: "ENWL", description: "Electricity North West", link: "https://www.enwl.co.uk/", imageUrl: "ENWL.jpg"}
 -
   group: "Silver Sponsors"
-  elements:       ""
+  elements:
+    - {name: "QT", description: "Quanta Technologies", link: "https://quanta-technology.com/", imageUrl: "QT.png"}
 #    - {name: "Power engineering giant", description: "Power engineering giant", link: "http://lviv.gdg.org.ua", imageUrl: "power-systems.jpeg"}
 #    - {name: "Renewable energy lead", description: "Renewable energy lead", link: "http://lviv.gdg.org.ua", imageUrl: "Renewable_Energy_on_the_Grid.jpg"}
 -
