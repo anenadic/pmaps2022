@@ -1,0 +1,7 @@
+---
+layout: post-comments-off
+title:  "Important note"
+date:   2022-01-04 14:00:00
+isStaticPost: true
+---
+We are closely monitoring the ongoing COVID pandemic. We currently plan to hold the conference in person and are looking forward to welcoming you to Manchester in June 2022. If the situation changes and this is not possible, we will switch to an online or hybrid style event.
