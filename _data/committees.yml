@@ -476,6 +476,38 @@
   affiliation: "Belgium"
   thumbnailUrl: ""
   team: "technical-advisory-committee"
+-
+  id: 58
+  name: "Ronald"
+  surname: "Allan"
+  title: ""
+  affiliation: "UK"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 59
+  name: "Roy"
+  surname: "Billinton"
+  title: ""
+  affiliation: "Canada"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 60
+  name: "Vladimiro"
+  surname: "Miranda"
+  title: ""
+  affiliation: "Portugal"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
+-
+  id: 61
+  name: "Wolfram"
+  surname: "Wellssow"
+  title: ""
+  affiliation: "Germany"
+  thumbnailUrl: ""
+  team: "technical-advisory-committee"
   #-
 #  id: 6
 #  name: "Alessandra"
