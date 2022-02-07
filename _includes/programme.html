@@ -1,9 +1,27 @@
 <!-- Begin Programme Section -->
 <section id="programme" class="schedule">
     <div class="content-wrapper" style="padding-left: 50px;">
-        <div class="col-lg-10 col-lg-offset-1 text-left" style="padding-left: 50px;">
-            <p class="text-left">To be announced.</p>
+        <div class="col-lg-10 col-lg-offset-1 text-left" id="speakers">
+            <h4 class="text-left animated hiding appear-animation-trigger"
+                data-animation="fadeInUp" data-delay="0"
+                style="text-align: left;">Keynote Speakers</h4>
+                       <p class="text-left">The keynote speakers are listed in alphabetical order.</p>
+            {% for member in site.data.speakers %} {% if member.team != null and member.team ==
+            "keynote-speaker" %}
+            <ul class="speaker-list">
+                <li>
+                    <p class="text-left" style="padding:0px; margin: 0px;"><strong>{{ member.name }} {{ member.surname }}</strong>, {{ member.affiliation }}</p>
+                </li>
+            </ul>
+            {% endif %} {% endfor %}
         </div>
+    </div>
+<!-- </section>-->
+<!-- <section id="programme" class="schedule">-->
+<!--    <div class="content-wrapper" style="padding-left: 50px;">-->
+<!--        <div class="col-lg-10 col-lg-offset-1 text-left" style="padding-left: 50px;">-->
+<!--            <p class="text-left">To be announced.</p>-->
+<!--        </div>-->
 <!--        {% for day in site.data.programme %}-->
 <!--        <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">-->
 <!--            <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>-->
@@ -81,6 +99,6 @@
 <!--            {% endfor %}-->
 <!--        </div>-->
 <!--        {% endfor %}-->
-    </div>
+<!--/div-->
 </section>
 <!-- End Programme Section -->

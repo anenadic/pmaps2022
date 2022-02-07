@@ -1,18 +1,49 @@
 -
-  id: 0
-  name: "Danielle"
-  surname: "George"
-  company: "University of Manchester, UK"
-  title: "Associate Dean of Teaching and Learning"
-  bio: "Danielle George is a Professor in Microwave Communication Engineering and is the Associate Dean for Teaching and Learning in the Faculty of Science and Engineering. Danielle completed her BSc in Astrophysics and MSc in Radio Astronomy at The Victoria University of Manchester based at Jodrell Bank Observatory. During her MSc studies Danielle realised her passion for practical based experiments and started to work at JBO as an RF engineer directly after her MSc studies. She has a PhD in Electrical and Electronic Engineering and worked at JBO as a senior microwave engineer until 2006 where she took up a lectureship post in the Department of Electrical and Electronic Engineering.
+  id: 1
+  name: "Dr Jessica Bein"
+  surname: ""
+  title: ""
+  affiliation: "President IEEE PES, USA"
+  thumbnailUrl: ""
+  team: "keynote-speaker"
+-
+  id: 2
+  name: "Prof Antonio Conejo"
+  surname: ""
+  title: ""
+  affiliation: "FIEEE, Ohio State University, USA"
+  thumbnailUrl: ""
+  team: "keynote-speaker"
+-
+  id: 3
+  name: "Prof Chongqing Kang"
+  surname: ""
+  title: ""
+  affiliation: "FIEEE, Tsinghua University, China"
+  thumbnailUrl: ""
+  team: "keynote-speaker"
+-
+  id: 4
+  name: "Prof Danielle George"
+  surname: ""
+  title: ""
+  affiliation: "FIET, Past President IET, UK"
+  thumbnailUrl: ""
+  team: "keynote-speaker"
+#  id: 0
+#  name: "Danielle"
+#  surname: "George"
+#  company: "University of Manchester, UK"
+#  title: "Associate Dean of Teaching and Learning"
+#  bio: "Danielle George is a Professor in Microwave Communication Engineering and is the Associate Dean for Teaching and Learning in the Faculty of Science and Engineering. Danielle completed her BSc in Astrophysics and MSc in Radio Astronomy at The Victoria University of Manchester based at Jodrell Bank Observatory. During her MSc studies Danielle realised her passion for practical based experiments and started to work at JBO as an RF engineer directly after her MSc studies. She has a PhD in Electrical and Electronic Engineering and worked at JBO as a senior microwave engineer until 2006 where she took up a lectureship post in the Department of Electrical and Electronic Engineering.
 
-          She enjoys the teaching aspects and lecturers to both undergraduates and postgraduate students. To date she has concentrated on applied research, mostly in the area of extremely sensitive measurement systems and sub-systems. Much of her early research was concerned with radio astronomy instrumentation, where she contributed to the design and development of some of the most sensitive instruments ever produced for radio astronomy, both ground and space-based.
+#          She enjoys the teaching aspects and lecturers to both undergraduates and postgraduate students. To date she has concentrated on applied research, mostly in the area of extremely sensitive measurement systems and sub-systems. Much of her early research was concerned with radio astronomy instrumentation, where she contributed to the design and development of some of the most sensitive instruments ever produced for radio astronomy, both ground and space-based.
 
-          She is heavily involved in the $1B next generation of astronomical instrument called the Square Kilometer Array (SKA). More recently, her research interests have expanded into communications in aerospace and wireless sensor networks and she is involved with many industrial collaborators, including National Instruments, Rolls-Royce and Syngenta. She enjoys the breadth and nature of her research collaborations."
-  thumbnailUrl: danielle_george.jpg
-  rockstar: true
-  social:
-    - {name: "site", link: "https://www.se.manchester.ac.uk/people/key-people/danielle-george/"}
+#          She is heavily involved in the $1B next generation of astronomical instrument called the Square Kilometer Array (SKA). More recently, her research interests have expanded into communications in aerospace and wireless sensor networks and she is involved with many industrial collaborators, including National Instruments, Rolls-Royce and Syngenta. She enjoys the breadth and nature of her research collaborations."
+#  thumbnailUrl: danielle_george.jpg
+#  rockstar: true
+#  social:
+#    - {name: "site", link: "https://www.se.manchester.ac.uk/people/key-people/danielle-george/"}
 #  id: 3
 #  name: "Jovica"
 #  surname: "Milanović"
