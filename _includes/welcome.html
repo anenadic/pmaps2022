@@ -30,7 +30,7 @@
                 {% assign animationDelay = 0 %}
                 <div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-1 text-center"></div>
                 {% for about in site.aboutBlock %}
-                {% assign colWidth = 12 | divided_by: forloop.length %}
+                {% assign colWidth = 10| divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6 text-center">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5 style="font-size: 20px;"><a href="{{ site.baseurl }}/{{ about.permalink }}">{{ about.title }}</a></h5>
@@ -50,9 +50,11 @@
                 PMAPS 2022 will give individuals working in industry and academia a great opportunity to network, exchange ideas, and discuss the results of their practical experiences, research and development work in the areas of probabilistic modelling and efficient computational and mathematical methods to deal with inherent uncertainties in power systems.
             </p>
             <p class="text-left">
-                To acknowledge and encourage excellence in power system uncertainty research by students, the Roy Billinton Award will be awarded. Eligibility for the award is restricted to papers which are first-authored by a student.
+                To acknowledge and encourage excellence in power system uncertainty research by students, <a
+                    href="https://www.ieee-pes.org/roy-billinton-power-system-reliability-award" target="_blank">
+                the Roy Billinton Award</a> will be awarded. Eligibility for the award is restricted to papers which are first-authored by a student.
             </p>
-            <p class="text-left">
+<!--            <p class="text-left">
                 <a href="{{ site.baseurl }}/venue-travel#about-manchester">Manchester</a>, the birthplace of the Industrial Revolution, has developed from the first industrialised
                 city in the
                 world in the 19th century to the second most populous urban area in the UK with rapidly growing culture,
@@ -64,10 +66,10 @@
                 way in application of new methods, tools and practices for safe planning and operation of sustainable
                 power
                 systems.
-            </p>
+            </p>-->
             <p>
-                I am looking forward to meeting you in Manchester in June 12-15, 2022.<br>
-                Professor Jovica V Milanović, General Chair, 17th PMAPS, Manchester 2022<br>
+                I am looking forward to meeting you in June 12-15, 2022.<br>
+                Professor Jovica V Milanović, General Chair, 17th PMAPS, Online, 2022<br>
 <!--                <img class="img-circle" src="{{ site.baseurl }}/img/people/jovica_milanovic_square.jpg"-->
 <!--                     height="128" width="128" alt="Jovica Milanović, Conference Chair">-->
             </p>

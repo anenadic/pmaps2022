@@ -58,11 +58,11 @@ navigationLinks:
   - {permalink: "/calls/", text: "Calls", links: [{text: "Call for Papers", url: "/calls/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/calls/#call-for-tutorials"},                              
                                                               {text: "Call for Special Sessions", url: "/calls/#call-for-special-sessions"}]}           
-  - {permalink: "/venue-travel/", text: "Venue & Travel"}
+#  - {permalink: "/venue-travel/", text: "Venue & Travel"}
   - {permalink: "/committees/", text: "Committees", links: [{text: "Organising Committee", url: "/committees/#local-committee"},
                                                             {text: "Steering Committee", url: "/committees/#steering-committee"},
                                                             {text: "Technical Committee", url: "/committees/#technical-committee"}]}
-  - {permalink: "/programme/", text: "Programme"}
+  - {permalink: "/programme/", text: "Programme", links: [{text: "Keynote speakers", url: "/programme/#keynote-speakers"}]}
   - {permalink: "/sponsorship/", text: "Sponsorship", links: [{text: "Become sponsor", url: "/sponsorship/#become-sponsor"},
                                                               {text: "Sponsorship packages", url: "/sponsorship/#sponsorship-packages"},
                                                               {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
@@ -86,7 +86,7 @@ rightNavigationButtons:
 #heroImage: "manchester.jpg"
 heroTitle: "17th International Conference on Probabilistic Methods Applied to Power Systems, PMAPS 2022"
 heroSubTitle: "Thriving in Uncertainty"
-eventDate: "12-15 June 2022, Manchester, UK"
+eventDate: "12-15 June 2022, Online"
 #typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 #typeoutFallback: "Season"
 heroButtons:
@@ -100,11 +100,11 @@ heroButtons:
 # About Block
 aboutTitle: "Welcome!"
 aboutBlock:
-  - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "keynote-speakers" }
-  - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "programme" }
-  - {title: "Papers", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "programme" }
-  - {title: "Posters", image: "posters.jpg", text: "Poster session", permalink: "programme" }
-  - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "programme" }
+  - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "programme/#keynote-speakers" }
+  - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "calls/#call-for-special-sessions" }
+  - {title: "Papers", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "calls/#call-for-papers" }
+#  - {title: "Posters", image: "posters.jpg", text: "Poster session", permalink: "programme" }
+  - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "calls/#call-for-tutorials" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"
@@ -120,7 +120,6 @@ statisticBlock:
 # - {count: "5", specialCharacter: "", info: "days", detail: "networking, learning and collaborating"}
 # - {count: "20", specialCharacter: "+", info: "speakers", detail: "experts in ..."}
 # - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus social programme"}
-
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -147,24 +146,25 @@ rockstarSpeakersButtonText: "See all speakers"
 #mapMobileCenterCoordinates: "53.47423235193986, -2.234811963329779"
 #eventLocationEmbeddedMapLink: "https://www.google.co.uk/maps/d/u/0/embed?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
 
+
 # Venue Block
 #venueBlockTitle: "Venue"
-venueBigImage: "manchester_uni_5.jpg"
+#venueBigImage: "manchester_uni_5.jpg"
 #venueSmallImage1: "uni_place.jpg"
-venueSmallImage1: "ambs.jpg"
-venueSmallImage2: "manchester-skyline.jpg"
-venueSmallImage3: "ambs-3.jpg"
+#venueSmallImage1: "ambs.jpg"
+#venueSmallImage2: "manchester-skyline.jpg"
+#venueSmallImage3: "ambs-3.jpg"
 #venueTitle: "Pendulum Hotel & Manchester Conference Centre"
 #venueStreetAddress: "Sackville Street, M1 3BB, Manchester, UK"
-venueTitle: "Alliance Manchester Business School"
-venueStreetAddress: "Booth Street West, M15 6PB"
-venueLocality: "Manchester, UK"
+#venueTitle: "Alliance Manchester Business School"
+#venueStreetAddress: "Booth Street West, M15 6PB"
+#venueLocality: "Manchester, UK"
 #venueFeatures: ["Sackville Street", "M1 3BB Manchester, UK"]
-venueLink: "https://www.alliancembs.manchester.ac.uk/about/our-campus-and-facilities/conference-and-meeting-facilities/"
-venueCoordinates: "53.46775855900619, -2.236099437346554"
-venueMapCenterCoordinates: "53.46775855900619, -2.236099437346554"
-venueEmbeddedMapLink: "https://www.google.com/maps/d/u/0/edit?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
-venueMapLink: "https://www.google.com/maps/place/Alliance+Manchester+Business+School/@53.4676628,-2.2383096,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1ed5c9e3e1f:0xf49d1dba93bac80b!8m2!3d53.4676628!4d-2.2361209"
+#venueLink: "https://www.alliancembs.manchester.ac.uk/about/our-campus-and-facilities/conference-and-meeting-facilities/"
+#venueCoordinates: "53.46775855900619, -2.236099437346554"
+#venueMapCenterCoordinates: "53.46775855900619, -2.236099437346554"
+#venueEmbeddedMapLink: "https://www.google.com/maps/d/u/0/edit?mid=15QIIbv47fC58joW79Z5vKcccyFiWxadK"
+#venueMapLink: "https://www.google.com/maps/place/Alliance+Manchester+Business+School/@53.4676628,-2.2383096,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1ed5c9e3e1f:0xf49d1dba93bac80b!8m2!3d53.4676628!4d-2.2361209"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -275,33 +275,33 @@ showSessions: false
 
 # Logistics Direction Details Block
 #directionDetailsImage: "direction-details.jpg"
-directionDetailsImage: "manchester.jpg"
-directionDetailsTitle: "Getting Around Manchester"
-directionDetailsCards:
-  - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/" target="_blank">airport website</a>.'}
-  - {title: "Public Transport", information: 'It is easy to navigate Manchester city centre via <a href="https://tfgm.com/public-transport" target="_blank">public transport</a>.'}
-  - {title: "Hotels", information: 'Manchester has lots of great hotels. More information will be available soon.'}
-directionDetailsWideCards:
-  - title: "Info"
-    subCards:
-      - title: "Venue"
-        links:
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "G-Mex"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Registration"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Layout"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Map"}
-      - title: "Hotels"
-        links:
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-      - title: "Conference Dinner"
-        links:
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Location"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Transport"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Extra dinner tickets"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Contact"}
+#directionDetailsImage: "manchester.jpg"
+#directionDetailsTitle: "Getting Around Manchester"
+#directionDetailsCards:
+#  - {title: "From the Airport", information: 'Airport is about 10 miles from the city centre. It is easily reachable by car, public transport or taxi. More information is available at the <a href="https://www.manchesterairport.co.uk/" target="_blank">airport website</a>.'}
+#  - {title: "Public Transport", information: 'It is easy to navigate Manchester city centre via <a href="https://tfgm.com/public-transport" target="_blank">public transport</a>.'}
+#  - {title: "Hotels", information: 'Manchester has lots of great hotels. More information will be available soon.'}
+#directionDetailsWideCards:
+#  - title: "Info"
+#    subCards:
+#      - title: "Venue"
+#        links:
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "G-Mex"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Registration"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Layout"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Map"}
+#      - title: "Hotels"
+#        links:
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#      - title: "Conference Dinner"
+#        links:
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Location"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Transport"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Extra dinner tickets"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Contact"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
