@@ -1,33 +1,33 @@
 -
   id: 1
-  name: "Dr Jessica Bein"
-  surname: ""
+  name: "Dr Jessica"
+  surname: "Bein"
   title: ""
   affiliation: "President IEEE PES, USA"
   thumbnailUrl: ""
   team: "keynote-speaker"
 -
   id: 2
-  name: "Prof Antonio Conejo"
-  surname: ""
+  name: "Prof Antonio"
+  surname: "Conejo"
   title: ""
   affiliation: "FIEEE, Ohio State University, USA"
   thumbnailUrl: ""
   team: "keynote-speaker"
 -
   id: 3
-  name: "Prof Chongqing Kang"
-  surname: ""
+  name: "Prof Danielle"
+  surname: "George"
   title: ""
-  affiliation: "FIEEE, Tsinghua University, China"
+  affiliation: "FIET, Past President IET, UK"
   thumbnailUrl: ""
   team: "keynote-speaker"
 -
   id: 4
-  name: "Prof Danielle George"
-  surname: ""
+  name: "Prof Chongqing"
+  surname: "Kang"
   title: ""
-  affiliation: "FIET, Past President IET, UK"
+  affiliation: "FIEEE, Tsinghua University, China"
   thumbnailUrl: ""
   team: "keynote-speaker"
 #  id: 0
