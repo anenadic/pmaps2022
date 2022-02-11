@@ -7,15 +7,15 @@ isStaticPost: true
 
 We’re very excited to announce that the PMAPS 2022 conference website is now live! We are welcoming you on behalf of the conference organisers - the Electrical Energy and Power Systems Group at the <a target="_blank" href="http://www.eee.manchester.ac.uk/">Department of Electrical
 and Electronic Engineering</a> of the <a target="_blank" href="http:/www.manchester.ac.uk/">University of Manchester</a>, UK.
-
-This year the [conference will take place]({{ site.baseurl }}/venue-travel) in <a href="{{ site.baseurl }}/venue-travel#manchester">Manchester</a> - a major city in the northwest of England with a rich industrial heritage.
+<!--
+This year the [conference will take place]({{ site.baseurl }}/venue-travel) in <a href="{{ site.baseurl }}/venue-travel#manchester">Manchester</a> - a major city in the northwest of England with a rich industrial heritage.-->
 
 So should you also be excited? Well, yes ... and here's why!
 <ul style="font-weight: normal;">
 <li><strong>Attendance</strong>: We're expecting 200+ attendees</li>
 <li><strong>Topics:</strong> 4 days of keynote speeches, presentations, posters, tutorials, special sessions and networking</li>
 <!--<li><strong>Venue:</strong> {{ site.venueTitle }} - right in the heart of the city centre and University of Manchester's North Campus</li> -->
-<li><strong>Venue:</strong> {{ site.venueTitle }} - close to the city centre in the recently renovated campus</li>
+<!--<li><strong>Venue:</strong> {{ site.venueTitle }} - close to the city centre in the recently renovated campus</li>-->
 <li><strong>Speakers:</strong> We will have exciting and inspiring keynote speakers from around the world</li>
 </ul>
 
