@@ -16,6 +16,14 @@
   team: "keynote-speaker"
 -
   id: 3
+  name: "Mr Steve"
+  surname: "Cox"
+  title: ""
+  affiliation: "Director of Distribution System Operation, Electricity North West Ltd."
+  thumbnailUrl: ""
+  team: "keynote-speaker"
+-
+  id: 4
   name: "Prof Danielle"
   surname: "George"
   title: ""
@@ -23,7 +31,7 @@
   thumbnailUrl: ""
   team: "keynote-speaker"
 -
-  id: 4
+  id: 5
   name: "Prof Chongqing"
   surname: "Kang"
   title: ""
