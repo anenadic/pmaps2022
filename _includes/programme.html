@@ -1,104 +1,83 @@
-<!-- Begin Programme Section -->
-<section id="programme" class="schedule">
+<section id="programme">
     <div class="content-wrapper" style="padding-left: 50px;">
-        <div class="col-lg-10 col-lg-offset-1 text-left" id="keynote-speakers">
-            <h4 class="text-left animated hiding appear-animation-trigger"
-                data-animation="fadeInUp" data-delay="0"
-                style="text-align: left;">Keynote Speakers</h4>
-                       <p class="text-left">The keynote speakers are listed in alphabetical order.</p>
-            {% for member in site.data.speakers %} {% if member.team != null and member.team ==
-            "keynote-speaker" %}
-            <ul class="speaker-list">
-                <li>
-                    <p class="text-left" style="padding:0px; margin: 0px;"><strong>{{ member.name }} {{ member.surname }}</strong>, {{ member.affiliation }}</p>
-                </li>
-            </ul>
-            {% endif %} {% endfor %}
-        </div>
+    <div id="keynote-speakers" class="col-lg-10 col-lg-offset-1 text-left">
+        <h4 style="text-align: left">Keynote Speakers</h4>
+        <p class="text-left">The keynote speakers are listed in alphabetical order.</p>
     </div>
-<!-- </section>-->
-<!-- <section id="programme" class="schedule">-->
-<!--    <div class="content-wrapper" style="padding-left: 50px;">-->
-<!--        <div class="col-lg-10 col-lg-offset-1 text-left" style="padding-left: 50px;">-->
-<!--            <p class="text-left">To be announced.</p>-->
-<!--        </div>-->
-<!--        {% for day in site.data.programme %}-->
-<!--        <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">-->
-<!--            <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>-->
-<!--            <div class="timeslot track-header stick-header">-->
-<!--                <div class="track-header-label">Day {{ forloop.index }}</div>-->
-<!--                <div class="timeslot-elements flexbox-wrapper">-->
-<!--                    {% for track in day.tracks %}-->
-<!--                    {% assign trackColWidth = 12 | divided_by: forloop.length %}-->
-<!--                    <div class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">-->
-<!--                        <h5 class="track-header-title">{{ track.title }}</h5>-->
-<!--                    </div>-->
-<!--                    {% endfor %}-->
-<!--                    <div class="track-header-slot col-xs-12 visible-xs">-->
-<!--                        <h5 class="slot-detail track-header-title"></h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            {% for timeslot in day.timeslots %}-->
-<!--            <div class="timeslot" itemtype="http://schema.org/subEvent">-->
-<!--                <div class="timeslot-label">-->
-<!--                    <time class="start-time" itemprop="startDate" datetime="{{ day.dateReadable }}T{{ timeslot.startTime }}">-->
-<!--                        {% assign startTime = timeslot.startTime | split: ":" %}-->
-<!--                        {{ startTime[0] }}<span>{{ startTime[1] }}</span>-->
-<!--                    </time>-->
-<!--                    <time class="end-time" itemprop="endDate" datetime="{{ day.dateReadable }}T{{ timeslot.endTime }}">-->
-<!--                        {% assign endTime = timeslot.endTime | split: ":" %}-->
-<!--                        {{ endTime[0] }}<span>{{ endTime[1] }}</span>-->
-<!--                    </time>-->
-<!--                </div>-->
-<!--                <div class="timeslot-elements flexbox-wrapper">-->
-<!--                    {% for slot in timeslot.sessionIds %}-->
-<!--                        {% assign slotColWidth = 12 | divided_by: forloop.length %}-->
-<!--                        {% assign slotIndex = forloop.index0 %}-->
-<!--                        {% if slot != 404 %}-->
-<!--                            {% for session in site.data.sessions %}-->
-<!--                                {% if slot == session.id and session.service == null %}-->
-<!--                                <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">-->
-<!--                                    <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>-->
-<!--                                    <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">-->
-<!--                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>-->
-<!--                                        <span class="slot-language">{{session.language | upcase}}</span>-->
-<!--                                        <ul class="slot-speakers">-->
-<!--                                            {% for speaker in site.data.speakers %}-->
-<!--                                                {% for session_speaker in session.speakers %}-->
-<!--                                                    {% if session_speaker == speaker.id %}-->
-<!--                                                    <li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>-->
-<!--                                                    <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}-->
-<!--                                                        <span class="speaker-position">{{ speaker.company }}</span>-->
-<!--                                                    </p>-->
-<!--                                                    </li>-->
-<!--                                                    {% endif %}-->
-<!--                                                {% endfor %}    -->
-<!--                                            {% endfor %}-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                {% elsif slot == session.id and session.service != null %}-->
-<!--                                <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">-->
-<!--                                    <div class="color-line"></div>-->
-<!--                                    <div class="slot-content">-->
-<!--                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>-->
-<!--                                        {% if session.description != null %}-->
-<!--                                        <p class="service-description">{{ session.description }}</p>-->
-<!--                                        {% endif %}-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                {% endif %}-->
-<!--                            {% endfor %}-->
-<!--                        {% else %}-->
-<!--                        <div class="slot col-md-{{ slotColWidth }} hidden-xs blank-col flexbox-item-height"></div>-->
-<!--                        {% endif %}-->
-<!--                    {% endfor %}-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            {% endfor %}-->
-<!--        </div>-->
-<!--        {% endfor %}-->
-<!--/div-->
+    </div>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div id="speaker1" class="col-lg-10 col-lg-offset-1 text-left">
+            <h3>
+            <p style="float:right; margin-top:40 px; margin-left: 20px; margin-right: 70px;">
+                <span style="font-size: 100%; line-height: normal;">
+                <br style="padding-left: 500px;"><strong>Dr. Jessica Bian </strong>
+                <br><strong>President IEEE PES, USA</strong>
+                <br><img class="img-square" src="{{ site.baseurl }}/img/people/DrJessicaBian.jpg" height="205" width="165">
+                <br>
+                <br><img class="img-square" src="{{ site.baseurl }}/img/people/IEEEPES.jpg" height="100" width="150">
+                </span>             
+            </p>
+            </h3>
+            <p style="text-align: left; font-size:18px"><strong>Title of the talk: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Date & Time: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Abstract: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Speaker Biography: </strong>Dr. Jessica Bian is the President of the IEEE Power & Energy Society (PES). She is a visionary leader and architect, has spearheaded electric industry's reliability metrics and grid risk assessment. Currently she is the Vice President of Grid Services at Grid-X Partners. Before that, she was with the Federal Energy Regulatory Commission (FERC), Washington, DC. Previously, she was the Director of Performance Analysis at North American Electric Reliability Corporation (NERC) in Atlanta, Georgia. Under her leadership, a total of 18 industry-wide reliability indicators were established to determine grid reliability, adequacy, and associated risks. She is widely recognized as a pioneer and trusted world leader in the field.</p>
+            <p style="text-align: left;">Before joining NERC, Dr. Bian was with PJM, ERCOT and Westinghouse Electric. She earned her Bachelor degree in Electrical Engineering from the Taiyuan University of Technology, China; Master of Science from the Electric Power Research Institute, Beijing, China; and Ph.D. from Tulane University, New Orleans, Louisiana, USA. She was the PES President-Elect (2020-2021) and Secretary (2016-2019).</p>
+           <br>
+    </div>
+    </div>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div id="speaker2" class="col-lg-10 col-lg-offset-1 text-left">
+            <h3>
+            <p style="float:right; margin-top:40 px; margin-left: 20px; margin-right: 0px;">
+                <span style="font-size: 100%; line-height: normal;">
+                <br style="padding-left: 500px;"><strong>Prof. Antonio Conejo</strong>
+                <br><strong>FIEEE, Ohio State University, USA</strong>
+                <br><img class="img-square" src="{{ site.baseurl }}/img/people/AJC.jpg" height="210" width="165">
+                </span>             
+            </p>
+            </h3>
+            <p style="text-align: left; font-size:18px"><strong>Title of the talk: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Date & Time: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Abstract: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Speaker Biography: </strong>Antonio J. Conejo, professor at The Ohio State University, OH, received an M.S. from MIT, and a Ph.D. from the Royal Institute of Technology, Sweden. He has published over 220 papers in refereed journals, and is the author or coauthor of 14 books published by Springer, John Wiley, McGraw-Hill and CRC. He has been the principal investigator of many research projects financed by public agencies and the power industry and has supervised 24 PhD theses. He is an INFORMS Fellow, an IEEE Fellow and a former Editor-in-Chief of the IEEE Transactions on Power Systems. </p>
+    </div>
+    </div>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div id="speaker3" class="col-lg-10 col-lg-offset-1 text-left">
+            <br>
+            <br>
+            <p style="text-align: left;"><strong>Mr. Steve Cox</strong>, Director of Distribution System Operation, Electricity North West Ltd. </p>
+            <br>
+            <br>
+    </div>
+    </div>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div id="speaker4" class="col-lg-10 col-lg-offset-1 text-left">
+            <h3>
+            <p style="float:right; margin-top:40 px; margin-left: 20px; margin-right: 40px;">
+                <span style="font-size: 100%; line-height: normal;">
+                <br style="padding-left: 500px;"><strong>Prof. Danielle George</strong>
+                <br><strong>FIET, Past President IET, UK</strong>
+                <br><img class="img-square" src="{{ site.baseurl }}/img/people/DanielleGeorge.jpg" height="240" width="180">
+                </span>             
+            </p>
+            </h3>
+            <p style="text-align: left; font-size:18px"><strong>Title of the talk: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Date & Time: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Abstract: </strong>TBA</p>
+            <p style="text-align: left;"><strong>Speaker Biography: </strong>Danielle George is a Professor Radio Frequency Engineering and Associate Vice President at the University of Manchester. She is was President of the Institution of Engineering and Technology (IET) in 2020/21. She was appointed Member of the Order of the British Empire in the 2016 Queen’s honours list for services to engineering through public engagement. In 2016 she received the Royal Academy of Engineering Rooke Medal for services to engineering and in 2017 received the Harold Hartley Medal for outstanding contribution to the field of Measurement and Control.</p>
+            <p style="text-align: left;">Danielle research is dedicated to solving one the 14 world engineering grand challenges of the 21st century; engineering the tools for scientific discovery. Her research is delivering class-leading ultra-low noise receivers for Space and Aerospace applications. She is involved in the $1B astronomical instrument, the Square Kilometer Array (SKA), is the UK lead for amplifiers for the $1B Atacama Large Millimeter Array (ALMA) telescope and has worked with NASA and ESA on the development of instrumentation for researchers exploring the Big Bang.</p>
+            <p style="text-align: left;">Her passion for raising public awareness of the positive impact engineering and science has on all aspects of our everyday lives, as well as highlighting to young people the immense depth and breadth of opportunities a career in science and engineering can offer, has led to Danielle’s numerous current high-profile Ambassadorial roles.  She presented the 2014 Royal Institution Christmas Lectures and has delivered a number of TED and TEDx talks. Her hometown of Newcastle recognised her as a ‘Great North Contemporary Great’ in the 2015 Great North Culture Exhibition.</p>
+    </div>
+    </div>
+    <div class="content-wrapper" style="padding-left: 50px;">
+        <div id="speaker5" class="col-lg-10 col-lg-offset-1 text-left">
+            <br>
+            <br>
+            <p style="text-align: left;"><strong>Prof. Chongqing Kang</strong>, FIEEE, Tsinghua University, China</p>
+            <br>
+            <br>
+    </div>
+    </div>
 </section>
-<!-- End Programme Section -->
