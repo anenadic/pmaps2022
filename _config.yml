@@ -62,7 +62,7 @@ navigationLinks:
   - {permalink: "/committees/", text: "Committees", links: [{text: "Organising Committee", url: "/committees/#local-committee"},
                                                             {text: "Steering Committee", url: "/committees/#steering-committee"},
                                                             {text: "Technical Committee", url: "/committees/#technical-committee"}]}
-  - {permalink: "/programme/", text: "Programme", links: [{text: "Keynote speakers", url: "/programme/#keynote-speakers"}]}
+  - {permalink: "/programme/", text: "Programme", links: [{text: "Keynote speakers", url: "/keynote-speakers/#keynote-speakers"}, {text: "Tutorials", url: "/tutorials/#tutorials"}]}
   - {permalink: "/sponsorship/", text: "Sponsorship", links: [{text: "Become sponsor", url: "/sponsorship/#become-sponsor"},
                                                               {text: "Sponsorship packages", url: "/sponsorship/#sponsorship-packages"},
                                                               {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
@@ -100,11 +100,11 @@ heroButtons:
 # About Block
 aboutTitle: "Welcome!"
 aboutBlock:
-  - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "programme/#keynote-speakers" }
+  - {title: "Keynotes", image: "conference.jpg", text: "Inspiring speakers from around the world", permalink: "keynote-speakers/#keynote-speakers" }
   - {title: "Special Sessions", image: "panel.jpg", text: "A number of sessions to collaborate", permalink: "calls/#call-for-special-sessions" }
   - {title: "Papers", image: "presentations.jpg", text: "Presentations of technical papers", permalink: "calls/#call-for-papers" }
 #  - {title: "Posters", image: "posters.jpg", text: "Poster session", permalink: "programme" }
-  - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "calls/#call-for-tutorials" }
+  - {title: "Tutorials", image: "classroom.jpg", text: "Training and hands-on experience", permalink: "tutorials/#tutorials" }
 
 # Statistic Block
 #statisticBlockImage: "statistic.jpg"
