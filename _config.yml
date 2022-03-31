@@ -46,15 +46,11 @@ navigationLinks:
   - {permalink: "/about-pmaps/", text: "About PMAPS"}
   - {permalink: "/registration/", text: "Registration"}
   - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important Dates", url: "/author-info/#important-dates"},
-                                                              {text: "Technical Themes", url: "/author-info/#technical-themes"},
-#                                                              {text: "Call for Papers", url: "/author-info/#call-for-papers"},
-#                                                             {text: "Call for Tutorials", url: "/author-info/#call-for-tutorials"},                              
-#                                                              {text: "Call for Special Sessions", url: "/author-info/#call-for-special-sessions"},
+                                                              {text: "Technical Themes", url: "/author-info/#technical-themes"},                 
                                                               {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
-                                                              {text: "Review Process", url: "/author-info/#review-process"},
-                                                              {text: "Paper Submission", url: "/author-info/#paper-submission"}]}
-#                                                              {text: "Info for Authors", url: "/author-info/#info-authors"},
-#                                                              {text: "Info for Presenters", url: "/author-info/#info-presenters"}]}
+                                                              {text: "Review Process", url: "/author-info/#review-process"},                                                                                          
+                                                              {text: "Paper Submission", url: "/author-info/#paper-submission"},
+                                                              {text: "Preparation of Final Camera-ready Manuscript", url: "/author-info/#preparation-of-final-camera-ready-manuscript"}]}                                                          
   - {permalink: "/calls/", text: "Calls", links: [{text: "Call for Papers", url: "/calls/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/calls/#call-for-tutorials"},                              
                                                               {text: "Call for Special Sessions", url: "/calls/#call-for-special-sessions"}]}           
