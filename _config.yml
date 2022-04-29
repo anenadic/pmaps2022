@@ -50,7 +50,8 @@ navigationLinks:
                                                               {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
                                                               {text: "Review Process", url: "/author-info/#review-process"},                                                                                          
                                                               {text: "Paper Submission", url: "/author-info/#paper-submission"},
-                                                              {text: "Preparation of Final Camera-ready Manuscript", url: "/author-info/#preparation-of-final-camera-ready-manuscript"}]}                                                          
+                                                              {text: "Preparation of Final Camera-ready Manuscript", url: "/author-info/#preparation-of-final-camera-ready-manuscript"},
+                                                              {text: "Guidance for Video Preparation", url: "/author-info/#guidance-for-video-preparation"}]}                                                                                                                    
   - {permalink: "/calls/", text: "Calls", links: [{text: "Call for Papers", url: "/calls/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/calls/#call-for-tutorials"},                              
                                                               {text: "Call for Special Sessions", url: "/calls/#call-for-special-sessions"}]}           
@@ -173,6 +174,7 @@ organizersTitle: "Organisers"
 partnersTitle: "Partners"
 sponsorsTitle: "Sponsors"
 partnersC4sponsorsButton: "Become a sponsor"
+registerButton: "Register now!"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
