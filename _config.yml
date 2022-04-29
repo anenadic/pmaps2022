@@ -89,10 +89,13 @@ eventDate: "12-15 June 2022, Online"
 heroButtons:
   # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 #  - {permalink: "/registration", text: "Register"}
-  - {permalink: "/#important-dates", text: "Important dates"}
-  - {permalink: "/author-info/#call-for-papers", text: "Call for submissions"}
-  - {permalink: "/author-info/#paper-submission", text: "Paper submission"}
-  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+#  - {permalink: "/#important-dates", text: "Important dates"}
+#  - {permalink: "/author-info/#call-for-papers", text: "Call for submissions"}
+#  - {permalink: "/author-info/#paper-submission", text: "Paper submission"}
+#  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
+  - {link: "https://registrations.hg3conferences.co.uk/pmaps2022", text: "Register now!"}
+  - {permalink: "/author-info/#guidance-for-video-preparation", text: "Author Guidance"}
+  - {link: "https://www.openconf.org/pmaps2022/openconf.php", text: "Programme"}
 
 # About Block
 aboutTitle: "Welcome!"
@@ -174,7 +177,7 @@ organizersTitle: "Organisers"
 partnersTitle: "Partners"
 sponsorsTitle: "Sponsors"
 partnersC4sponsorsButton: "Become a sponsor"
-registerButton: "Register now!"
+# registerButton: "Register now!"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
