@@ -59,7 +59,7 @@ navigationLinks:
   - {permalink: "/committees/", text: "Committees", links: [{text: "Organising Committee", url: "/committees/#local-committee"},
                                                             {text: "Steering Committee", url: "/committees/#steering-committee"},
                                                             {text: "Technical Committee", url: "/committees/#technical-committee"}]}
-  - {permalink: "/programme/", text: "Programme", links: [{text: "Keynote speakers", url: "/keynote-speakers/#keynote-speakers"}, {text: "Tutorials", url: "/tutorials/#tutorials"}]}
+  - {permalink: "/programme/", text: "Programme", links: [{text: "Keynote speakers", url: "/keynote-speakers/#keynote-speakers"}, {text: "Tutorials", url: "/tutorials/#tutorials"}, {text: "At-a-glance programme", url: " https://www.openconf.org/pmaps2022/modules/request.php?module=oc_program&action=program.php&p=at_a_glance"}, {text: "Full programme", url: "https://www.openconf.org/pmaps2022/modules/request.php?module=oc_program&action=program.php&p=program"}]}
   - {permalink: "/sponsorship/", text: "Sponsorship", links: [{text: "Become sponsor", url: "/sponsorship/#become-sponsor"},
                                                               {text: "Sponsorship packages", url: "/sponsorship/#sponsorship-packages"},
                                                               {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
