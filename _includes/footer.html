@@ -1,7 +1,7 @@
 <!-- Begin Footer -->
 <footer id="footer" class="footer">
 	<div class="row">
-		<div class="pull-left col-md-6 col-xs-6">
+		<div class="col-lg-10 col-lg-offset-1 text-left">
 			<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300" data-href="{{ site.url }}"></div>
 		</div>
 <!--		<div class="logo logo-footer logo-gray pull-right"></div>-->
@@ -9,7 +9,8 @@
 	<div class="row">
 		{% for block in site.footerBlocks %}
         {% assign colWidth = 12 | divided_by: forloop.length %}
-		<div class="col-md-{{ colWidth }} col-xs-6">
+<!--        <div class="col-lg-10 col-lg-offset-1 text-left">-->
+		<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-xs-3 col-xs-offset-1 text-left">
 			<h5>{{ block.title }}</h5>
 			<ul>
 				{% for linkElement in block.links %}
@@ -20,7 +21,7 @@
 		{% endfor %}
 	</div>
 	<div class="row">
-		<div class="col-md-6 col-xs-12">
+		<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-xs-3 col-xs-offset-1 text-left">
 			<ul class="social-links">
 				{% for social in site.socialLinks %}
 				<li>
