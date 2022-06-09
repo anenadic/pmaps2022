@@ -94,7 +94,7 @@ heroButtons:
 #  - {permalink: "/author-info/#paper-submission", text: "Paper submission"}
 #  - {permalink: "/sponsorship/#become-sponsor", text: "Become a sponsor"}
   - {link: "https://registrations.hg3conferences.co.uk/pmaps2022", text: "Register now!"}
-  - {permalink: "/author-info/#guidance-for-video-preparation", text: "Author Guidance"}
+#  - {permalink: "/author-info/#guidance-for-video-preparation", text: "Author Guidance"}
   - {link: "https://www.openconf.org/pmaps2022/openconf.php", text: "Programme"}
   - {permalink: "/join-the-conference/", text: "HOW TO JOIN THE CONFERENCE"}
 
