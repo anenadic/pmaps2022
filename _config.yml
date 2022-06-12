@@ -65,6 +65,7 @@ navigationLinks:
                                                               {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
                                                               {text: "Our sponsors", url: "/sponsorship/#our-sponsors"}]}
   - {permalink: "/news/", text: "News"}
+  - {permalink: "/photo-gallery/", text: "Photo gallery",links: [{text: "12 Jun 2022", url: "/photo-gallery/#12-Jun-2022"}]}
 #  - {permalink: "/contact/", text: "Contact"}
 # - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
