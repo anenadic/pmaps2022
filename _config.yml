@@ -64,7 +64,8 @@ navigationLinks:
                                                               {text: "Sponsorship packages", url: "/sponsorship/#sponsorship-packages"},
                                                               {text: "Individual items & events", url: "/sponsorship/#individual-sponsorship-items"},
                                                               {text: "Our sponsors", url: "/sponsorship/#our-sponsors"}]}
-  - {permalink: "/news/", text: "News"}
+#  - {permalink: "/news/", text: "News"}
+  - {permalink: "/presentation-slides/", text: "Presentation slides"}
   - {permalink: "/photo-gallery/", text: "Photo gallery",links: [{text: "12 Jun 2022", url: "/photo-gallery_12-Jun-2022"},{text: "13 Jun 2022", url: "/photo-gallery_13-Jun-2022"}]}
 #  - {permalink: "/contact/", text: "Contact"}
 # - {permalink: "/", text: "Home"}
