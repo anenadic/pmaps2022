@@ -44,14 +44,15 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
   - {permalink: "/", text: "Home"}
   - {permalink: "/about-pmaps/", text: "About PMAPS"}
-  - {permalink: "/registration/", text: "Registration"}
+#  - {permalink: "/registration/", text: "Registration"}
   - {permalink: "/author-info/", text: "Author Info", links: [{text: "Important Dates", url: "/author-info/#important-dates"},
                                                               {text: "Technical Themes", url: "/author-info/#technical-themes"},                 
                                                               {text: "Paper Preparation", url: "/author-info/#paper-preparation"},
                                                               {text: "Review Process", url: "/author-info/#review-process"},                                                                                          
                                                               {text: "Paper Submission", url: "/author-info/#paper-submission"},
                                                               {text: "Preparation of Final Camera-ready Manuscript", url: "/author-info/#preparation-of-final-camera-ready-manuscript"},
-                                                              {text: "Guidance for Video Preparation", url: "/author-info/#guidance-for-video-preparation"}]}                                                                                                                    
+                                                              {text: "Guidance for Video Preparation", url: "/author-info/#guidance-for-video-preparation"},
+                                                              {text: "Registration", url: "/registration"}]}                                                                                                                    
   - {permalink: "/calls/", text: "Calls", links: [{text: "Call for Papers", url: "/calls/#call-for-papers"},
                                                               {text: "Call for Tutorials", url: "/calls/#call-for-tutorials"},                              
                                                               {text: "Call for Special Sessions", url: "/calls/#call-for-special-sessions"}]}           
