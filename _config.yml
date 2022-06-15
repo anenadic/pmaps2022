@@ -67,7 +67,7 @@ navigationLinks:
                                                               {text: "Our sponsors", url: "/sponsorship/#our-sponsors"}]}
 #  - {permalink: "/news/", text: "News"}
   - {permalink: "/presentation-slides/", text: "Presentation slides"}
-  - {permalink: "/photo-gallery/", text: "Photo gallery",links: [{text: "12 Jun 2022", url: "/photo-gallery_12-Jun-2022"},{text: "13 Jun 2022", url: "/photo-gallery_13-Jun-2022"},{text: "14 Jun 2022", url: "/photo-gallery_14-Jun-2022"},{text: "volunteers", url: "/photo-gallery_volunteer"}]}
+  - {permalink: "/photo-gallery/", text: "Photo gallery",links: [{text: "12 Jun 2022", url: "/photo-gallery_12-Jun-2022"},{text: "13 Jun 2022", url: "/photo-gallery_13-Jun-2022"},{text: "14 Jun 2022", url: "/photo-gallery_14-Jun-2022"},{text: "15 Jun 2022", url: "/photo-gallery_15-Jun-2022"},{text: "volunteers", url: "/photo-gallery_volunteer"}]}
 #  - {permalink: "/contact/", text: "Contact"}
 # - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
